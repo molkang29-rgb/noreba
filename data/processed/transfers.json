@@ -1,4 +1,12 @@
-{
-  "version": 1,
-  "transfers": []
-}
+[
+  {
+    "from": "117",
+    "to": "412",
+    "duration": 180
+  },
+  {
+    "from": "412",
+    "to": "117",
+    "duration": 180
+  }
+]

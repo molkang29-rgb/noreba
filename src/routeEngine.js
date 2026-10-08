@@ -4,149 +4,58 @@ import processedLines from '../data/processed/lines.json'
 import trainMeta from '../data/processed/trainMeta.json'
 import processedServices from '../data/processed/services.json'
 import processedFares from '../data/processed/fares.json'
-import lines from './lines'
-/*
- * ==============================
- * 기본 데이터
- * ==============================
- */
+import processedTransfers from '../data/processed/transfers.json'
 
-const stationMap = new Map(
-  processedStations.map((station) => [
-    station.id,
-    station,
-  ])
-)
-
-const lineMap = new Map(
-  processedLines.map((line) => [
-    line.id,
-    line,
-  ])
-)
-
-
+const stationMap = new Map(processedStations.map((station) => [station.id, station]))
+const lineMap = new Map(processedLines.map((line) => [line.id, line]))
 const connectionsByStation = new Map()
 
 for (const connection of processedConnections) {
-  if (!connectionsByStation.has(connection.from)) {
-    connectionsByStation.set(
-      connection.from,
-      []
-    )
-  }
-
-  connectionsByStation
-    .get(connection.from)
-    .push(connection)
+  if (!connectionsByStation.has(connection.from)) connectionsByStation.set(connection.from, [])
+  connectionsByStation.get(connection.from).push(connection)
 }
 
-/*
- * ==============================
- * 시간 처리
- * ==============================
- *
- * GTFS에서는
- *
- * 23:50:00
- * 24:07:00
- * 25:12:00
- *
- * 같은 시간이 가능하다.
- *
- * 따라서 단순 Date가 아니라
- * "서비스 시작 시각으로부터 몇 초인가"
- * 로 처리한다.
- */
+for (const transfer of processedTransfers) {
+  if (!connectionsByStation.has(transfer.from)) connectionsByStation.set(transfer.from, [])
+  connectionsByStation.get(transfer.from).push({
+    from: transfer.from,
+    to: transfer.to,
+    lineId: null,
+    duration: transfer.duration,
+    transfer: true,
+    services: [],
+  })
+}
 
 function parseGtfsTime(value) {
-  if (!value) {
-    return null
-  }
-
-  const parts = String(value)
-    .split(':')
-    .map(Number)
-
-  if (parts.length !== 3) {
-    return null
-  }
-
-  const [
-    hours,
-    minutes,
-    seconds,
-  ] = parts
-
-  return (
-    hours * 3600 +
-    minutes * 60 +
-    seconds
-  )
+  if (!value) return null
+  const parts = String(value).split(':').map(Number)
+  if (parts.length !== 3) return null
+  const [hours, minutes, seconds] = parts
+  return hours * 3600 + minutes * 60 + seconds
 }
 
 function formatGtfsTime(seconds) {
-  if (
-    seconds == null ||
-    !Number.isFinite(seconds)
-  ) {
-    return '--:--'
-  }
-
-  /*
-   * 24시간 이후는 화면에서는
-   * 다음날 시각으로 표시한다.
-   */
-
-  const normalized =
-    ((seconds % 86400) + 86400) %
-    86400
-
-  const hours = Math.floor(
-    normalized / 3600
-  )
-
-  const minutes = Math.floor(
-    (normalized % 3600) / 60
-  )
-
-  return `${String(hours).padStart(
-    2,
-    '0'
-  )}:${String(minutes).padStart(
-    2,
-    '0'
-  )}`
+  if (seconds == null || !Number.isFinite(seconds)) return '--:--'
+  const normalized = ((seconds % 86400) + 86400) % 86400
+  const hours = Math.floor(normalized / 3600)
+  const minutes = Math.floor((normalized % 3600) / 60)
+  return `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}`
 }
 
-/*
- * ==============================
- * 현재 도쿄 시간
- * ==============================
- */
-
 function getTokyoNow() {
-  const parts = new Intl.DateTimeFormat(
-    'en-US',
-    {
-      timeZone: 'Asia/Tokyo',
-      hour12: false,
-      year: 'numeric',
-      month: '2-digit',
-      day: '2-digit',
-      hour: '2-digit',
-      minute: '2-digit',
-      second: '2-digit',
-    }
-  ).formatToParts(new Date())
+  const parts = new Intl.DateTimeFormat('en-US', {
+    timeZone: 'Asia/Tokyo',
+    hour12: false,
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit',
+  }).formatToParts(new Date())
 
-  const get = (type) =>
-    Number(
-      parts.find(
-        (part) =>
-          part.type === type
-      )?.value
-    )
+  const get = (type) => Number(parts.find((part) => part.type === type)?.value)
 
   return {
     year: get('year'),
@@ -160,25 +69,21 @@ function getTokyoNow() {
 
 function getCurrentTokyoSeconds() {
   const now = getTokyoNow()
-
-  return (
-    now.hour * 3600 +
-    now.minute * 60 +
-    now.second
-  )
+  return now.hour * 3600 + now.minute * 60 + now.second
 }
-function isServiceActiveToday(serviceId) {
-  if (!serviceId) {
-    return false
-  }
+
+function isServiceActiveToday(serviceId, targetDate = null) {
+  if (!serviceId) return false
 
   const now = getTokyoNow()
+  const year = targetDate?.year ?? now.year
+  const month = targetDate?.month ?? now.month
+  const day = targetDate?.day ?? now.day
 
-  const dateString =
-    `${now.year}${String(now.month).padStart(2, '0')}${String(now.day).padStart(2, '0')}`
+  const dateString = `${year}${String(month).padStart(2, '0')}${String(day).padStart(2, '0')}`
 
   const date = new Date(
-    `${now.year}-${String(now.month).padStart(2, '0')}-${String(now.day).padStart(2, '0')}T00:00:00+09:00`
+    `${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}T00:00:00+09:00`
   )
 
   const weekdayNames = [
@@ -191,65 +96,42 @@ function isServiceActiveToday(serviceId) {
     'saturday',
   ]
 
-  const weekday =
-    weekdayNames[date.getDay()]
+  const weekday = weekdayNames[date.getDay()]
+  const calendar = processedServices.calendar || []
+  const calendarDates = processedServices.calendarDates || []
 
-  const calendar =
-    processedServices.calendar || []
-
-  const calendarDates =
-    processedServices.calendarDates || []
-
-  const baseService =
-    calendar.find(
-      (item) =>
-        item.service_id === serviceId
-    )
+  const baseService = calendar.find(
+    (item) => item.service_id === serviceId
+  )
 
   let active = false
 
   if (baseService) {
     const withinDateRange =
-      dateString >=
-        baseService.start_date &&
-      dateString <=
-        baseService.end_date
+      dateString >= baseService.start_date &&
+      dateString <= baseService.end_date
 
     active =
       withinDateRange &&
       baseService[weekday] === '1'
   }
 
-  const exception =
-    calendarDates.find(
-      (item) =>
-        item.service_id === serviceId &&
-        item.date === dateString
-    )
+  const exception = calendarDates.find(
+    (item) =>
+      item.service_id === serviceId &&
+      item.date === dateString
+  )
 
-  if (exception) {
-    if (
-      exception.exception_type === '1'
-    ) {
-      active = true
-    }
+  if (exception?.exception_type === '1') {
+    active = true
+  }
 
-    if (
-      exception.exception_type === '2'
-    ) {
-      active = false
-    }
+  if (exception?.exception_type === '2') {
+    active = false
   }
 
   return active
 }
-
-
-/*
- * ==============================
- * 역 / 노선 정보
- * ==============================
- */
 
 function getStation(stationId) {
   return stationMap.get(stationId)
@@ -265,21 +147,18 @@ function getLineInfo(lineId) {
       code: 'A',
       color: '#EC6E65',
     },
-
     '2': {
       name: '도에이 미타선',
       japanese: '都営三田線',
       code: 'I',
       color: '#006CB6',
     },
-
     '3': {
       name: '도에이 신주쿠선',
       japanese: '都営新宿線',
       code: 'S',
       color: '#B0C124',
     },
-
     '4': {
       name: '도에이 오에도선',
       japanese: '都営大江戸線',
@@ -288,16 +167,12 @@ function getLineInfo(lineId) {
     },
   }
 
-  const customLine =
-    toiLineInfo[String(lineId)]
+  const customLine = toiLineInfo[String(lineId)]
 
   if (customLine) {
     return {
       id: lineId,
-      name: customLine.name,
-      japanese: customLine.japanese,
-      code: customLine.code,
-      color: customLine.color,
+      ...customLine,
     }
   }
 
@@ -313,36 +188,22 @@ function getLineInfo(lineId) {
 
   return {
     id: line.id,
-
     name:
       line.longName ||
       line.name ||
       '철도 노선',
-
     japanese:
       line.longName ||
       line.name ||
       '',
-
     code:
       line.shortName ||
       '●',
-
     color:
       line.color ||
       '#666666',
   }
 }
-
-/*
- * ==============================
- * 열차 종류
- * ==============================
- *
- * ODPT의 TrainTimetable에서
- * 가져온 열차 종류를
- * NOREBA 화면용 한국어로 변환한다.
- */
 
 function getTrainTypeName(trainType) {
   const typeMap = {
@@ -351,11 +212,13 @@ function getTrainTypeName(trainType) {
     'odpt.TrainType:Toei.Express': '급행',
     'odpt.TrainType:Toei.LimitedExpress': '특급',
     'odpt.TrainType:Toei.RapidLimitedExpress': '쾌속특급',
-    'odpt.TrainType:Toei.AirportRapidLimitedExpress': '공항쾌속특급',
+    'odpt.TrainType:Toei.AirportRapidLimitedExpress':
+      '공항쾌속특급',
   }
 
   return typeMap[trainType] || '열차'
 }
+
 function getFareBetweenStations(
   fromStationId,
   toStationId
@@ -366,13 +229,12 @@ function getFareBetweenStations(
   const rules =
     processedFares.rules || []
 
-  const fareMap =
-    new Map(
-      attributes.map((fare) => [
-        fare.fare_id,
-        fare,
-      ])
-    )
+  const fareMap = new Map(
+    attributes.map((fare) => [
+      fare.fare_id,
+      fare,
+    ])
+  )
 
   const matchingRules =
     rules.filter(
@@ -388,16 +250,12 @@ function getFareBetweenStations(
     const fare =
       fareMap.get(rule.fare_id)
 
-    if (!fare) {
-      continue
-    }
+    if (!fare) continue
 
     const price =
       Number(fare.price)
 
-    if (!Number.isFinite(price)) {
-      continue
-    }
+    if (!Number.isFinite(price)) continue
 
     if (fare.payment_method === '1') {
       icFare = price
@@ -413,21 +271,12 @@ function getFareBetweenStations(
     paperFare,
   }
 }
-/*
- * ==============================
- * 다음 운행편 찾기
- * ==============================
- *
- * 같은 구간에 여러 열차가 있다.
- *
- * 현재 시각보다 같거나 늦은
- * 가장 빠른 출발편을 찾는다.
- */
 
 function findNextService(
   connection,
   earliestDeparture,
-  preferredTripId = null
+  preferredTripId = null,
+  targetDate = null
 ) {
   if (
     !connection.services ||
@@ -436,39 +285,34 @@ function findNextService(
     return null
   }
 
-  /*
-   * 같은 열차를 계속 탈 수 있다면
-   * 그것을 최우선으로 한다.
-   */
+  const services =
+    connection.services
+      .filter((service) => {
+        if (
+          !isServiceActiveToday(
+            service.serviceId,
+            targetDate
+          )
+        ) {
+          return false
+        }
 
-const services =
-  connection.services
-    .filter((service) => {
-      if (
-        !isServiceActiveToday(
-          service.serviceId
+        const departure =
+          parseGtfsTime(
+            service.departure
+          )
+
+        const arrival =
+          parseGtfsTime(
+            service.arrival
+          )
+
+        return (
+          departure != null &&
+          arrival != null &&
+          departure >= earliestDeparture
         )
-      ) {
-        return false
-      }
-
-      const departure =
-        parseGtfsTime(
-          service.departure
-        )
-
-      const arrival =
-        parseGtfsTime(
-          service.arrival
-        )
-
-      return (
-        departure != null &&
-        arrival != null &&
-        departure >=
-          earliestDeparture
-      )
-    })
+      })
       .sort(
         (a, b) =>
           parseGtfsTime(a.departure) -
@@ -495,17 +339,62 @@ const services =
   return services[0]
 }
 
-/*
- * ==============================
- * 정적 경로 찾기
- * ==============================
- *
- * 최대 2회 환승까지.
- *
- * 여기서는 "어떤 역들을 거칠 것인가"만 찾고,
- * 실제 열차 시간은 아래 schedulePath()에서
- * 계산한다.
- */
+function findPreviousService(
+  connection,
+  latestArrival,
+  preferredTripId = null,
+  targetDate = null
+) {
+  if (
+    !connection?.services ||
+    connection.services.length === 0
+  ) {
+    return null
+  }
+
+  const candidates =
+    connection.services
+      .filter((service) => {
+        if (
+          !isServiceActiveToday(
+            service.serviceId,
+            targetDate
+          )
+        ) {
+          return false
+        }
+
+        const arrival =
+          parseGtfsTime(
+            service.arrival
+          )
+
+        return (
+          arrival != null &&
+          arrival <= latestArrival
+        )
+      })
+      .sort(
+        (a, b) =>
+          parseGtfsTime(b.arrival) -
+          parseGtfsTime(a.arrival)
+      )
+
+  if (preferredTripId) {
+    const sameTrip =
+      candidates.find(
+        (service) =>
+          service.tripId ===
+          preferredTripId
+      )
+
+    if (sameTrip) {
+      return sameTrip
+    }
+  }
+
+  return candidates[0] || null
+}
 
 function findPaths(
   fromId,
@@ -564,10 +453,20 @@ function findPaths(
           current.path.length - 1
         ]
 
-      const isTransfer =
+      const isTransferConnection =
+        connection.transfer === true
+
+      const isLineTransfer =
         previous &&
+        previous.transfer !== true &&
+        connection.lineId !== null &&
+        previous.lineId !== null &&
         previous.lineId !==
           connection.lineId
+
+      const isTransfer =
+        isTransferConnection ||
+        isLineTransfer
 
       const transfers =
         current.transfers +
@@ -592,14 +491,11 @@ function findPaths(
       queue.push({
         stationId:
           nextStation,
-
         path: [
           ...current.path,
           connection,
         ],
-
         visited,
-
         transfers,
       })
     }
@@ -608,15 +504,10 @@ function findPaths(
   return results
 }
 
-/*
- * ==============================
- * 실제 시간표를 경로에 적용
- * ==============================
- */
-
 function schedulePath(
   path,
-  startSeconds
+  startSeconds,
+  targetDate = null
 ) {
   if (
     !path ||
@@ -640,30 +531,63 @@ function schedulePath(
     const connection =
       path[index]
 
-    /*
-     * 환승이면 최소 3분을 확보한다.
-     *
-     * 추후 transfers.txt / pathways.txt를
-     * 연결하면서 실제 환승시간으로 교체한다.
-     */
+    if (
+      connection.transfer === true
+    ) {
+      const duration =
+        Math.max(
+          300,
+          Number(
+            connection.duration
+          ) || 0
+        )
+
+      const departure =
+        currentTime
+
+      const arrival =
+        currentTime +
+        duration
+
+      scheduledSegments.push({
+        ...connection,
+        selectedService: null,
+        departureSeconds:
+          departure,
+        arrivalSeconds:
+          arrival,
+        transfer: true,
+      })
+
+      currentTime =
+        arrival
+
+      currentTripId = null
+
+      continue
+    }
 
     const previous =
       path[index - 1]
 
     const isTransfer =
       previous &&
+      previous.transfer !== true &&
+      connection.lineId !== null &&
+      previous.lineId !== null &&
       previous.lineId !==
         connection.lineId
 
     const earliestDeparture =
       currentTime +
-      (isTransfer ? 180 : 0)
+      (isTransfer ? 300 : 0)
 
     const service =
       findNextService(
         connection,
         earliestDeparture,
-        currentTripId
+        currentTripId,
+        targetDate
       )
 
     if (!service) {
@@ -687,32 +611,20 @@ function schedulePath(
       return null
     }
 
-    /*
-     * 같은 열차를 계속 탄 경우:
-     *
-     * 현재 tripId 유지
-     *
-     * 다른 열차로 갈아탄 경우:
-     * 새 tripId
-     */
-
     currentTripId =
       service.tripId || null
 
-    currentTime = arrival
+    currentTime =
+      arrival
 
     scheduledSegments.push({
       ...connection,
-
       selectedService:
         service,
-
       departureSeconds:
         departure,
-
       arrivalSeconds:
         arrival,
-
       transfer:
         Boolean(isTransfer),
     })
@@ -731,15 +643,6 @@ function schedulePath(
     scheduledSegments[
       scheduledSegments.length - 1
     ]
-
-  /*
-   * 실제 여행시간
-   *
-   * 첫 열차 출발 →
-   * 최종 도착
-   *
-   * 출발 전 대기시간은 제외한다.
-   */
 
   const durationSeconds =
     last.arrivalSeconds -
@@ -763,11 +666,152 @@ function schedulePath(
   }
 }
 
-/*
- * ==============================
- * RoutePath / App용 결과 생성
- * ==============================
- */
+function schedulePathBackward(
+  path,
+  targetArrival,
+  targetDate = null
+) {
+  if (!Array.isArray(path) || path.length === 0) {
+    return null
+  }
+
+  // 역방향 계산 결과를 원래 경로 순서대로 저장한다.
+  // tripId가 없거나 구간별로 달라져도 모든 역 사이에
+  // 환승 5분을 반복해서 빼지 않도록 연결 유형으로 판단한다.
+  const scheduled = new Array(path.length)
+
+  for (let i = path.length - 1; i >= 0; i -= 1) {
+    const connection = path[i]
+    const nextConnection = path[i + 1]
+    const nextScheduled = scheduled[i + 1]
+
+    if (connection.transfer === true) {
+      // 명시적인 도보 환승 구간 자체에만 환승 시간을 적용한다.
+      const duration = Math.max(
+        300,
+        Number(connection.duration) || 0
+      )
+
+      const arrival = nextScheduled
+        ? nextScheduled.departureSeconds
+        : targetArrival
+
+      const departure = arrival - duration
+
+      scheduled[i] = {
+        ...connection,
+        selectedService: null,
+        departureSeconds: departure,
+        arrivalSeconds: arrival,
+        transfer: true,
+      }
+
+      continue
+    }
+
+    // 이 열차 구간이 도착해야 하는 가장 늦은 시각.
+    let latestArrival = nextScheduled
+      ? nextScheduled.departureSeconds
+      : targetArrival
+
+    const nextIsExplicitTransfer =
+      nextConnection?.transfer === true
+
+    const isDirectLineChange =
+      Boolean(
+        nextConnection &&
+        !nextIsExplicitTransfer &&
+        nextConnection.lineId != null &&
+        connection.lineId != null &&
+        nextConnection.lineId !== connection.lineId
+      )
+
+    // 같은 열차(tripId)가 이어지는지 먼저 확인한다.
+    // 같은 노선의 매 역마다 환승 시간을 빼지 않는다.
+    const preferredTripId =
+      nextScheduled &&
+      nextScheduled.transfer !== true
+        ? nextScheduled.selectedService?.tripId || null
+        : null
+
+    let service = null
+
+    if (preferredTripId) {
+      service = findPreviousService(
+        connection,
+        latestArrival,
+        preferredTripId,
+        targetDate
+      )
+    }
+
+    if (!service) {
+      const allowedArrival =
+        isDirectLineChange
+          ? latestArrival - 300
+          : latestArrival
+
+      service = findPreviousService(
+        connection,
+        allowedArrival,
+        null,
+        targetDate
+      )
+    }
+
+    if (!service) {
+      return null
+    }
+
+    const departure = parseGtfsTime(service.departure)
+    const arrival = parseGtfsTime(service.arrival)
+
+    if (departure == null || arrival == null) {
+      return null
+    }
+
+    const currentTripId = service.tripId || null
+    const nextTripId =
+      nextScheduled && nextScheduled.transfer !== true
+        ? nextScheduled.selectedService?.tripId || null
+        : null
+
+    const isSameTrip =
+      Boolean(
+        currentTripId &&
+        nextTripId &&
+        currentTripId === nextTripId
+      )
+
+    scheduled[i] = {
+      ...connection,
+      selectedService: service,
+      departureSeconds: departure,
+      arrivalSeconds: arrival,
+      // 같은 직결 열차는 환승으로 표시하지 않는다.
+      transfer: Boolean(isDirectLineChange && !isSameTrip),
+    }
+  }
+
+  const scheduledSegments = scheduled.filter(Boolean)
+
+  if (scheduledSegments.length === 0) {
+    return null
+  }
+
+  const first = scheduledSegments[0]
+  const last = scheduledSegments[scheduledSegments.length - 1]
+
+  return {
+    segments: scheduledSegments,
+    departureSeconds: first.departureSeconds,
+    arrivalSeconds: last.arrivalSeconds,
+    durationSeconds: Math.max(
+      0,
+      last.arrivalSeconds - first.departureSeconds
+    ),
+  }
+}
 
 function makeRoute(
   path,
@@ -812,6 +856,12 @@ function makeRoute(
 
   for (const edge of path) {
     if (
+      edge.lineId == null
+    ) {
+      continue
+    }
+
+    if (
       !lineIds.includes(
         edge.lineId
       )
@@ -827,16 +877,64 @@ function makeRoute(
       getLineInfo
     )
 
-  let transfers = 0
+  const rideSegments =
+    schedule.segments.filter(
+      (segment) =>
+        segment.lineId != null &&
+        segment.selectedService
+    )
 
+  // 명시적인 도보 환승 edge를 먼저 센다.
+  // 그 사이의 노선 변경은 같은 환승을 중복 집계하지 않는다.
+  let transfers =
+    schedule.segments.filter(
+      (segment) =>
+        segment.transfer === true &&
+        segment.lineId == null
+    ).length
+
+  // tripId 차이만으로는 환승을 세지 않는다.
+  // 서로 다른 노선으로 바뀌고 같은 직결 열차가 아닌 경우에만 계산한다.
   for (
     let i = 1;
-    i < path.length;
+    i < rideSegments.length;
     i += 1
   ) {
+    const previous = rideSegments[i - 1]
+    const current = rideSegments[i]
+
+    const previousTripId =
+      previous.selectedService?.tripId || null
+    const currentTripId =
+      current.selectedService?.tripId || null
+    const sameTrip =
+      Boolean(
+        previousTripId &&
+        currentTripId &&
+        previousTripId === currentTripId
+      )
+
+    const previousIndex =
+      schedule.segments.indexOf(previous)
+    const currentIndex =
+      schedule.segments.indexOf(current)
+    const hasExplicitTransfer =
+      previousIndex >= 0 &&
+      currentIndex > previousIndex &&
+      schedule.segments
+        .slice(previousIndex + 1, currentIndex)
+        .some(
+          (segment) =>
+            segment.transfer === true &&
+            segment.lineId == null
+        )
+
     if (
-      path[i].lineId !==
-      path[i - 1].lineId
+      previous.lineId != null &&
+      current.lineId != null &&
+      previous.lineId !== current.lineId &&
+      !sameTrip &&
+      !hasExplicitTransfer
     ) {
       transfers += 1
     }
@@ -858,19 +956,9 @@ function makeRoute(
         const service =
           segment.selectedService
 
-        /*
-         * GTFS의 trip_short_name
-         * = 실제 열차번호
-         */
-
         const trainNumber =
           service?.tripShortName ||
           null
-
-        /*
-         * 열차번호로 ODPT TrainTimetable의
-         * 실제 열차종류를 찾는다.
-         */
 
         const trainType =
           trainNumber
@@ -878,7 +966,17 @@ function makeRoute(
                 trainNumber
               ]?.trainType
             : null
-            
+
+        const line =
+          segment.lineId == null
+            ? null
+            : getLineInfo(
+                segment.lineId
+              )
+
+        const durationSeconds =
+          segment.arrivalSeconds -
+          segment.departureSeconds
 
         return {
           from: {
@@ -912,19 +1010,13 @@ function makeRoute(
           lineId:
             segment.lineId,
 
-          line:
-            getLineInfo(
-              segment.lineId
-            ),
+          line,
 
           duration:
             Math.max(
               1,
               Math.round(
-                (
-                  segment.arrivalSeconds -
-                  segment.departureSeconds
-                ) / 60
+                durationSeconds / 60
               )
             ),
 
@@ -953,9 +1045,11 @@ function makeRoute(
             null,
 
           serviceType:
-            getTrainTypeName(
-              trainType
-            ),
+            segment.transfer
+              ? null
+              : getTrainTypeName(
+                  trainType
+                ),
 
           transfer:
             Boolean(
@@ -969,55 +1063,87 @@ function makeRoute(
     )
 
   const firstService =
-    schedule.segments[0]
-      .selectedService
+    schedule.segments.find(
+      (segment) =>
+        segment.transfer !== true &&
+        segment.selectedService
+    )?.selectedService ||
+    null
 
-  const lastSegment =
-    schedule.segments[
-      schedule.segments.length - 1
-    ]
-
-  /*
-   * 화면 표시용 최종 소요시간
-   */
-
-  const duration = Math.max(
-    1,
-    Math.round(
-      schedule.durationSeconds /
-        60
+  const duration =
+    Math.max(
+      1,
+      Math.round(
+        schedule.durationSeconds /
+          60
+      )
     )
-  )
-
-  /*
-   * 환승역
-   */
 
   let transferStation = null
 
-  if (transfers > 0) {
+  const transferSegment =
+    schedule.segments.find(
+      (segment) =>
+        segment.transfer === true &&
+        segment.lineId == null
+    )
+
+  if (transferSegment) {
+    const station =
+      getStation(
+        transferSegment.from
+      )
+
+    transferStation = {
+      id:
+        transferSegment.from,
+
+      name:
+        station?.korean ||
+        station?.name ||
+        transferSegment.from,
+
+      japanese:
+        station?.japanese ||
+        station?.name ||
+        '',
+    }
+  } else if (
+    transfers > 0
+  ) {
     for (
       let i = 1;
-      i < path.length;
+      i < rideSegments.length;
       i += 1
     ) {
+      const previous = rideSegments[i - 1]
+      const current = rideSegments[i]
+
+      const previousTripId =
+        previous.selectedService?.tripId || null
+      const currentTripId =
+        current.selectedService?.tripId || null
+      const sameTrip =
+        Boolean(
+          previousTripId &&
+          currentTripId &&
+          previousTripId === currentTripId
+        )
+
       if (
-        path[i].lineId !==
-        path[i - 1].lineId
+        previous.lineId != null &&
+        current.lineId != null &&
+        previous.lineId !== current.lineId &&
+        !sameTrip
       ) {
-        const station =
-          getStation(
-            path[i].from
-          )
+        const station = getStation(current.from)
 
         transferStation = {
-          id: path[i].from,
-
+          id: current.from,
           name:
             station?.korean ||
             station?.name ||
-            path[i].from,
-
+            current.from,
           japanese:
             station?.japanese ||
             station?.name ||
@@ -1047,10 +1173,11 @@ function makeRoute(
 
     duration,
 
-    fare: getFareBetweenStations(
-  path[0].from,
-  path[path.length - 1].to
-),
+    fare:
+      getFareBetweenStations(
+        path[0].from,
+        path[path.length - 1].to
+      ),
 
     departureTime:
       formatGtfsTime(
@@ -1068,21 +1195,10 @@ function makeRoute(
 
     transferStation,
 
-    /*
-     * 빠른순 정렬에서 사용한다.
-     * "현재 시각 → 최종 도착" 기준.
-     */
-
     arrivalSeconds:
       schedule.arrivalSeconds,
   }
 }
-
-/*
- * ==============================
- * 중복 경로 제거
- * ==============================
- */
 
 function removeDuplicateRoutes(
   routes
@@ -1106,21 +1222,18 @@ function removeDuplicateRoutes(
       }
 
       seen.add(key)
-
       return true
     }
   )
 }
 
-/*
- * ==============================
- * 메인
- * ==============================
- */
-
 export function calculateRoutes(
   fromId,
-  toId
+  toId,
+  startSeconds = null,
+  targetDate = null,
+  timeMode = 'departure',
+  viaStationIds = []
 ) {
   if (
     !fromId ||
@@ -1135,52 +1248,196 @@ export function calculateRoutes(
     return [
       {
         type: 'same-station',
-
         stations: [],
-
         segments: [],
-
         lines: [],
-
         transfers: 0,
-
         duration: 0,
-
         fare: 0,
       },
     ]
   }
 
-  /*
-   * 현재 도쿄 시각
-   */
+  function getStationIdsBySameName(
+    stationId
+  ) {
+    const station =
+      processedStations.find(
+        (item) =>
+          item.id === stationId
+      )
+
+    if (!station) {
+      return [stationId]
+    }
+
+    const ids =
+      processedStations
+        .filter(
+          (item) =>
+            item.name ===
+            station.name
+        )
+        .map(
+          (item) => item.id
+        )
+
+    return ids.length > 0
+      ? ids
+      : [stationId]
+  }
+
+  const stationGroups = [
+    getStationIdsBySameName(
+      fromId
+    ),
+
+    ...viaStationIds
+      .filter(Boolean)
+      .map(
+        (stationId) =>
+          getStationIdsBySameName(
+            stationId
+          )
+      ),
+
+    getStationIdsBySameName(
+      toId
+    ),
+  ]
 
   const nowSeconds =
+    startSeconds ??
     getCurrentTokyoSeconds()
 
-  /*
-   * 먼저 역 연결 경로를 찾는다.
-   */
+  let combinedPaths = []
 
-  const paths =
-    findPaths(
-      fromId,
-      toId,
-      2
-    )
+  for (
+    const startStationId of
+      stationGroups[0]
+  ) {
+    combinedPaths.push({
+      path: [],
+      lastStationId:
+        startStationId,
+    })
+  }
 
-  /*
-   * 각각의 경로에 실제 시간표를 적용한다.
-   */
+  for (
+    let groupIndex = 1;
+    groupIndex <
+      stationGroups.length;
+    groupIndex += 1
+  ) {
+    const nextGroup =
+      stationGroups[
+        groupIndex
+      ]
+
+    const nextCombinedPaths = []
+
+    for (
+      const existing of
+        combinedPaths
+    ) {
+      for (
+        const nextStationId of
+          nextGroup
+      ) {
+        const segmentPaths =
+          findPaths(
+            existing.lastStationId,
+            nextStationId,
+            2
+          )
+
+        if (
+          !segmentPaths ||
+          segmentPaths.length === 0
+        ) {
+          continue
+        }
+
+        for (
+          const segmentPath of
+            segmentPaths
+        ) {
+          if (
+            existing.path.length >
+              0 &&
+            segmentPath.length >
+              0
+          ) {
+            const previousEdge =
+              existing.path[
+                existing.path.length - 1
+              ]
+
+            const nextEdge =
+              segmentPath[0]
+
+            if (
+              previousEdge.to !==
+              nextEdge.from
+            ) {
+              continue
+            }
+          }
+
+          nextCombinedPaths.push({
+            path: [
+              ...existing.path,
+              ...segmentPath,
+            ],
+
+            lastStationId:
+              nextStationId,
+          })
+        }
+      }
+    }
+
+    combinedPaths =
+      nextCombinedPaths.slice(
+        0,
+        50
+      )
+
+    if (
+      combinedPaths.length === 0
+    ) {
+      return []
+    }
+  }
 
   const routes = []
 
-  for (const path of paths) {
+  for (
+    const item of
+      combinedPaths
+  ) {
+    const path =
+      item.path
+
+    if (
+      !path ||
+      path.length === 0
+    ) {
+      continue
+    }
+
     const schedule =
-      schedulePath(
-        path,
-        nowSeconds
-      )
+      timeMode === 'arrival'
+        ? schedulePathBackward(
+            path,
+            nowSeconds,
+            targetDate
+          )
+        : schedulePath(
+            path,
+            nowSeconds,
+            targetDate
+          )
 
     if (!schedule) {
       continue
@@ -1196,11 +1453,6 @@ export function calculateRoutes(
       routes.push(route)
     }
   }
-
-  /*
-   * 실제 도착시간 기준으로
-   * 가장 빨리 도착하는 경로가 우선.
-   */
 
   return removeDuplicateRoutes(
     routes

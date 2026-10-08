@@ -1159,3 +1159,151 @@ input::placeholder {
 .route-line-summary:active {
   background: #f8f9fa;
 }
+
+.station-result-lines {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 4px;
+  margin-left: 10px;
+}
+
+.station-result-line {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 3px 6px;
+  border: 1px solid;
+  border-radius: 6px;
+  background: #ffffff;
+  font-size: 9px;
+  font-weight: 600;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.station-result-line b {
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.time-selector-toggle {
+  width: 100%;
+  margin-top: 12px;
+  padding: 12px 2px;
+  border: 0;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #374151;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.time-selector-toggle span:last-child {
+  color: #9ca3af;
+  font-size: 20px;
+}
+
+.time-selector {
+  padding: 4px 0 14px;
+}
+
+.time-selector-label {
+  margin-bottom: 8px;
+  color: #6b7280;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.time-selector-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.time-selector-row input {
+  width: 100%;
+  min-width: 0;
+  padding: 11px 10px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background: #fff;
+  color: #111827;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.time-mode-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.time-mode-buttons button {
+  padding: 10px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background: #fff;
+  color: #6b7280;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.time-mode-buttons button.active {
+  border-color: #111827;
+  background: #111827;
+  color: #fff;
+}
+
+.add-via-circle-button {
+  position: absolute;
+  left: 80px;
+  top: 2px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: white;
+  border: 1px solid #e1e3e7;
+  color: #555b64;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+}
+
+.via-station-block {
+  position: relative;
+}
+
+.via-input-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.via-remove-button {
+  border: 0;
+  background: transparent;
+  color: #9ca3af;
+  font-size: 20px;
+  line-height: 1;
+  padding: 2px 4px;
+  cursor: pointer;
+}
+
+.via-remove-button:hover {
+  color: #555b64;
+}
+
+.via-icon {
+  color: #9ca3af;
+}

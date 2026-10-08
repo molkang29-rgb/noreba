@@ -141,11 +141,30 @@ export function findStation(value) {
 /*
  * 실제 GTFS 경로 검색
  *
- * 기존의 가짜 network.js는 사용하지 않는다.
+ * 경유지가 있는 경우에도
+ * 구간별로 따로 계산하지 않는다.
+ *
+ * 예:
+ *
+ * 아사쿠사
+ *   ↓
+ * 쿠라마에
+ *   ↓
+ * 신주쿠
+ *
+ * 전체 경로를 routeEngine에 한 번에 넘긴다.
+ *
+ * 이렇게 해야 routeEngine이
+ * 전체 승차 경로를 기준으로
+ * 운임을 계산할 수 있다.
  */
 export function findRoutes(
   from,
-  to
+  to,
+  startSeconds = null,
+  targetDate = null,
+  timeMode = 'departure',
+  viaNames = []
 ) {
   const fromStation =
     findStation(from)
@@ -160,9 +179,35 @@ export function findRoutes(
     return []
   }
 
+  /*
+   * 경유지 이름 → 역 ID
+   *
+   * 빈 값이나 찾지 못한 역은 제외한다.
+   */
+  const viaStations =
+    viaNames
+      .map((name) => findStation(name))
+      .filter(Boolean)
+
+  /*
+   * 경유지가 없으면 일반 검색.
+   *
+   * 경유지가 있으면 routeEngine에
+   * 전체 경유지 배열을 전달한다.
+   *
+   * 중요:
+   * 여기서 각 구간을 따로 calculateRoutes()
+   * 하지 않는다.
+   */
   return calculateRoutes(
     fromStation.id,
-    toStation.id
+    toStation.id,
+    startSeconds,
+    targetDate,
+    timeMode,
+    viaStations.map(
+      (station) => station.id
+    )
   )
 }
 
@@ -181,6 +226,9 @@ export function sortRoutes(
     ...routes,
   ]
 
+  /*
+   * 환승 적은 순
+   */
   if (mode === 'fewest-transfers') {
     return sorted.sort(
       (a, b) =>
@@ -191,22 +239,28 @@ export function sortRoutes(
     )
   }
 
+  /*
+   * 가장 저렴한 순
+   *
+   * 현재 fare 구조:
+   *
+   * {
+   *   icFare: 272,
+   *   paperFare: 280
+   * }
+   */
   if (mode === 'cheapest') {
-    /*
-     * 아직 실제 운임 계산을 붙이지 않았기 때문에
-     * 운임이 없는 경로는 뒤로 보낸다.
-     */
     return sorted.sort(
       (a, b) => {
         const fareA =
-          a.fare == null
+          a.fare?.icFare == null
             ? Infinity
-            : a.fare
+            : a.fare.icFare
 
         const fareB =
-          b.fare == null
+          b.fare?.icFare == null
             ? Infinity
-            : b.fare
+            : b.fare.icFare
 
         return (
           fareA - fareB ||

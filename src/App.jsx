@@ -10,38 +10,57 @@ import {
 
 import RoutePath from './RoutePath'
 
-
 function App() {
   const [from, setFrom] = useState('')
   const [to, setTo] = useState('')
+  const [viaStations, setViaStations] = useState([])
+
+  const [fromSelected, setFromSelected] = useState(false)
+  const [toSelected, setToSelected] = useState(false)
+
+  const now = new Date()
+
+  const currentTime = `${String(now.getHours()).padStart(
+    2,
+    '0'
+  )}:${String(now.getMinutes()).padStart(2, '0')}`
+
+  const currentDate = `${now.getFullYear()}-${String(
+    now.getMonth() + 1
+  ).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`
+
+  const [departureTime, setDepartureTime] =
+    useState(currentTime)
+
+  const [departureDate, setDepartureDate] =
+    useState(currentDate)
+
+  const [timeMode, setTimeMode] = useState('departure')
+  const [timeSelectorOpen, setTimeSelectorOpen] =
+    useState(false)
 
   const [searched, setSearched] = useState(false)
   const [route, setRoute] = useState(null)
 
   const [sortMode, setSortMode] = useState('fastest')
-const [expandedRoute, setExpandedRoute] = useState(null)
-  const [recentSearches, setRecentSearches] =
-    useState([])
+  const [expandedRoute, setExpandedRoute] = useState(null)
 
+  const [recentSearches, setRecentSearches] = useState([])
 
   // 최근 검색 불러오기
   useEffect(() => {
-    const saved =
-      localStorage.getItem(
-        'noreba-recent-searches'
-      )
+    const saved = localStorage.getItem(
+      'noreba-recent-searches'
+    )
 
     if (saved) {
       try {
-        setRecentSearches(
-          JSON.parse(saved)
-        )
+        setRecentSearches(JSON.parse(saved))
       } catch {
         setRecentSearches([])
       }
     }
   }, [])
-
 
   // 출발역 / 도착역 교체
   const swapStations = () => {
@@ -52,16 +71,66 @@ const [expandedRoute, setExpandedRoute] = useState(null)
     setRoute(null)
   }
 
+  // 경유지 미리 추가
+  const addViaStation = () => {
+    setViaStations((prev) => [
+      ...prev,
+      {
+        value: '',
+        selected: false,
+      },
+    ])
+  }
+
+  const updateViaStation = (index, value) => {
+    setViaStations((prev) =>
+      prev.map((station, i) =>
+        i === index
+          ? {
+              ...station,
+              value,
+              selected: false,
+            }
+          : station
+      )
+    )
+
+    setSearched(false)
+    setRoute(null)
+  }
+
+  const selectViaStation = (index, station) => {
+    setViaStations((prev) =>
+      prev.map((item, i) =>
+        i === index
+          ? {
+              value: station.name,
+              selected: true,
+            }
+          : item
+      )
+    )
+
+    setSearched(false)
+    setRoute(null)
+  }
+
+  const removeViaStation = (index) => {
+    setViaStations((prev) =>
+      prev.filter((_, i) => i !== index)
+    )
+
+    setSearched(false)
+    setRoute(null)
+  }
 
   // 역 검색
   const findStations = (value) => {
     return searchStations(value)
   }
 
-
   const fromResults = findStations(from)
   const toResults = findStations(to)
-
 
   // 경로 검색
   const searchRoute = () => {
@@ -69,14 +138,42 @@ const [expandedRoute, setExpandedRoute] = useState(null)
       return
     }
 
+    const [hours, minutes] =
+      departureTime.split(':').map(Number)
+
+    const startSeconds =
+      hours * 3600 +
+      minutes * 60
+
+    const [year, month, day] =
+      departureDate.split('-').map(Number)
+
+    const targetDate = {
+      year,
+      month,
+      day,
+    }
+
+    const viaNames = viaStations
+      .filter(
+        (station) =>
+          station.selected &&
+          station.value
+      )
+      .map((station) => station.value)
+
     const result = findRoutes(
       from,
-      to
+      to,
+      startSeconds,
+      targetDate,
+      timeMode,
+      viaNames
     )
 
     setRoute(result)
     setSearched(true)
-setExpandedRoute(null)
+    setExpandedRoute(null)
 
     // 최근 검색 저장
     const searchedFrom =
@@ -97,7 +194,6 @@ setExpandedRoute(null)
             to.toLowerCase()
       )
 
-
     if (searchedFrom && searchedTo) {
       const newSearch = {
         from: searchedFrom,
@@ -106,30 +202,21 @@ setExpandedRoute(null)
 
       const updatedSearches = [
         newSearch,
-
         ...recentSearches.filter(
           (item) =>
-            item.from.id !==
-              searchedFrom.id ||
-            item.to.id !==
-              searchedTo.id
+            item.from.id !== searchedFrom.id ||
+            item.to.id !== searchedTo.id
         ),
       ].slice(0, 5)
 
-
-      setRecentSearches(
-        updatedSearches
-      )
+      setRecentSearches(updatedSearches)
 
       localStorage.setItem(
         'noreba-recent-searches',
-        JSON.stringify(
-          updatedSearches
-        )
+        JSON.stringify(updatedSearches)
       )
     }
   }
-
 
   // 현재 선택된 역
   const selectedFrom =
@@ -150,7 +237,6 @@ setExpandedRoute(null)
           to.toLowerCase()
     )
 
-
   // 최근 검색 전체 삭제
   const clearRecentSearches = () => {
     setRecentSearches([])
@@ -160,41 +246,39 @@ setExpandedRoute(null)
     )
   }
 
-
   return (
     <div className="app">
 
       {/* 헤더 */}
-<header className="header">
-  <div className="brand">
-    <div className="brand-main">
-      <img
-        className="noreba-logo"
-        src="/noreba-logo.png"
-        alt="NOREBA"
-      />
+      <header className="header">
+        <div className="brand">
+          <div className="brand-main">
+            <img
+              className="noreba-logo"
+              src="/noreba-logo.png"
+              alt="NOREBA"
+            />
 
-      <div className="brand-text">
-        <div className="logo">
-          NOREBA
+            <div className="brand-text">
+              <div className="logo">
+                NOREBA
+              </div>
+
+              <div className="subtitle">
+                도쿄, 쉬워지다.
+              </div>
+
+              <div className="tagline">
+                乗るべき道だけ、ノレバいいじゃん。
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div className="subtitle">
-          도쿄, 쉬워지다.
-        </div>
-
-        <div className="tagline">
-          乗るべき道だけ、ノレバいいじゃん。
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <button className="menu-button">
-    ☰
-  </button>
-</header>
-
+        <button className="menu-button">
+          ☰
+        </button>
+      </header>
 
       <main className="main">
 
@@ -204,11 +288,6 @@ setExpandedRoute(null)
 
         <section className="search-card">
 
-          <div className="card-title">
-            어디로 갈까요?
-          </div>
-
-
           {/* 출발역 */}
 
           <div className="station-row">
@@ -217,98 +296,101 @@ setExpandedRoute(null)
               ●
             </div>
 
-
             <div className="input-area">
 
               <span className="input-label">
                 출발역
               </span>
 
-
               <input
                 value={from}
-
                 onChange={(e) => {
-                  setFrom(
-                    e.target.value
-                  )
+                  setFrom(e.target.value)
+                  setFromSelected(false)
 
                   setSearched(false)
                   setRoute(null)
                 }}
-
                 placeholder="역 이름을 입력하세요"
               />
 
+              {fromResults.length > 0 &&
+                !fromSelected && (
+                  <div className="station-results">
 
-              {fromResults.length > 0 && (
+                    {fromResults.map(
+                      (station) => (
+                        <button
+                          key={station.id}
+                          className="station-result"
+                          type="button"
+                          onClick={() => {
+                            setFrom(
+                              station.name
+                            )
+                            setFromSelected(true)
 
-                <div className="station-results">
+                            setSearched(false)
+                            setRoute(null)
+                          }}
+                        >
 
-                  {fromResults.map(
-                    (station) => (
+                          <div>
+                            <strong>
+                              {station.korean ||
+                                station.name}
+                            </strong>
 
-                      <button
-                        key={station.id}
-                        className="station-result"
+                            <span>
+                              {station.japanese}
 
-                        type="button"
+                              {station.romanized && (
+                                <>
+                                  {' · '}
+                                  {station.romanized}
+                                </>
+                              )}
+                            </span>
+                          </div>
 
-                        onClick={() => {
-                          setFrom(
-                            station.name
-                          )
+                          <div className="station-result-lines">
+                            {station.lines.map(
+                              (line) => (
+                                <span
+                                  key={line.code}
+                                  className="station-result-line"
+                                  style={{
+                                    borderColor:
+                                      line.color,
+                                    color:
+                                      line.color,
+                                  }}
+                                >
+                                  <b>
+                                    {line.code}
+                                  </b>
+                                  {line.name}
+                                </span>
+                              )
+                            )}
+                          </div>
 
-                          setSearched(false)
-                          setRoute(null)
-                        }}
-                      >
+                        </button>
+                      )
+                    )}
 
-                        <div>
-
-  <strong>
-    {station.korean || station.name}
-  </strong>
-
-  <span>
-    {station.japanese}
-
-    {station.romanized && (
-      <>
-        {' · '}
-        {station.romanized}
-      </>
-    )}
-  </span>
-
-</div>
-
-
-                        <small>
-                          {station.lines.length}
-                          개 노선
-                        </small>
-
-                      </button>
-
-                    )
-                  )}
-
-                </div>
-
-              )}
+                  </div>
+                )}
 
             </div>
 
           </div>
-
 
           {/* 출발역 ↔ 도착역 */}
 
           <div className="line-area">
 
             <div className="vertical-line"></div>
-
 
             <button
               className="swap-button"
@@ -318,8 +400,149 @@ setExpandedRoute(null)
               ⇅
             </button>
 
+            <button
+              className="add-via-circle-button"
+              type="button"
+              onClick={addViaStation}
+            >
+              +
+            </button>
+
           </div>
 
+          {/* 경유지 */}
+
+          {viaStations.map(
+            (viaStation, index) => {
+              const viaResults =
+                findStations(
+                  viaStation.value
+                )
+
+              return (
+                <div
+                  className="via-station-block"
+                  key={index}
+                >
+
+                  <div className="station-row">
+
+                    <div className="station-icon via-icon">
+                      ●
+                    </div>
+
+                    <div className="input-area">
+
+                      <div className="via-input-header">
+                        <span className="input-label">
+                          경유지
+                        </span>
+
+                        <button
+                          type="button"
+                          className="via-remove-button"
+                          onClick={() =>
+                            removeViaStation(
+                              index
+                            )
+                          }
+                        >
+                          ×
+                        </button>
+                      </div>
+
+                      <input
+                        value={
+                          viaStation.value
+                        }
+                        onChange={(e) =>
+                          updateViaStation(
+                            index,
+                            e.target.value
+                          )
+                        }
+                        placeholder="역 이름을 입력하세요"
+                      />
+
+                      {viaResults.length > 0 &&
+                        !viaStation.selected && (
+                          <div className="station-results">
+
+                            {viaResults.map(
+                              (station) => (
+                                <button
+                                  key={station.id}
+                                  className="station-result"
+                                  type="button"
+                                  onClick={() =>
+                                    selectViaStation(
+                                      index,
+                                      station
+                                    )
+                                  }
+                                >
+
+                                  <div>
+                                    <strong>
+                                      {station.korean ||
+                                        station.name}
+                                    </strong>
+
+                                    <span>
+                                      {station.japanese}
+
+                                      {station.romanized && (
+                                        <>
+                                          {' · '}
+                                          {
+                                            station.romanized
+                                          }
+                                        </>
+                                      )}
+                                    </span>
+                                  </div>
+
+                                  <div className="station-result-lines">
+                                    {station.lines.map(
+                                      (line) => (
+                                        <span
+                                          key={
+                                            line.code
+                                          }
+                                          className="station-result-line"
+                                          style={{
+                                            borderColor:
+                                              line.color,
+                                            color:
+                                              line.color,
+                                          }}
+                                        >
+                                          <b>
+                                            {
+                                              line.code
+                                            }
+                                          </b>
+                                          {line.name}
+                                        </span>
+                                      )
+                                    )}
+                                  </div>
+
+                                </button>
+                              )
+                            )}
+
+                          </div>
+                        )}
+
+                    </div>
+
+                  </div>
+
+                </div>
+              )
+            }
+          )}
 
           {/* 도착역 */}
 
@@ -329,96 +552,188 @@ setExpandedRoute(null)
               ●
             </div>
 
-
             <div className="input-area">
 
               <span className="input-label">
                 도착역
               </span>
 
-
               <input
                 value={to}
-
                 onChange={(e) => {
-                  setTo(
-                    e.target.value
-                  )
+                  setTo(e.target.value)
+                  setToSelected(false)
 
                   setSearched(false)
                   setRoute(null)
                 }}
-
                 placeholder="역 이름을 입력하세요"
               />
 
+              {toResults.length > 0 &&
+                !toSelected && (
+                  <div className="station-results">
 
-              {toResults.length > 0 && (
+                    {toResults.map(
+                      (station) => (
+                        <button
+                          key={station.id}
+                          className="station-result"
+                          type="button"
+                          onClick={() => {
+                            setTo(
+                              station.name
+                            )
+                            setToSelected(true)
 
-                <div className="station-results">
+                            setSearched(false)
+                            setRoute(null)
+                          }}
+                        >
 
-                  {toResults.map(
-                    (station) => (
+                          <strong>
+                            {station.korean ||
+                              station.name}
+                          </strong>
 
-                      <button
-                        key={station.id}
-                        className="station-result"
+                          <span>
+                            {station.japanese}
 
-                        type="button"
+                            {station.romanized && (
+                              <>
+                                {' · '}
+                                {
+                                  station.romanized
+                                }
+                              </>
+                            )}
+                          </span>
 
-                        onClick={() => {
-                          setTo(
-                            station.name
-                          )
+                          <div className="station-result-lines">
+                            {station.lines.map(
+                              (line) => (
+                                <span
+                                  key={line.code}
+                                  className="station-result-line"
+                                  style={{
+                                    borderColor:
+                                      line.color,
+                                    color:
+                                      line.color,
+                                  }}
+                                >
+                                  <b>
+                                    {line.code}
+                                  </b>
+                                  {line.name}
+                                </span>
+                              )
+                            )}
+                          </div>
 
-                          setSearched(false)
-                          setRoute(null)
-                        }}
-                      >
+                        </button>
+                      )
+                    )}
 
-                        <strong>
-  {station.korean || station.name}
-</strong>
-
-<span>
-  {station.japanese}
-
-  {station.romanized && (
-    <>
-      {' · '}
-      {station.romanized}
-    </>
-  )}
-</span>
-
-
-                        <small>
-                          {station.lines.length}
-                          개 노선
-                        </small>
-
-                      </button>
-
-                    )
-                  )}
-
-                </div>
-
-              )}
+                  </div>
+                )}
 
             </div>
 
           </div>
 
+          {/* 시간 선택 */}
+
+          <button
+            type="button"
+            className="time-selector-toggle"
+            onClick={() =>
+              setTimeSelectorOpen(
+                !timeSelectorOpen
+              )
+            }
+          >
+            <span>
+              {departureTime
+                ? `${departureTime} 출발`
+                : '지금 출발'}
+            </span>
+
+            <span>›</span>
+          </button>
+
+          {timeSelectorOpen && (
+            <div className="time-selector">
+
+              <div className="time-selector-label">
+                시각
+              </div>
+
+              <div className="time-selector-row">
+
+                <input
+                  type="time"
+                  value={departureTime}
+                  onChange={(e) =>
+                    setDepartureTime(
+                      e.target.value
+                    )
+                  }
+                />
+
+                <input
+                  type="date"
+                  value={departureDate}
+                  onChange={(e) =>
+                    setDepartureDate(
+                      e.target.value
+                    )
+                  }
+                />
+
+              </div>
+
+              <div className="time-mode-buttons">
+
+                <button
+                  type="button"
+                  className={
+                    timeMode === 'departure'
+                      ? 'active'
+                      : ''
+                  }
+                  onClick={() =>
+                    setTimeMode('departure')
+                  }
+                >
+                  출발
+                </button>
+
+                <button
+                  type="button"
+                  className={
+                    timeMode === 'arrival'
+                      ? 'active'
+                      : ''
+                  }
+                  onClick={() =>
+                    setTimeMode('arrival')
+                  }
+                >
+                  도착
+                </button>
+
+              </div>
+
+            </div>
+          )}
 
           {/* 검색 버튼 */}
 
           <button
             className="search-button"
             type="button"
-
             onClick={searchRoute}
-
             disabled={!from || !to}
           >
             경로 검색
@@ -429,7 +744,6 @@ setExpandedRoute(null)
           </button>
 
         </section>
-
 
         {/* =========================
             경로 결과
@@ -464,11 +778,7 @@ setExpandedRoute(null)
 
                 </div>
 
-
-                
-
               </div>
-
 
               {/* 경로 없음 */}
 
@@ -489,7 +799,6 @@ setExpandedRoute(null)
 
               )}
 
-
               {/* 경로 있음 */}
 
               {route.length > 0 && (
@@ -502,13 +811,11 @@ setExpandedRoute(null)
 
                     <button
                       type="button"
-
                       className={
                         sortMode === 'fastest'
                           ? 'active'
                           : ''
                       }
-
                       onClick={() =>
                         setSortMode(
                           'fastest'
@@ -518,17 +825,14 @@ setExpandedRoute(null)
                       ⚡ 빠른순
                     </button>
 
-
                     <button
                       type="button"
-
                       className={
                         sortMode ===
                         'fewest-transfers'
                           ? 'active'
                           : ''
                       }
-
                       onClick={() =>
                         setSortMode(
                           'fewest-transfers'
@@ -538,17 +842,14 @@ setExpandedRoute(null)
                       🔄 환승 적은순
                     </button>
 
-
                     <button
                       type="button"
-
                       className={
                         sortMode ===
                         'cheapest'
                           ? 'active'
                           : ''
                       }
-
                       onClick={() =>
                         setSortMode(
                           'cheapest'
@@ -560,7 +861,6 @@ setExpandedRoute(null)
 
                   </div>
 
-
                   {/* 경로 카드 */}
 
                   {sortRoutes(
@@ -569,136 +869,135 @@ setExpandedRoute(null)
                   ).map(
                     (currentRoute, index) => (
 
-                     <div
-  className={`route-card ${
-    expandedRoute === index
-      ? 'expanded'
-      : ''
-  }`}
-  key={index}
->
+                      <div
+                        className={`route-card ${
+                          expandedRoute === index
+                            ? 'expanded'
+                            : ''
+                        }`}
+                        key={index}
+                      >
 
                         <div className="route-rank">
                           추천 {index + 1}
                         </div>
 
+                        {/* 노선 요약 */}
 
-                        {/* ★ 핵심
-                            기존의 중복 경로 표시를 제거하고
-                            RoutePath 하나만 사용
-                        */}
-<button
-  type="button"
-  className="route-line-summary"
-  onClick={() =>
-    setExpandedRoute(
-      expandedRoute === index
-        ? null
-        : index
-    )
-  }
->
-  <div className="route-line-summary-lines">
-    {currentRoute.lines.map((line, index) => (
-      <div
-        className="route-line-summary-item"
-        key={index}
-      >
-        <span
-          className="route-line-summary-icon"
-          style={{
-            borderColor: line.color,
-            color: line.color,
-          }}
-        >
-          {line.code || '●'}
-        </span>
+                        <button
+                          type="button"
+                          className="route-line-summary"
+                          onClick={() =>
+                            setExpandedRoute(
+                              expandedRoute === index
+                                ? null
+                                : index
+                            )
+                          }
+                        >
 
-        <div>
-          <strong>{line.name}</strong>
-          <span>{line.japanese}</span>
-        </div>
-      </div>
-    ))}
-  </div>
+                          <div className="route-line-summary-lines">
 
-  <span className="route-expand-icon">
-    {expandedRoute === index ? '⌃' : '⌄'}
-  </span>
-</button>
+                            {currentRoute.lines.map(
+                              (
+                                line,
+                                lineIndex
+                              ) => (
+                                <div
+                                  className="route-line-summary-item"
+                                  key={lineIndex}
+                                >
 
-{expandedRoute === index && (
-  <RoutePath
-    route={currentRoute}
-  />
-)}
+                                  <span
+                                    className="route-line-summary-icon"
+                                    style={{
+                                      borderColor:
+                                        line.color,
+                                      color:
+                                        line.color,
+                                    }}
+                                  >
+                                    {line.code ||
+                                      '●'}
+                                  </span>
 
+                                  <div>
+                                    <strong>
+                                      {line.name}
+                                    </strong>
 
-                        {/* 경로 요약 */}
+                                    <span>
+                                      {line.japanese}
+                                    </span>
+                                  </div>
+
+                                </div>
+                              )
+                            )}
+
+                          </div>
+
+                          <span className="route-expand-icon">
+                            {expandedRoute === index
+                              ? '⌃'
+                              : '⌄'}
+                          </span>
+
+                        </button>
+
+                        {/* 경로 요약 정보 */}
 
                         <div className="route-info">
 
                           <div>
-
                             <span>
                               환승
                             </span>
 
                             <strong>
-                              {
-                                currentRoute.transfers
-                              }
+                              {currentRoute.transfers ??
+                                0}
                               회
                             </strong>
-
                           </div>
 
-
                           <div>
-
                             <span>
                               소요시간
                             </span>
 
                             <strong>
-                              {
-                                currentRoute.duration !=
-                                null
-                                  ? `${currentRoute.duration}분`
-                                  : '계산 예정'
-                              }
+                              {currentRoute.duration !=
+                              null
+                                ? `${currentRoute.duration}분`
+                                : '계산 예정'}
                             </strong>
-
                           </div>
 
-
                           <div>
-
                             <span>
                               운임
                             </span>
 
                             <strong>
-                            {currentRoute.fare != null
-  ? (
-      <>
-        {currentRoute.fare.icFare != null && (
-          <div>
-            ¥{currentRoute.fare.icFare} · IC
-          </div>
-        )}
-
-      </>
-    )
-  : '계산 예정'}
+                              {currentRoute.fare?.icFare !=
+                              null
+                                ? `¥${currentRoute.fare.icFare} · IC`
+                                : '계산 예정'}
                             </strong>
-
                           </div>
 
                         </div>
 
-                      </div>
+                        {/* 경로 상세 */}
 
+                        {expandedRoute === index && (
+                          <RoutePath
+                            route={currentRoute}
+                          />
+                        )}
+
+                      </div>
                     )
                   )}
 
@@ -706,13 +1005,9 @@ setExpandedRoute(null)
 
               )}
 
-
-             
-
             </section>
 
           )}
-
 
         {/* =========================
             최근 검색
@@ -726,7 +1021,6 @@ setExpandedRoute(null)
               최근 검색
             </h2>
 
-
             <button
               type="button"
               onClick={
@@ -737,7 +1031,6 @@ setExpandedRoute(null)
             </button>
 
           </div>
-
 
           {recentSearches.length === 0 ? (
 
@@ -753,7 +1046,6 @@ setExpandedRoute(null)
                 <div
                   className="recent-item"
                   key={index}
-
                   onClick={() => {
 
                     setFrom(
@@ -763,6 +1055,9 @@ setExpandedRoute(null)
                     setTo(
                       item.to.name
                     )
+
+                    setFromSelected(true)
+                    setToSelected(true)
 
                     setSearched(false)
                     setRoute(null)
@@ -774,7 +1069,6 @@ setExpandedRoute(null)
                     ↔
                   </div>
 
-
                   <div>
 
                     <strong>
@@ -782,7 +1076,6 @@ setExpandedRoute(null)
                       {' → '}
                       {item.to.name}
                     </strong>
-
 
                     <span>
                       {item.from.japanese}
@@ -801,7 +1094,6 @@ setExpandedRoute(null)
 
         </section>
 
-
         <p className="notice">
           🚉 도쿄의 전철 환승을 빠르고 간단하게
         </p>
@@ -811,6 +1103,5 @@ setExpandedRoute(null)
     </div>
   )
 }
-
 
 export default App
