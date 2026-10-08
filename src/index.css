@@ -1,0 +1,1161 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "Noto Sans KR",
+    sans-serif;
+
+  background: #f5f6f8;
+  color: #17191c;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  border: 0;
+  cursor: pointer;
+}
+
+.app {
+  min-height: 100vh;
+  background: #f5f6f8;
+}
+
+/* =========================
+   Header
+   ========================= */
+
+.header {
+  width: calc(100% - 36px);
+  max-width: 484px;
+  height: 76px;
+  margin: 18px auto 0;
+  padding: 0 20px;
+
+  background: #ffffff;
+  border: 1px solid #eef0f2;
+  border-radius: 22px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  box-shadow:
+    0 2px 6px rgba(20, 25, 35, 0.04),
+    0 8px 24px rgba(20, 25, 35, 0.08);
+
+  position: relative;
+  z-index: 10;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  min-width: 0;
+}
+
+.brand-main {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.noreba-logo {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.logo {
+  display: block;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1;
+  color: #172554;
+  letter-spacing: -0.5px;
+}
+
+.subtitle {
+  display: block;
+
+  margin-top: 5px;
+
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.2;
+
+  color: #6b7280;
+}
+
+.tagline {
+  display: block;
+
+  margin-top: 2px;
+
+  font-size: 10px;
+  line-height: 1.2;
+
+  color: #9ca3af;
+  white-space: nowrap;
+}
+
+.menu-button {
+  width: 40px;
+  height: 40px;
+
+  flex-shrink: 0;
+
+  border-radius: 12px;
+
+  background: #f4f5f7;
+  color: #555b64;
+
+  font-size: 18px;
+}
+
+/* =========================
+   Main
+   ========================= */
+
+.main {
+  width: 100%;
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 18px 18px 40px;
+}
+
+/* =========================
+   Search Card
+   ========================= */
+
+.search-card {
+  background: #fff;
+  border-radius: 22px;
+  padding: 24px 20px 20px;
+  box-shadow:
+    0 2px 6px rgba(20, 25, 35, 0.04),
+    0 8px 24px rgba(20, 25, 35, 0.08);
+}
+
+.card-title {
+  margin: 0 0 22px;
+
+  font-size: 21px;
+  font-weight: 750;
+
+  letter-spacing: -0.5px;
+}
+
+.station-row {
+  display: flex;
+  align-items: center;
+
+  gap: 14px;
+}
+
+.station-icon {
+  width: 20px;
+  height: 20px;
+
+  flex-shrink: 0;
+
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 10px;
+}
+
+.from-icon {
+  background: #e9efff;
+  color: #4169e1;
+}
+
+.to-icon {
+  background: #fff0e8;
+  color: #f06b35;
+}
+
+.input-area {
+  flex: 1;
+  min-width: 0;
+}
+
+.input-label {
+  display: block;
+
+  margin-bottom: 5px;
+
+  color: #858b94;
+  font-size: 12px;
+}
+
+input {
+  width: 100%;
+
+  padding: 0;
+
+  border: none;
+  outline: none;
+
+  background: transparent;
+
+  color: #17191c;
+
+  font-size: 17px;
+  font-weight: 600;
+}
+
+input::placeholder {
+  color: #b5bac1;
+  font-weight: 500;
+}
+
+/* =========================
+   Search connector
+   ========================= */
+
+.line-area {
+  position: relative;
+
+  height: 34px;
+
+  margin-left: 9px;
+}
+
+.vertical-line {
+  position: absolute;
+
+  left: 0;
+  top: 0;
+  bottom: 0;
+
+  width: 2px;
+
+  background: #e4e6ea;
+}
+
+.swap-button {
+  position: absolute;
+
+  left: -15px;
+  top: 2px;
+
+  width: 32px;
+  height: 32px;
+
+  border-radius: 50%;
+
+  background: #ffffff;
+  border: 1px solid #e1e3e7;
+
+  color: #555b64;
+
+  font-size: 18px;
+
+  box-shadow:
+    0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+/* =========================
+   Search button
+   ========================= */
+
+.search-button {
+  width: 100%;
+  height: 54px;
+
+  margin-top: 24px;
+  padding: 0 20px;
+
+  border-radius: 15px;
+
+  background: #20252b;
+  color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.search-button span {
+  font-size: 20px;
+}
+
+.search-button:disabled {
+  background: #cdd0d5;
+  cursor: not-allowed;
+}
+
+/* =========================
+   Station Search Results
+   ========================= */
+
+.station-results {
+  position: relative;
+  z-index: 10;
+
+  margin-top: 10px;
+
+  overflow: hidden;
+
+  border: 1px solid #e7e9ec;
+  border-radius: 13px;
+
+  background: #ffffff;
+
+  box-shadow:
+    0 8px 20px rgba(20, 25, 35, 0.08);
+}
+
+.station-result {
+  width: 100%;
+
+  padding: 13px 14px;
+
+  background: #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  text-align: left;
+
+  border-bottom: 1px solid #f0f1f3;
+}
+
+.station-result:last-child {
+  border-bottom: none;
+}
+
+.station-result:hover {
+  background: #f7f8fa;
+}
+
+.station-result strong {
+  font-size: 14px;
+}
+
+.station-result span {
+  margin-left: 7px;
+
+  color: #999fa8;
+  font-size: 11px;
+}
+
+.station-result small {
+  color: #a0a5ad;
+  font-size: 9px;
+}
+
+/* =========================
+   Recent
+   ========================= */
+
+.recent-section {
+  margin-top: 32px;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 12px;
+}
+
+.section-header h2 {
+  margin: 0;
+
+  font-size: 16px;
+}
+
+.section-header button {
+  background: transparent;
+
+  color: #9298a1;
+
+  font-size: 12px;
+}
+
+.recent-item {
+  display: flex;
+  align-items: center;
+
+  gap: 13px;
+
+  padding: 17px 4px;
+
+  border-bottom: 1px solid #e6e8eb;
+
+  cursor: pointer;
+
+  transition: background 0.15s ease;
+}
+
+.recent-item:hover {
+  background: #f7f7f8;
+}
+
+.recent-item:active {
+  transform: scale(0.99);
+}
+
+.recent-icon {
+  width: 36px;
+  height: 36px;
+
+  border-radius: 11px;
+
+  background: #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #747a83;
+
+  box-shadow:
+    0 2px 8px rgba(20, 25, 35, 0.04);
+}
+
+.recent-item strong {
+  display: block;
+
+  font-size: 14px;
+  font-weight: 650;
+}
+
+.recent-item span {
+  display: block;
+
+  margin-top: 3px;
+
+  color: #999fa8;
+  font-size: 11px;
+}
+
+.notice {
+  margin: 30px 0 0;
+
+  text-align: center;
+
+  color: #a1a6ae;
+  font-size: 11px;
+}
+
+/* =========================
+   Result
+   ========================= */
+
+.result-section {
+  margin-top: 28px;
+}
+
+.result-title {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  margin-bottom: 12px;
+}
+
+.result-title > div > span {
+  color: #8b9098;
+  font-size: 12px;
+}
+
+.result-title h2 {
+  margin: 5px 0 0;
+
+  font-size: 19px;
+  letter-spacing: -0.5px;
+}
+
+.result-title h2 b {
+  margin: 0 8px;
+
+  color: #a2a7ae;
+
+  font-weight: 400;
+}
+
+.sample-badge {
+  padding: 5px 8px;
+
+  border-radius: 7px;
+
+  background: #f0f1f3;
+  color: #8b9098;
+
+  font-size: 9px;
+}
+
+/* =========================
+   Route Card
+   ========================= */
+
+.route-card {
+  overflow: hidden;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow:
+    0 6px 25px rgba(20, 25, 35, 0.06);
+  margin-bottom: 14px;
+}
+
+.route-card:last-child {
+  margin-bottom: 0;
+}
+
+/* =========================
+   Route line summary
+   ========================= */
+
+.route-line-summary {
+  position: relative;
+  margin: 0;
+  padding: 14px 16px;
+  background: #ffffff;
+  border-bottom: 1px solid #eef0f2;
+
+  width: 100%;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+
+  text-align: left;
+  cursor: pointer;
+}
+
+.route-line-summary-item {
+  display: flex;
+  align-items: center;
+
+  gap: 10px;
+
+  min-height: 34px;
+}
+
+.route-line-summary-item + .route-line-summary-item {
+  margin-top: 9px;
+}
+
+/* 노선 코드 배지 */
+.route-line-summary-icon {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  width: 32px !important;
+  min-width: 32px !important;
+
+  height: 32px !important;
+  min-height: 32px !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  box-sizing: border-box !important;
+
+  border: 2px solid !important;
+  border-radius: 9px;
+
+  background: #ffffff;
+
+  font-size: 10px !important;
+  font-weight: 800;
+
+  line-height: 1;
+
+  flex-shrink: 0;
+}
+
+.route-line-summary-item > div {
+  display: flex;
+  flex-direction: column;
+
+  gap: 2px;
+
+  min-width: 0;
+}
+
+.route-line-summary-item strong {
+  display: block;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
+
+  color: #222;
+}
+
+.route-line-summary-item span {
+  display: block;
+
+  font-size: 10px;
+  line-height: 1.2;
+
+  color: #999;
+}
+
+/* =========================
+   Legacy route summary
+   ========================= */
+
+.route-top {
+  display: flex;
+  align-items: center;
+
+  gap: 12px;
+
+  padding: 20px;
+
+  border-bottom: 1px solid #eef0f2;
+}
+
+.line-badge {
+  width: 38px;
+  height: 38px;
+
+  border-radius: 11px;
+
+  background: #f3f5f7;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #555b64;
+
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.route-top strong {
+  display: block;
+
+  font-size: 15px;
+}
+
+.route-top span {
+  display: block;
+
+  margin-top: 3px;
+
+  color: #999fa8;
+  font-size: 11px;
+}
+
+/* =========================
+   GTFS Route Path
+   ========================= */
+
+.route-path {
+  margin: 0;
+
+  padding: 18px 20px 20px;
+
+  background: #f8f9fa;
+}
+
+/* 하나의 역 */
+.route-path-item {
+  position: relative;
+}
+
+/* 역 */
+.route-path-station {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+
+  min-height: 44px;
+}
+
+/* 역 점 */
+.route-path-dot {
+  position: relative;
+  z-index: 2;
+
+  width: 10px;
+  height: 10px;
+
+  margin-left: 1px;
+  margin-right: 14px;
+
+  border: 2px solid #aeb4bc;
+  border-radius: 50%;
+
+  background: #ffffff;
+
+  box-sizing: border-box;
+
+  flex-shrink: 0;
+}
+
+.route-path-dot.end {
+  border-color: #111827;
+  background: #111827;
+}
+
+/* 역명 */
+.route-path-station-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  gap: 2px;
+
+  min-width: 0;
+}
+
+.route-path-station-name {
+  display: flex;
+  align-items: center;
+
+  gap: 6px;
+}
+
+
+.route-path-station-japanese {
+  font-size: 11px;
+  line-height: 1.2;
+
+  color: #9aa0a8;
+}
+
+.route-path-station-time {
+  margin-top: 5px;
+
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2;
+
+  color: #111827;
+}
+
+/* 역 사이 구간 */
+.route-path-segment {
+  position: relative;
+
+  display: flex;
+
+  min-height: 58px;
+}
+
+/* 노선 세로선 */
+.route-path-line {
+  position: absolute;
+
+  top: -1px;
+  bottom: -1px;
+
+  left: 5px;
+
+  width: 3px;
+
+  border-radius: 3px;
+
+  opacity: 0.85;
+}
+
+/* 열차 정보 */
+.route-path-train {
+  margin-left: 29px;
+
+  padding: 6px 0 9px;
+}
+
+/* 열차 종류 / 목적지 */
+.route-path-train-info {
+  display: flex;
+  align-items: center;
+
+  margin-top: 4px;
+
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.3;
+
+  color: #5f6670;
+}
+
+/* 직결환승 */
+.direct-transfer {
+  display: inline-flex;
+  align-items: center;
+
+  padding: 2px 5px;
+
+  border-radius: 5px;
+
+  background: #eef0f2;
+  color: #777e87;
+
+  font-size: 9px;
+  font-weight: 600;
+
+  line-height: 1.2;
+
+  white-space: nowrap;
+}
+
+/* =========================
+   Route information
+   ========================= */
+
+.route-info {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  border-top: 1px solid #eef0f2;
+}
+
+.route-info div {
+  padding: 15px 10px;
+
+  text-align: center;
+
+  border-right: 1px solid #eef0f2;
+}
+
+.route-info div:last-child {
+  border-right: none;
+}
+
+.route-info span {
+  display: block;
+
+  margin-bottom: 5px;
+
+  color: #999fa8;
+
+  font-size: 10px;
+}
+
+.route-info strong {
+  font-size: 13px;
+}
+
+/* =========================
+   Old route station styles
+   ========================= */
+
+.route-stations {
+  padding: 20px;
+}
+
+.route-station {
+  display: flex;
+  align-items: center;
+
+  gap: 12px;
+}
+
+.route-dot {
+  width: 10px;
+  height: 10px;
+
+  border-radius: 50%;
+
+  background: #4169e1;
+}
+
+.route-dot.end {
+  background: #f06b35;
+}
+
+.route-station strong {
+  display: block;
+
+  font-size: 14px;
+}
+
+.route-station span {
+  display: block;
+
+  margin-top: 2px;
+
+  color: #999fa8;
+  font-size: 10px;
+}
+
+.route-duration {
+  margin: 7px 0 7px 4px;
+
+  padding-left: 18px;
+
+  border-left: 2px solid #e4e6ea;
+}
+
+.route-duration span {
+  color: #777d86;
+  font-size: 11px;
+}
+
+/* =========================
+   Transfer
+   ========================= */
+
+.transfer-line {
+  margin: 6px 0 6px 4px;
+
+  padding: 7px 0 7px 18px;
+
+  border-left: 2px solid #e4e6ea;
+}
+
+.transfer-line span {
+  color: #737982;
+  font-size: 10px;
+}
+
+.transfer-station {
+  display: flex;
+  align-items: center;
+
+  gap: 12px;
+
+  margin: 4px 0;
+  padding: 10px 12px;
+
+  border-radius: 12px;
+
+  background: #f7f8fa;
+}
+
+.transfer-icon {
+  width: 25px;
+  height: 25px;
+
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #e9efff;
+  color: #4169e1;
+
+  font-size: 13px;
+}
+
+.transfer-station strong {
+  display: block;
+
+  font-size: 13px;
+}
+
+.transfer-station span {
+  display: inline-block;
+
+  margin-top: 2px;
+
+  color: #999fa8;
+  font-size: 10px;
+}
+
+.transfer-station small {
+  display: inline-block;
+
+  margin-left: 7px;
+
+  color: #4169e1;
+
+  font-size: 9px;
+  font-weight: 700;
+}
+
+/* =========================
+   Sort tabs
+   ========================= */
+
+.sort-tabs {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 6px;
+
+  margin: 0 0 14px;
+  padding: 4px;
+
+  background: #f1f3f5;
+
+  border-radius: 12px;
+}
+
+.sort-tabs button {
+  border: 0;
+
+  background: transparent;
+
+  color: #777;
+
+  border-radius: 9px;
+
+  padding: 10px 4px;
+
+  font-size: 13px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.15s ease;
+}
+
+.sort-tabs button.active {
+  background: #ffffff;
+
+  color: #111827;
+
+  box-shadow:
+    0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.sort-tabs button:active {
+  transform: scale(0.97);
+}
+
+.route-rank {
+  display: inline-block;
+
+  margin-bottom: 10px;
+
+  padding: 4px 8px;
+
+  border-radius: 6px;
+
+  background: #f3f4f6;
+
+  color: #666;
+
+  font-size: 11px;
+  font-weight: 700;
+}
+
+/* =========================
+   Result notice / no route
+   ========================= */
+
+.result-notice {
+  margin: 10px 4px 0;
+
+  color: #a1a6ae;
+
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+.no-route {
+  padding: 25px 20px;
+}
+
+.no-route strong {
+  display: block;
+
+  font-size: 14px;
+}
+
+.no-route span {
+  display: block;
+
+  margin-top: 7px;
+
+  color: #999fa8;
+
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+/* =========================
+   Responsive
+   ========================= */
+
+@media (min-width: 600px) {
+  .app {
+    padding: 30px 0;
+  }
+}
+
+.route-path-station-name-main {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #111827;
+}
+
+.route-path-station-name-middle {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #4b5563;
+}
+
+.route-line-summary {
+  width: 100%;
+  border: 0;
+  border-radius: 0;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+}
+
+.route-line-summary-lines {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding-right: 28px;
+}
+
+.route-expand-icon {
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  transform: translateY(-50%);
+
+  color: #9aa0a8;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1;
+
+  transition: transform 0.2s ease;
+}
+
+.route-line-summary:active {
+  background: #f8f9fa;
+}

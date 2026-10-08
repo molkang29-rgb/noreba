@@ -1,0 +1,5287 @@
+{
+  "726T": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.NishiMagome"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "1951H": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.Sengakuji"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "1968K": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.NishiMagome"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "1969K": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.Sengakuji"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "1981K": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.Sengakuji"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "2023Nb": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.Sengakuji"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "1627N": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.Sengakuji"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "2040T": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.NishiMagome"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "1667Kb": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.Sengakuji"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "1687H": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.Sengakuji"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "1722Tb": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.NishiMagome"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "1812T": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.NishiMagome"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "2111T": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.Sengakuji"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "1723T": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.Sengakuji"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "1828Nb": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.NishiMagome"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "1871K": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.Sengakuji"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT0059": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0060": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0062": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.OjiEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0067": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.OtsukaEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0073": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0088": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0095": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.OjiEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0107": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0112": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0118": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0127": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0129": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0140": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0154": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0286": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.MachiyaEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0157": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.OjiEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0158": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.MachiyaEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0181": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0183": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0184": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0189": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0193": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0194": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0204": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0212": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0213": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0235": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0301": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0238": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0242": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0245": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0248": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0252": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0253": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0256": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0257": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0260": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0275": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0292": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0293": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0298": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0302": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0305": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0326": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0367": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0332": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0335": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0336": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.OjiEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0351": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0352": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0359": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0366": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.OjiEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0368": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0377": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1181K": {
+    "trainType": "odpt.TrainType:Toei.Rapid",
+    "destinationStations": [
+      "odpt.Station:Keisei.Main.NaritaAirportTerminal1"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT0384": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.OjiEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0390": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0391": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0399": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0406": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0411": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0412": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0427": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0428": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0496": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0429": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0433": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.OjiEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0434": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0452": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1184H": {
+    "trainType": "odpt.TrainType:Toei.LimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keikyu.Kurihama.Misakiguchi"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT0453": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0456": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0465": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1208T": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.NishiMagome"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT0479": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0482": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0490": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1209T": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.Sengakuji"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT0501": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.OjiEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0508": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0511": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0512": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1223N": {
+    "trainType": "odpt.TrainType:Toei.RapidLimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keisei.Main.KeiseiTakasago"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT0521": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0530": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0536": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0909": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0540": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0541": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.MachiyaEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0546": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0554": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0563": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0564": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1224N": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.NishiMagome"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT0597": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0598": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1225H": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Keisei.Oshiage.Aoto"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT0599": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.OjiEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0616": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1225N": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.Sengakuji"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT0621": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1230T": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.NishiMagome"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT0636": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0637": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0652": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1237Na": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.Sengakuji"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT0653": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0654": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.OjiEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0664": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.OtsukaEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0669": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0997": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0670": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0671": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0686": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0687": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0693": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0709": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0713": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1237Nb": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.Sengakuji"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT0714": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0718": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0719": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0734": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0739": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0745": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0746": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1248T": {
+    "trainType": "odpt.TrainType:Toei.AirportRapidLimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keikyu.Airport.HanedaAirportTerminal1and2"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT0752": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0765": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1250H": {
+    "trainType": "odpt.TrainType:Toei.LimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keikyu.Kurihama.Misakiguchi"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT0771": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0783": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0784": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0792": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1520N": {
+    "trainType": "odpt.TrainType:Toei.Express",
+    "destinationStations": [
+      "odpt.Station:Keikyu.Airport.HanedaAirportTerminal1and2"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT0793": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0800": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1250K": {
+    "trainType": "odpt.TrainType:Toei.LimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keikyu.Airport.HanedaAirportTerminal1and2"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT0818": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0826": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1252K": {
+    "trainType": "odpt.TrainType:Toei.LimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keikyu.Airport.HanedaAirportTerminal1and2"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT0827": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0834": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0842": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1560K": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.NishiMagome"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT0857": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0861": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0867": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1253K": {
+    "trainType": "odpt.TrainType:Toei.Rapid",
+    "destinationStations": [
+      "odpt.Station:Keisei.Main.NaritaAirportTerminal1"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT0874": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0885": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0893": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1254H": {
+    "trainType": "odpt.TrainType:Toei.LimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keikyu.Kurihama.Misakiguchi"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT0894": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0907": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0908": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0914": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0917": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0918": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1255K": {
+    "trainType": "odpt.TrainType:Toei.Rapid",
+    "destinationStations": [
+      "odpt.Station:Keisei.Main.NaritaAirportTerminal1"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT0929": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0946": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0947": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1256H": {
+    "trainType": "odpt.TrainType:Toei.LimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keikyu.Kurihama.Misakiguchi"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT0954": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0956": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0977": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT0978": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT0986": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1259H": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Keisei.Oshiage.Aoto"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT1003": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT1005": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT1006": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1259K": {
+    "trainType": "odpt.TrainType:Toei.Rapid",
+    "destinationStations": [
+      "odpt.Station:Keisei.Main.NaritaAirportTerminal1"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT1014": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT1032": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT1033": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.OjiEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT1036": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT1037": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT1042": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1261K": {
+    "trainType": "odpt.TrainType:Toei.Rapid",
+    "destinationStations": [
+      "odpt.Station:Keisei.Main.NaritaAirportTerminal1"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT1045": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT1055": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT1058": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT1063": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT1064": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT1077": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT1084": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT1089": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1262H": {
+    "trainType": "odpt.TrainType:Toei.LimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keikyu.Kurihama.Misakiguchi"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT1090": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT1097": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT1098": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT1108": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1262K": {
+    "trainType": "odpt.TrainType:Toei.RapidLimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keikyu.Airport.HanedaAirportTerminal1and2"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT1113": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT1117": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT1122": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2413": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT1130": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT1131": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT1135": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT1141": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2991": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.OjiEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT1150": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT1158": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT1159": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT1170": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT1174": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT1182": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1263H": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Keisei.Oshiage.Aoto"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT1183": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT1190": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT1196": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT1209": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT1210": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1263K": {
+    "trainType": "odpt.TrainType:Toei.RapidLimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keisei.Main.KeiseiTakasago"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT1217": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT1223": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT1228": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT1232": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT1233": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT1243": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1285H": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Keisei.Oshiage.Aoto"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT1244": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2231": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2244": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1285Ka": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.Sengakuji"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT2245": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2250": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2254": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2255": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1285Kb": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.Sengakuji"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT2270": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2271": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2280": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1291K": {
+    "trainType": "odpt.TrainType:Toei.RapidLimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keisei.Main.KeiseiTakasago"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT2281": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2292": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1300T": {
+    "trainType": "odpt.TrainType:Toei.LimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keikyu.Kurihama.Misakiguchi"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT2293": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2303": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2304": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1301K": {
+    "trainType": "odpt.TrainType:Toei.AirportRapidLimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keisei.NaritaSkyAccess.NaritaAirportTerminal1"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT2319": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2320": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2334": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1561H": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Keisei.Oshiage.Aoto"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT2335": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2349": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2350": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1561Ka": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.Sengakuji"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT2358": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2359": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1566Kb": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.NishiMagome"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT2374": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2375": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2382": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1567K": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.Sengakuji"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT2384": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2398": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1301T": {
+    "trainType": "odpt.TrainType:Toei.Rapid",
+    "destinationStations": [
+      "odpt.Station:Keisei.Main.NaritaAirportTerminal1"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT2399": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2408": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2409": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1302K": {
+    "trainType": "odpt.TrainType:Toei.AirportRapidLimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keikyu.Airport.HanedaAirportTerminal1and2"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT2420": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2421": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2433": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1304K": {
+    "trainType": "odpt.TrainType:Toei.AirportRapidLimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keikyu.Airport.HanedaAirportTerminal1and2"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT2434": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2439": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2446": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1306T": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.NishiMagome"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT2447": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2459": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2460": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3131": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2462": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2465": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2477": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2478": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1307K": {
+    "trainType": "odpt.TrainType:Toei.AirportRapidLimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keisei.NaritaSkyAccess.NaritaAirportTerminal1"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT2479": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2488": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT4128": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2489": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2493": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2503": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT4130": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2504": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2508": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2509": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2510": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT4131": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.OjiEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2525": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2526": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2529": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2534": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.MachiyaEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2540": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2541": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2552": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1307T": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.Sengakuji"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT2553": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2567": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2568": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2581": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2582": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT4201": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2593": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2594": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2602": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2603": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2604": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2611": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2612": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2621": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2622": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2627": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2635": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2640": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2641": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2649": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2650": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2662": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2663": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2670": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1336T": {
+    "trainType": "odpt.TrainType:Toei.LimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keikyu.Kurihama.Misakiguchi"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT2671": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2674": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2675": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2682": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2688": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2689": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2691": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2692": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2702": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2703": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2715": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1353H": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Keisei.Oshiage.Aoto"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT2716": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2725": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2726": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2733": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2740": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2741": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1354K": {
+    "trainType": "odpt.TrainType:Toei.LimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keikyu.Airport.HanedaAirportTerminal1and2"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT2751": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2752": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2758": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2765": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2768": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2769": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2779": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1358K": {
+    "trainType": "odpt.TrainType:Toei.RapidLimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keikyu.Airport.HanedaAirportTerminal1and2"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT2780": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2791": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2795": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2796": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1365K": {
+    "trainType": "odpt.TrainType:Toei.RapidLimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keisei.Main.KeiseiTakasago"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT2799": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2807": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2808": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1571K": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Hokuso.Hokuso.ImbaNihonIdai"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT2819": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2820": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2825": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2830": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1367K": {
+    "trainType": "odpt.TrainType:Toei.Rapid",
+    "destinationStations": [
+      "odpt.Station:Keisei.Main.NaritaAirportTerminal1"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT2834": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2835": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2851": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1373H": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Keisei.Oshiage.Aoto"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT2852": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2856": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2863": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2864": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2879": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2880": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1374H": {
+    "trainType": "odpt.TrainType:Toei.RapidLimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keikyu.Airport.HanedaAirportTerminal1and2"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT2887": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2888": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2893": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2898": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1572H": {
+    "trainType": "odpt.TrainType:Toei.Express",
+    "destinationStations": [
+      "odpt.Station:Keikyu.Airport.HanedaAirportTerminal1and2"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT2902": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2906": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2911": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2912": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2923": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2924": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2932": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2934": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1580Ka": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.NishiMagome"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT2943": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2944": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1374K": {
+    "trainType": "odpt.TrainType:Toei.LimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keikyu.Airport.HanedaAirportTerminal1and2"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT2952": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2957": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2963": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2964": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1376H": {
+    "trainType": "odpt.TrainType:Toei.LimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keikyu.Kurihama.Misakiguchi"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT2968": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2969": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2984": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2985": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2992": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT2996": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT2997": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1376K": {
+    "trainType": "odpt.TrainType:Toei.LimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keikyu.Airport.HanedaAirportTerminal1and2"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT3007": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3015": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3025": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1377K": {
+    "trainType": "odpt.TrainType:Toei.Rapid",
+    "destinationStations": [
+      "odpt.Station:Keisei.Main.NaritaAirportTerminal1"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT3033": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3036": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3045": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1378H": {
+    "trainType": "odpt.TrainType:Toei.LimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keikyu.Airport.HanedaAirportTerminal1and2"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT3050": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3055": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3064": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3071": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.OtsukaEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3072": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT4077": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.OtsukaEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3083": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3084": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3089": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3094": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3274": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3097": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3103": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3115": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3279": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3116": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3126": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3130": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3447": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3137": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3140": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3147": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3156": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3161": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3164": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3165": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3452": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3171": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3181": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.OtsukaEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3182": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3517": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.OtsukaEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3194": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.OjiEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3200": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3201": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.MachiyaEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3207": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3210": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3214": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3217": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3223": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3228": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3229": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3243": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3519": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3249": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3253": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.OtsukaEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3263": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT4108": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3267": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3273": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT4112": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3289": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3292": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3296": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3302": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3312": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3316": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3322": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3328": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3329": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3331": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3348": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3349": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3363": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3369": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1384K": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.NishiMagome"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT3373": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.OtsukaEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3381": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3382": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.MachiyaEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3391": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3394": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3395": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1385H": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Keisei.Oshiage.Aoto"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT3401": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3407": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3419": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3424": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1402T": {
+    "trainType": "odpt.TrainType:Toei.AirportRapidLimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keikyu.Airport.HanedaAirportTerminal1and2"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT3428": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3429": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3433": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3434": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3444": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3455": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3461": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3465": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1406T": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.NishiMagome"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT3471": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3472": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3481": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3488": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1407Ta": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.Sengakuji"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT3495": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3505": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3506": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3514": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3526": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.MachiyaEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3535": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3542": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3543": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3548": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3564": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3567": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3571": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3580": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.MachiyaEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3592": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3597": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3603": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3604": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3609": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3664": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3613": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3635": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3636": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3642": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1424H": {
+    "trainType": "odpt.TrainType:Toei.LimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keikyu.Kurihama.Misakiguchi"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT3643": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3646": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3654": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3657": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3675": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3678": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.MachiyaEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3679": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3683": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3684": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3691": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3712": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3894": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.OjiEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3720": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3722": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3723": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3923": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.OjiEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3737": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3747": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3748": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3754": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.MachiyaEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3757": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3758": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3766": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3767": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3786": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3788": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3797": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3800": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3807": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3809": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3811": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3825": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3829": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3833": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3847": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3854": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3859": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1449T": {
+    "trainType": "odpt.TrainType:Toei.AirportRapidLimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keisei.NaritaSkyAccess.NaritaAirportTerminal1"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT3860": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3863": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3893": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1451H": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Keisei.Oshiage.Aoto"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT3895": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3896": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3900": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3901": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3921": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3924": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3927": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3943": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3950": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3951": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3955": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3957": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3981": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3984": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.OtsukaEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT3995": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT3997": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT4001": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT4003": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT4024": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1453K": {
+    "trainType": "odpt.TrainType:Toei.RapidLimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keisei.Main.KeiseiTakasago"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT4037": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT4044": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1456K": {
+    "trainType": "odpt.TrainType:Toei.LimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keikyu.Airport.HanedaAirportTerminal1and2"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT4048": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT4052": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1907T": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.Sengakuji"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT4081": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT4089": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT4092": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1580Kb": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.NishiMagome"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT4136": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT4138": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.OjiEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT4161": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.OjiEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1581K": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.Sengakuji"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT4173": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT4193": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT4210": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT4212": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT4237": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5231": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5226": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.MachiyaEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5227": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5228": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5229": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5230": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.MachiyaEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5232": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5233": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5234": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5235": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5244": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5236": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5238": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.MachiyaEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5239": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.OtsukaEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5241": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5242": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5243": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.OtsukaEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5245": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5246": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5247": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5248": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.MachiyaEkimae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5250": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5251": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5252": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5253": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5254": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5255": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5256": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5460": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.ArakawaShakomae"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5257": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5259": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5260": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1000T": {
+    "trainType": "odpt.TrainType:Toei.LimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keikyu.Airport.HanedaAirportTerminal1and2"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT5261": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5262": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1001K": {
+    "trainType": "odpt.TrainType:Toei.AirportRapidLimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keisei.NaritaSkyAccess.NaritaAirportTerminal1"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT5263": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5264": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1002K": {
+    "trainType": "odpt.TrainType:Toei.AirportRapidLimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keikyu.Airport.HanedaAirportTerminal1and2"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT5265": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5266": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5267": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1002T": {
+    "trainType": "odpt.TrainType:Toei.AirportRapidLimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keikyu.Airport.HanedaAirportTerminal1and2"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT5268": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5269": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5270": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1007K": {
+    "trainType": "odpt.TrainType:Toei.Rapid",
+    "destinationStations": [
+      "odpt.Station:Keisei.Main.KeiseiTakasago"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT5271": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5272": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1016T": {
+    "trainType": "odpt.TrainType:Toei.RapidLimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keikyu.Airport.HanedaAirportTerminal1and2"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT5273": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5274": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5275": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1027T": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.Sengakuji"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT5276": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5277": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5278": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1028T": {
+    "trainType": "odpt.TrainType:Toei.AirportRapidLimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keikyu.Airport.HanedaAirportTerminal1and2"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT5279": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5280": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5281": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1051K": {
+    "trainType": "odpt.TrainType:Toei.Rapid",
+    "destinationStations": [
+      "odpt.Station:Keisei.Main.NaritaAirportTerminal1"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT5282": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5283": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1053K": {
+    "trainType": "odpt.TrainType:Toei.RapidLimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keisei.Main.KeiseiTakasago"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT5284": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5285": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5286": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1054K": {
+    "trainType": "odpt.TrainType:Toei.LimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keikyu.Airport.HanedaAirportTerminal1and2"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT5287": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5288": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5289": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1055H": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Keisei.Oshiage.Aoto"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT5290": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5291": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5292": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1057H": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Keisei.Oshiage.Aoto"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT5293": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5294": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5295": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5296": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5297": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1058H": {
+    "trainType": "odpt.TrainType:Toei.LimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keikyu.Kurihama.Misakiguchi"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT5298": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5299": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5300": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1058K": {
+    "trainType": "odpt.TrainType:Toei.RapidLimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keikyu.Airport.HanedaAirportTerminal1and2"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT5301": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5302": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5303": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5304": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5305": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1060K": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.NishiMagome"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT5306": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5307": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5308": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5309": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5310": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5311": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1061K": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Asakusa.Sengakuji"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT5312": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5313": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1062H": {
+    "trainType": "odpt.TrainType:Toei.LimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keikyu.Kurihama.Misakiguchi"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT5314": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5315": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5316": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1463H": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Keisei.Oshiage.Aoto"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT5317": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5318": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5319": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1062K": {
+    "trainType": "odpt.TrainType:Toei.LimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keikyu.Airport.HanedaAirportTerminal1and2"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT5320": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5321": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5322": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1063H": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Keisei.Oshiage.Aoto"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT5323": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5324": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "1471H": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Keisei.Oshiage.Aoto"
+    ],
+    "railDirection": "odpt.RailDirection:Northbound"
+  },
+  "ODPT5325": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5326": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5327": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "1064K": {
+    "trainType": "odpt.TrainType:Toei.LimitedExpress",
+    "destinationStations": [
+      "odpt.Station:Keikyu.Airport.HanedaAirportTerminal1and2"
+    ],
+    "railDirection": "odpt.RailDirection:Southbound"
+  },
+  "ODPT5328": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  },
+  "ODPT5329": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Waseda"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Waseda"
+  },
+  "ODPT5330": {
+    "trainType": "odpt.TrainType:Toei.Local",
+    "destinationStations": [
+      "odpt.Station:Toei.Arakawa.Minowabashi"
+    ],
+    "railDirection": "odpt.RailDirection:Toei.Minowabashi"
+  }
+}
