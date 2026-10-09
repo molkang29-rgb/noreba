@@ -339,6 +339,16 @@ input::placeholder {
     0 8px 20px rgba(20, 25, 35, 0.08);
 }
 
+
+/* 검색 결과가 4개 이상이면 목록 내부에서 스크롤 */
+.station-results:has(.station-result:nth-child(4)) {
+  max-height: 240px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+}
+
+
 .station-result {
   width: 100%;
 
