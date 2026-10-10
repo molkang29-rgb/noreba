@@ -1,16 +1,64 @@
-# React + Vite
+# NOREBA — 도쿄 철도 경로 탐색
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React + Vite 기반의 도쿄 철도 경로 탐색 프로젝트입니다. 현재 통합 범위는 도에이 교통 6개 노선과 도쿄메트로 9개 노선입니다.
 
-Currently, two official plugins are available:
+## 실행 환경
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Node.js 22 권장
+- npm
+- Windows PowerShell에서는 `npm.cmd` 명령 사용
 
-## React Compiler
+```powershell
+npm.cmd install
+npm.cmd run dev
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 데이터 재생성 및 검증
 
-## Expanding the ESLint configuration
+원본 GTFS와 ODPT 스냅샷은 `data/raw/`에 보관합니다. 원본 데이터는 변환·통합 스크립트에서 읽기만 합니다.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```powershell
+npm.cmd run convert
+npm.cmd run merge-metro
+npm.cmd run test:routes
+npm.cmd run lint
+npm.cmd run build
+```
+
+- `convert`: 도에이 GTFS를 `data/processed/` 데이터로 변환
+- `merge-metro`: 도쿄메트로 GTFS, ODPT 역·환승 메타데이터, 운임 규칙을 통합
+- `test:routes`: 데이터 참조 무결성, 환승 그래프, 운행일 캘린더, 출발·도착 시각 검색, 심야 운행, 운임 회귀 테스트
+- `lint`: ESLint 검사
+- `build`: 프로덕션 빌드
+
+## 현재 데이터 범위
+
+- 역 노드 334개
+- 노선 15개
+- 운행편 15,306개
+- 역간 운행 연결 694개
+- 환승 연결 270개
+
+도에이와 도쿄메트로의 역 ID는 별도로 유지합니다. 같은 역 이름이라는 이유만으로 자동 연결하지 않고, 명시된 환승 연결이나 출처가 기록된 추론 연결을 사용합니다.
+
+## 정확도 관련 주의
+
+- 도쿄메트로 GTFS의 제공 기간은 2026-09-19부터 2027-03-12까지입니다. 이 범위를 벗어난 날짜는 정확한 운행 경로를 보장할 수 없습니다.
+- GTFS의 24:00 이상 시각은 운행 서비스 날짜 기준으로 처리하며, 자정 직후 검색에서는 전날 서비스의 심야 열차도 확인합니다.
+- 제공 데이터에 역별 실제 도보 환승 시간이 없으므로 300초는 추정 기본값이며 공식 측정값이 아닙니다.
+- 운임 정책: 도에이 단독 및 도쿄메트로 단독 여정은 해당 사업자의 GTFS 운임 규칙을 사용합니다. 도쿄메트로와 도에이를 함께 이용하는 조합만 교차 사업자 예외로 취급하며, 연속 사업자 구간 운임을 합산한 뒤 성인 70엔 환승 할인을 현재 모델 기준 여정당 한 번 적용합니다. 이 외 사업자가 포함된 교차 사업자 여정은 운임을 임의로 합산하지 않고 미확인으로 표시합니다. GTFS `fare_attributes.payment_method`는 IC/종이 구분이 아니라 결제 시점을 뜻합니다(0=승차 후 결제, 1=승차 전 결제). 따라서 이를 운임 매체로 해석하지 않으며, 원본 가격이 공식 IC 운임표와 일치하는지 대조한 뒤 IC 운임으로 사용합니다. 종이 승차권 운임은 별도 금액이 제공되지 않아 미확인으로 둡니다. 닌교초↔롯폰기 IC 운임에는 Yahoo! 경로 결과와 대조한 역 ID 한정 178엔 보정이 있으며, 더 복잡한 메트로↔도에이 반복 환승 조합은 추가 공식 사례 검증이 필요합니다.
+- JR 동일본·게이오·오다큐 등 나머지 사업자의 전체 운행망은 아직 통합하지 않았습니다.
+- 경로 후보 탐색은 성능을 위해 제한되어 있어 전역 최적 경로의 수학적 보장은 아닙니다.
+
+자세한 원본 데이터 수치, 환승 출처, 연결망 검사 및 알려진 제한 사항은 `docs/TOKYO_METRO_ACCURACY.md`와 `data/processed/metro-integration-audit.json`을 확인하세요.
+
+### 데이터 통합·회귀 테스트
+
+- `npm.cmd test`: 가공 데이터 참조 무결성 감사 후 경로 엔진 회귀 테스트를 실행합니다.
+- `npm.cmd run audit:feeds`: Python 3 표준 라이브러리로 원본 Toei/Metro GTFS ZIP 내부의 역·노선·운행편·정차 기록과 무정차 통과 행을 검사합니다.
+- `npm.cmd run lint` 및 `npm.cmd run build`: 배포 전 별도로 실행해야 합니다.
+
+
+### GTFS 무정차 통과 행 처리
+
+도쿄메트로와 도에이 GTFS에서 승·하차가 금지되고 시각이 비어 있는 pass-through 정차 행은 승객이 탈 수 있는 연결로 취급하지 않습니다. 연결 생성 시 이전의 승차 가능한 정시 역에서 다음 하차 가능한 정시 역까지 연결을 만듭니다. 승차 또는 하차가 허용된 행에 시각이 없으면 변환을 실패시켜 누락을 조용히 숨기지 않습니다.

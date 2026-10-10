@@ -8,7 +8,12 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "convert": "node scripts/convert-gtfs.mjs"
+    "convert": "node scripts/convert-gtfs.mjs",
+    "merge-metro": "node scripts/merge-tokyo-metro.mjs",
+    "test:routes": "node scripts/test-route-engine.mjs",
+    "audit:data": "node scripts/audit-integrated-data.mjs",
+    "test": "npm run audit:data && npm run test:routes",
+    "audit:feeds": "python scripts/audit-gtfs-feeds.py"
   },
   "dependencies": {
     "adm-zip": "^0.6.1",

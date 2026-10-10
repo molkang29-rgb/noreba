@@ -1,0 +1,560 @@
+{
+  "generatedAt": "2026-10-10T09:30:00.000Z",
+  "metroFeed": {
+    "feed_publisher_name": "東京メトロ",
+    "feed_publisher_url": "https://www.tokyometro.jp/",
+    "feed_lang": "ja",
+    "feed_start_date": "20260919",
+    "feed_end_date": "20270312",
+    "feed_version": "20261008",
+    "feed_contact_email": "",
+    "feed_contact_url": "",
+    "calendarServiceCount": 2,
+    "calendarExceptionCount": 20,
+    "firstServiceDate": "20260919",
+    "lastServiceDate": "20270312"
+  },
+  "sourceCounts": {
+    "metroGtfsStations": 185,
+    "metroGtfsRoutes": 9,
+    "metroGtfsTrips": 9706,
+    "metroGtfsStopTimes": 176385,
+    "odptStations": 186,
+    "odptRailways": 10,
+    "odptUniqueStationCodes": 185,
+    "odptDuplicateStationCodes": 1,
+    "odptStationTimetables": 704,
+    "odptTrainTimetables": 1000,
+    "odptRailwayFares": 1000,
+    "metroUntimedPassThroughStops": 4151,
+    "metroUntimedServiceableStops": 0,
+    "invalidStopTimeReferences": 0,
+    "tripsMissingRouteOrCalendar": 0,
+    "toeiGtfsStations": 149,
+    "toeiGtfsRoutes": 6,
+    "toeiGtfsTrips": 5600,
+    "toeiGtfsStopTimes": 122798,
+    "toeiUntimedPassThroughStops": 540,
+    "toeiUntimedServiceableStops": 0
+  },
+  "outputCounts": {
+    "stations": 334,
+    "lines": 15,
+    "trips": 15306,
+    "connections": 694,
+    "transfers": 270,
+    "metroRideConnections": 384,
+    "metroPassThroughConnections": 32,
+    "metroPassThroughServiceSegments": 1497,
+    "generatedTransferEdges": 268,
+    "odptTransferEdges": 254,
+    "inferredToeiTransferEdges": 14,
+    "fareAttributes": 19,
+    "fareRules": 45209,
+    "toeiRideConnections": 310,
+    "toeiPassThroughConnections": 22,
+    "toeiPassThroughServiceSegments": 334
+  },
+  "stationMappingAudit": {
+    "gtfsStations": 185,
+    "uniqueOdptStationCodes": 185,
+    "nameMismatchCount": 0,
+    "nameMismatches": []
+  },
+  "metroGraphAudit": {
+    "stationCount": 185,
+    "stationsReachableFromFirstNode": 185,
+    "stationsThatCanReachFirstNode": 185,
+    "stationsWithoutRideEdges": [],
+    "directedRideConnections": 384,
+    "directedMetroTransferEdges": 142
+  },
+  "routeSearch": {
+    "maxDistinctRoutePatterns": 60,
+    "maxExpandedStates": 80000,
+    "note": "Matches src/routeEngine.js limits. Candidate search retains at most 60 route patterns, then displays at most three useful routes (and fewer when there are fewer meaningful alternatives). Bounded search is not an exhaustive optimality proof.",
+    "maxDisplayedRoutes": 3
+  },
+  "transferAudit": {
+    "matchedDirectedTransferEdges": 254,
+    "unresolvedTransferRefs": [],
+    "inferredToeiTransferPairs": 7,
+    "inferredToeiTransferEdges": 14,
+    "externalConnectionsNotIntegratedCount": 177,
+    "stationTimetableCoverage": {
+      "records": 704,
+      "uniqueStations": 186,
+      "byRailway": {
+        "Chiyoda": 76,
+        "Fukutoshin": 60,
+        "Ginza": 72,
+        "Hanzomon": 52,
+        "Hibiya": 84,
+        "Marunouchi": 96,
+        "MarunouchiBranch": 12,
+        "Namboku": 72,
+        "Tozai": 88,
+        "Yurakucho": 92
+      }
+    },
+    "trainTimetableCoverage": {
+      "records": 1000,
+      "byRailway": {
+        "Fukutoshin": 5,
+        "Chiyoda": 989,
+        "Marunouchi": 1,
+        "Namboku": 1,
+        "Hanzomon": 1,
+        "Hibiya": 3
+      },
+      "uniqueCalendars": [
+        "odpt.Calendar:SaturdayHoliday",
+        "odpt.Calendar:Weekday"
+      ]
+    },
+    "railwayFareCoverage": {
+      "records": 1000,
+      "uniqueFromStations": 8,
+      "uniqueToStations": 186,
+      "usedForRouteFareCalculation": false
+    },
+    "externalConnectionsNotIntegrated": [
+      {
+        "from": "TM-211",
+        "targetRef": "odpt.Station:JR-East.ChuoRapid.Shinjuku"
+      },
+      {
+        "from": "TM-211",
+        "targetRef": "odpt.Station:JR-East.ChuoSobuLocal.Shinjuku"
+      },
+      {
+        "from": "TM-211",
+        "targetRef": "odpt.Station:JR-East.SaikyoKawagoe.Shinjuku"
+      },
+      {
+        "from": "TM-211",
+        "targetRef": "odpt.Station:JR-East.ShonanShinjuku.Shinjuku"
+      },
+      {
+        "from": "TM-211",
+        "targetRef": "odpt.Station:JR-East.Yamanote.Shinjuku"
+      },
+      {
+        "from": "TM-211",
+        "targetRef": "odpt.Station:Keio.Keio.Shinjuku"
+      },
+      {
+        "from": "TM-211",
+        "targetRef": "odpt.Station:Keio.KeioNew.Shinjuku"
+      },
+      {
+        "from": "TM-211",
+        "targetRef": "odpt.Station:Odakyu.Odawara.Shinjuku"
+      },
+      {
+        "from": "TM-211",
+        "targetRef": "odpt.Station:Seibu.Shinjuku.SeibuShinjuku"
+      },
+      {
+        "from": "TM-501",
+        "targetRef": "odpt.Station:Odakyu.Odawara.YoyogiUehara"
+      },
+      {
+        "from": "TM-116",
+        "targetRef": "odpt.Station:JR-East.AkitaShinkansen.Ueno"
+      },
+      {
+        "from": "TM-116",
+        "targetRef": "odpt.Station:JR-East.HokurikuShinkansen.Ueno"
+      },
+      {
+        "from": "TM-116",
+        "targetRef": "odpt.Station:JR-East.JobanRapid.Ueno"
+      },
+      {
+        "from": "TM-116",
+        "targetRef": "odpt.Station:JR-East.JoetsuShinkansen.Ueno"
+      },
+      {
+        "from": "TM-116",
+        "targetRef": "odpt.Station:JR-East.KeihinTohokuNegishi.Ueno"
+      },
+      {
+        "from": "TM-116",
+        "targetRef": "odpt.Station:JR-East.Takasaki.Ueno"
+      },
+      {
+        "from": "TM-116",
+        "targetRef": "odpt.Station:JR-East.TohokuShinkansen.Ueno"
+      },
+      {
+        "from": "TM-116",
+        "targetRef": "odpt.Station:JR-East.Utsunomiya.Ueno"
+      },
+      {
+        "from": "TM-116",
+        "targetRef": "odpt.Station:JR-East.YamagataShinkansen.Ueno"
+      },
+      {
+        "from": "TM-116",
+        "targetRef": "odpt.Station:JR-East.Yamanote.Ueno"
+      },
+      {
+        "from": "TM-116",
+        "targetRef": "odpt.Station:Keisei.Main.KeiseiUeno"
+      },
+      {
+        "from": "TM-519",
+        "targetRef": "odpt.Station:JR-East.JobanLocal.Ayase"
+      },
+      {
+        "from": "TM-509",
+        "targetRef": "odpt.Station:JR-East.KeihinTohokuNegishi.Yurakucho"
+      },
+      {
+        "from": "TM-509",
+        "targetRef": "odpt.Station:JR-East.Yamanote.Yurakucho"
+      },
+      {
+        "from": "TM-318",
+        "targetRef": "odpt.Station:JR-East.AkitaShinkansen.Ueno"
+      },
+      {
+        "from": "TM-318",
+        "targetRef": "odpt.Station:JR-East.HokurikuShinkansen.Ueno"
+      },
+      {
+        "from": "TM-318",
+        "targetRef": "odpt.Station:JR-East.JobanRapid.Ueno"
+      },
+      {
+        "from": "TM-318",
+        "targetRef": "odpt.Station:JR-East.JoetsuShinkansen.Ueno"
+      },
+      {
+        "from": "TM-318",
+        "targetRef": "odpt.Station:JR-East.KeihinTohokuNegishi.Ueno"
+      },
+      {
+        "from": "TM-318",
+        "targetRef": "odpt.Station:JR-East.Takasaki.Ueno"
+      },
+      {
+        "from": "TM-318",
+        "targetRef": "odpt.Station:JR-East.TohokuShinkansen.Ueno"
+      },
+      {
+        "from": "TM-318",
+        "targetRef": "odpt.Station:JR-East.Utsunomiya.Ueno"
+      },
+      {
+        "from": "TM-318",
+        "targetRef": "odpt.Station:JR-East.YamagataShinkansen.Ueno"
+      },
+      {
+        "from": "TM-318",
+        "targetRef": "odpt.Station:JR-East.Yamanote.Ueno"
+      },
+      {
+        "from": "TM-318",
+        "targetRef": "odpt.Station:Keisei.Main.KeiseiUeno"
+      },
+      {
+        "from": "TM-518",
+        "targetRef": "odpt.Station:JR-East.JobanRapid.KitaSenju"
+      },
+      {
+        "from": "TM-518",
+        "targetRef": "odpt.Station:MIR.TsukubaExpress.KitaSenju"
+      },
+      {
+        "from": "TM-518",
+        "targetRef": "odpt.Station:Tobu.TobuSkytree.KitaSenju"
+      },
+      {
+        "from": "TM-517",
+        "targetRef": "odpt.Station:Keisei.Main.Machiya"
+      },
+      {
+        "from": "TM-503",
+        "targetRef": "odpt.Station:JR-East.Yamanote.Harajuku"
+      },
+      {
+        "from": "TM-516",
+        "targetRef": "odpt.Station:JR-East.KeihinTohokuNegishi.NishiNippori"
+      },
+      {
+        "from": "TM-516",
+        "targetRef": "odpt.Station:JR-East.Yamanote.NishiNippori"
+      },
+      {
+        "from": "TM-512",
+        "targetRef": "odpt.Station:JR-East.ChuoRapid.Ochanomizu"
+      },
+      {
+        "from": "TM-512",
+        "targetRef": "odpt.Station:JR-East.ChuoSobuLocal.Ochanomizu"
+      },
+      {
+        "from": "TM-909",
+        "targetRef": "odpt.Station:JR-East.SaikyoKawagoe.Ikebukuro"
+      },
+      {
+        "from": "TM-909",
+        "targetRef": "odpt.Station:JR-East.ShonanShinjuku.Ikebukuro"
+      },
+      {
+        "from": "TM-909",
+        "targetRef": "odpt.Station:JR-East.Yamanote.Ikebukuro"
+      },
+      {
+        "from": "TM-909",
+        "targetRef": "odpt.Station:Seibu.Ikebukuro.Ikebukuro"
+      },
+      {
+        "from": "TM-909",
+        "targetRef": "odpt.Station:Tobu.Tojo.Ikebukuro"
+      },
+      {
+        "from": "TM-906",
+        "targetRef": "odpt.Station:Seibu.SeibuYurakucho.KotakeMukaihara"
+      },
+      {
+        "from": "TM-915",
+        "targetRef": "odpt.Station:JR-East.Yamanote.Harajuku"
+      },
+      {
+        "from": "TM-916",
+        "targetRef": "odpt.Station:JR-East.SaikyoKawagoe.Shibuya"
+      },
+      {
+        "from": "TM-916",
+        "targetRef": "odpt.Station:JR-East.ShonanShinjuku.Shibuya"
+      },
+      {
+        "from": "TM-916",
+        "targetRef": "odpt.Station:JR-East.Yamanote.Shibuya"
+      },
+      {
+        "from": "TM-916",
+        "targetRef": "odpt.Station:Keio.Inokashira.Shibuya"
+      },
+      {
+        "from": "TM-916",
+        "targetRef": "odpt.Station:Tokyu.DenEnToshi.Shibuya"
+      },
+      {
+        "from": "TM-916",
+        "targetRef": "odpt.Station:Tokyu.Toyoko.Shibuya"
+      },
+      {
+        "from": "TM-901",
+        "targetRef": "odpt.Station:Tobu.Tojo.Wakoshi"
+      },
+      {
+        "from": "TM-119",
+        "targetRef": "odpt.Station:Tobu.TobuSkytree.Asakusa"
+      },
+      {
+        "from": "TM-113",
+        "targetRef": "odpt.Station:JR-East.ChuoRapid.Kanda"
+      },
+      {
+        "from": "TM-113",
+        "targetRef": "odpt.Station:JR-East.KeihinTohokuNegishi.Kanda"
+      },
+      {
+        "from": "TM-113",
+        "targetRef": "odpt.Station:JR-East.Yamanote.Kanda"
+      },
+      {
+        "from": "TM-112",
+        "targetRef": "odpt.Station:JR-East.SobuRapid.ShinNihombashi"
+      },
+      {
+        "from": "TM-101",
+        "targetRef": "odpt.Station:JR-East.SaikyoKawagoe.Shibuya"
+      },
+      {
+        "from": "TM-101",
+        "targetRef": "odpt.Station:JR-East.ShonanShinjuku.Shibuya"
+      },
+      {
+        "from": "TM-101",
+        "targetRef": "odpt.Station:JR-East.Yamanote.Shibuya"
+      },
+      {
+        "from": "TM-101",
+        "targetRef": "odpt.Station:Keio.Inokashira.Shibuya"
+      },
+      {
+        "from": "TM-101",
+        "targetRef": "odpt.Station:Tokyu.DenEnToshi.Shibuya"
+      },
+      {
+        "from": "TM-101",
+        "targetRef": "odpt.Station:Tokyu.Toyoko.Shibuya"
+      },
+      {
+        "from": "TM-108",
+        "targetRef": "odpt.Station:JR-East.JobanRapid.Shimbashi"
+      },
+      {
+        "from": "TM-108",
+        "targetRef": "odpt.Station:JR-East.KeihinTohokuNegishi.Shimbashi"
+      },
+      {
+        "from": "TM-108",
+        "targetRef": "odpt.Station:JR-East.Tokaido.Shimbashi"
+      },
+      {
+        "from": "TM-108",
+        "targetRef": "odpt.Station:JR-East.Yamanote.Shimbashi"
+      },
+      {
+        "from": "TM-108",
+        "targetRef": "odpt.Station:JR-East.Yokosuka.Shimbashi"
+      },
+      {
+        "from": "TM-108",
+        "targetRef": "odpt.Station:Yurikamome.Yurikamome.Shimbashi"
+      },
+      {
+        "from": "TM-713",
+        "targetRef": "odpt.Station:JR-East.ChuoSobuLocal.Kinshicho"
+      },
+      {
+        "from": "TM-713",
+        "targetRef": "odpt.Station:JR-East.SobuRapid.Kinshicho"
+      },
+      {
+        "from": "TM-709",
+        "targetRef": "odpt.Station:JR-East.SobuRapid.ShinNihombashi"
+      },
+      {
+        "from": "TM-714",
+        "targetRef": "odpt.Station:Keisei.Oshiage.Oshiage"
+      },
+      {
+        "from": "TM-714",
+        "targetRef": "odpt.Station:Tobu.TobuSkytreeBranch.Oshiage"
+      },
+      {
+        "from": "TM-701",
+        "targetRef": "odpt.Station:JR-East.SaikyoKawagoe.Shibuya"
+      },
+      {
+        "from": "TM-701",
+        "targetRef": "odpt.Station:JR-East.ShonanShinjuku.Shibuya"
+      },
+      {
+        "from": "TM-701",
+        "targetRef": "odpt.Station:JR-East.Yamanote.Shibuya"
+      },
+      {
+        "from": "TM-701",
+        "targetRef": "odpt.Station:Keio.Inokashira.Shibuya"
+      },
+      {
+        "from": "TM-701",
+        "targetRef": "odpt.Station:Tokyu.DenEnToshi.Shibuya"
+      },
+      {
+        "from": "TM-701",
+        "targetRef": "odpt.Station:Tokyu.Toyoko.Shibuya"
+      },
+      {
+        "from": "TM-316",
+        "targetRef": "odpt.Station:JR-East.ChuoSobuLocal.Akihabara"
+      },
+      {
+        "from": "TM-316",
+        "targetRef": "odpt.Station:JR-East.KeihinTohokuNegishi.Akihabara"
+      },
+      {
+        "from": "TM-316",
+        "targetRef": "odpt.Station:JR-East.Yamanote.Akihabara"
+      },
+      {
+        "from": "TM-316",
+        "targetRef": "odpt.Station:MIR.TsukubaExpress.Akihabara"
+      },
+      {
+        "from": "TM-302",
+        "targetRef": "odpt.Station:JR-East.SaikyoKawagoe.Ebisu"
+      },
+      {
+        "from": "TM-302",
+        "targetRef": "odpt.Station:JR-East.ShonanShinjuku.Ebisu"
+      },
+      {
+        "from": "TM-302",
+        "targetRef": "odpt.Station:JR-East.Yamanote.Ebisu"
+      },
+      {
+        "from": "TM-312",
+        "targetRef": "odpt.Station:JR-East.Keiyo.Hatchobori"
+      },
+      {
+        "from": "TM-308",
+        "targetRef": "odpt.Station:JR-East.KeihinTohokuNegishi.Yurakucho"
+      },
+      {
+        "from": "TM-308",
+        "targetRef": "odpt.Station:JR-East.Yamanote.Yurakucho"
+      },
+      {
+        "from": "TM-322",
+        "targetRef": "odpt.Station:JR-East.JobanRapid.KitaSenju"
+      },
+      {
+        "from": "TM-322",
+        "targetRef": "odpt.Station:MIR.TsukubaExpress.KitaSenju"
+      },
+      {
+        "from": "TM-322",
+        "targetRef": "odpt.Station:Tobu.TobuSkytree.KitaSenju"
+      },
+      {
+        "from": "TM-321",
+        "targetRef": "odpt.Station:JR-East.JobanRapid.MinamiSenju"
+      }
+    ],
+    "note": "ODPT connectingStation relationships only; 300 seconds is a fallback, not an observed walking time. External operators other than Toei/Tokyo Metro are not routed yet."
+  },
+  "warnings": [
+    "ODPT TrainTimetable contains a partial sample; it is used only to enrich train metadata, never as the route timetable source.",
+    "Untimed GTFS rows are only retained as non-boardable/non-alightable pass-through points; passenger ride edges are built between usable stops. Any untimed serviceable row causes the merge to fail.",
+    "ODPT has 186 station records but 185 unique station codes because the Marunouchi main line and branch both expose Nakano-sakaue code M06; both ODPT IDs are mapped to the single GTFS station node.",
+    "GTFS times at or after 24:00 belong to their service date. For searches before 06:00, the route engine also considers eligible late-night trips from the previous service date and shifts their displayed times to the selected calendar date.",
+    "Route search now considers a larger, estimated-time-ordered candidate pool before timetable scheduling, but bounded candidate search is not a mathematical guarantee of global optimality.",
+    "Fare policy: calculate Toei-only and Tokyo Metro-only journeys from their own GTFS fare rules. Tokyo Metro + Toei is the sole supported cross-operator exception: sum each continuous operator leg and apply the adult 70-yen discount once per entire itinerary, even if the route alternates between them multiple times. Do not combine fares with any other operator until an explicit official fare model is supported; this is an app support boundary, not a claim that other operators have no discounts.",
+    "Toei-to-Toei links missing from GTFS transfers.txt are inferred only for duplicate Japanese station names with different line IDs and GTFS coordinates within 350m; their 300-second duration is a fallback, not an official walking-time value.",
+    "ODPT RailwayFare is retained as raw source material but not used for fares because its 1,000-record sample is incomplete; the full GTFS fare rules are used instead.",
+    "Toei GTFS contains 540 untimed pass-through rows where boarding and alighting are prohibited. Its ride connections now skip these rows and connect timed, passenger-usable endpoints; untimed rows where boarding or alighting is allowed cause conversion to fail.",
+    "IC fare-gate transfer window: at specified Metro/Toei transfers requiring exit/re-entry through a fare gate, the official rule requires the transfer within 60 minutes; the app does not model passenger gate exit/re-entry or stopovers and assumes a continuous eligible transfer."
+  ],
+  "farePolicy": {
+    "calculatedSingleOperatorFares": [
+      "tokyometro",
+      "toei"
+    ],
+    "supportedCrossOperatorCombination": [
+      "tokyometro",
+      "toei"
+    ],
+    "metroToeiAdultTransferDiscountYen": 70,
+    "metroToeiDiscountApplication": "once per entire itinerary, even if the route alternates between Tokyo Metro and Toei multiple times; official materials confirm the ¥70 Metro↔Toei through-fare discount, while this multi-alternation application is the app policy validated by regression fixtures",
+    "otherCrossOperatorFares": "not combined; returned as unknown until an explicit official fare model is supported. This is an app support boundary, not a claim that other operators never offer through-fare discounts",
+    "externalOperatorsIntegratedIntoRouting": false,
+    "farePriceInterpretation": "GTFS fare_attributes.payment_method means payment timing (0=on board, 1=before boarding), not IC/paper medium. The included fare prices are treated as IC fares based on matching official operator IC fare tables; paperFare remains null because a separate paper-fare amount is not encoded.",
+    "fareGateTransferLimit": "Official IC-card guidance requires transfers that pass through an exit/re-entry fare gate to be completed within 60 minutes at specified transfer stations; NOREBA does not track gate exit/re-entry or stopovers, so its fare estimate assumes a continuous eligible transfer and does not model deliberate exits or long stopovers."
+  },
+  "stationLocalizationAudit": {
+    "totalStations": 334,
+    "stationsMissingKorean": [],
+    "previousMissingKoreanCount": 43,
+    "addedMappingCount": 42,
+    "koreanMappingSource": "data/station-korean.json; source-provided Korean labels are preserved when present"
+  }
+}
