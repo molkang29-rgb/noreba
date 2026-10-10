@@ -1,1 +1,4863 @@
-[{"id":"101","name":"西馬込","japanese":"西馬込","romanized":"Nishi-magome","korean":"니시마고메","lines":["1"]},{"id":"102","name":"馬込","japanese":"馬込","romanized":"Magome","korean":"마고메","lines":["1"]},{"id":"103","name":"中延","japanese":"中延","romanized":"Nakanobu","korean":"나카노부","lines":["1"]},{"id":"104","name":"戸越","japanese":"戸越","romanized":"Togoshi","korean":"토고시","lines":["1"]},{"id":"105","name":"五反田","japanese":"五反田","romanized":"Gotanda","korean":"고탄다","lines":["1"]},{"id":"106","name":"高輪台","japanese":"高輪台","romanized":"Takanawadai","korean":"타카나와다이","lines":["1"]},{"id":"107","name":"泉岳寺","japanese":"泉岳寺","romanized":"Sengakuji","korean":"센가쿠지","lines":["1"]},{"id":"108","name":"三田","japanese":"三田","romanized":"Mita","korean":"미타","lines":["1"]},{"id":"109","name":"大門","japanese":"大門","romanized":"Daimon","korean":"다이몬","lines":["1"]},{"id":"110","name":"新橋","japanese":"新橋","romanized":"Shimbashi","korean":"신바시","lines":["1"]},{"id":"111","name":"東銀座","japanese":"東銀座","romanized":"Higashi-ginza","korean":"히가시긴자","lines":["1"]},{"id":"112","name":"宝町","japanese":"宝町","romanized":"Takaracho","korean":"타카라초","lines":["1"]},{"id":"113","name":"日本橋","japanese":"日本橋","romanized":"Nihombashi","korean":"니혼바시","lines":["1"]},{"id":"114","name":"人形町","japanese":"人形町","romanized":"Ningyocho","korean":"닌교초","lines":["1"]},{"id":"115","name":"東日本橋","japanese":"東日本橋","romanized":"Higashi-nihombashi","korean":"히가시니혼바시","lines":["1"]},{"id":"116","name":"浅草橋","japanese":"浅草橋","romanized":"Asakusabashi","korean":"아사쿠사바시","lines":["1"]},{"id":"117","name":"蔵前","japanese":"蔵前","romanized":"Kuramae","korean":"쿠라마에","lines":["1"]},{"id":"118","name":"浅草","japanese":"浅草","romanized":"Asakusa","korean":"아사쿠사","lines":["1"]},{"id":"119","name":"本所吾妻橋","japanese":"本所吾妻橋","romanized":"Honjo-azumabashi","korean":"혼조아즈마바시","lines":["1"]},{"id":"120","name":"押上","japanese":"押上","romanized":"Oshiage","korean":"오시아게","lines":["1"]},{"id":"201","name":"目黒","japanese":"目黒","romanized":"Meguro","korean":"메구로","lines":["2"]},{"id":"202","name":"白金台","japanese":"白金台","romanized":"Shirokanedai","korean":"시로카네다이","lines":["2"]},{"id":"203","name":"白金高輪","japanese":"白金高輪","romanized":"Shirokane-takanawa","korean":"시로카네타카나와","lines":["2"]},{"id":"204","name":"三田","japanese":"三田","romanized":"Mita","korean":"미타","lines":["2"]},{"id":"205","name":"芝公園","japanese":"芝公園","romanized":"Shibakoen","korean":"시바코엔","lines":["2"]},{"id":"206","name":"御成門","japanese":"御成門","romanized":"Onarimon","korean":"오나리몬","lines":["2"]},{"id":"207","name":"内幸町","japanese":"内幸町","romanized":"Uchisaiwaicho","korean":"우치사이와이초","lines":["2"]},{"id":"208","name":"日比谷","japanese":"日比谷","romanized":"Hibiya","korean":"히비야","lines":["2"]},{"id":"209","name":"大手町","japanese":"大手町","romanized":"Otemachi","korean":"오테마치","lines":["2"]},{"id":"210","name":"神保町","japanese":"神保町","romanized":"Jimbocho","korean":"진보초","lines":["2"]},{"id":"211","name":"水道橋","japanese":"水道橋","romanized":"Suidobashi","korean":"스이도바시","lines":["2"]},{"id":"212","name":"春日","japanese":"春日","romanized":"Kasuga","korean":"카스가","lines":["2"]},{"id":"213","name":"白山","japanese":"白山","romanized":"Hakusan","korean":"하쿠산","lines":["2"]},{"id":"214","name":"千石","japanese":"千石","romanized":"Sengoku","korean":"센고쿠","lines":["2"]},{"id":"215","name":"巣鴨","japanese":"巣鴨","romanized":"Sugamo","korean":"스가모","lines":["2"]},{"id":"216","name":"西巣鴨","japanese":"西巣鴨","romanized":"Nishi-sugamo","korean":"니시스가모","lines":["2"]},{"id":"217","name":"新板橋","japanese":"新板橋","romanized":"Shin-itabashi","korean":"신이타바시","lines":["2"]},{"id":"218","name":"板橋区役所前","japanese":"板橋区役所前","romanized":"Itabashi-kuyakushomae","korean":"이타바시구야쿠쇼마에","lines":["2"]},{"id":"219","name":"板橋本町","japanese":"板橋本町","romanized":"Itabashihoncho","korean":"이타바시혼초","lines":["2"]},{"id":"220","name":"本蓮沼","japanese":"本蓮沼","romanized":"Motohasunuma","korean":"모토하스누마","lines":["2"]},{"id":"221","name":"志村坂上","japanese":"志村坂上","romanized":"Shimura-sakaue","korean":"시무라사카우에","lines":["2"]},{"id":"222","name":"志村三丁目","japanese":"志村三丁目","romanized":"Shimura-sanchome","korean":"시무라산초메","lines":["2"]},{"id":"223","name":"蓮根","japanese":"蓮根","romanized":"Hasune","korean":"하스네","lines":["2"]},{"id":"224","name":"西台","japanese":"西台","romanized":"Nishidai","korean":"니시다이","lines":["2"]},{"id":"225","name":"高島平","japanese":"高島平","romanized":"Takashimadaira","korean":"타카시마다이라","lines":["2"]},{"id":"226","name":"新高島平","japanese":"新高島平","romanized":"Shin-takashimadaira","korean":"신타카시마다이라","lines":["2"]},{"id":"227","name":"西高島平","japanese":"西高島平","romanized":"Nishi-takashimadaira","korean":"니시타카시마다이라","lines":["2"]},{"id":"301","name":"新宿","japanese":"新宿","romanized":"Shinjuku","korean":"신주쿠","lines":["3"]},{"id":"302","name":"新宿三丁目","japanese":"新宿三丁目","romanized":"Shinjuku-sanchome","korean":"신주쿠산초메","lines":["3"]},{"id":"303","name":"曙橋","japanese":"曙橋","romanized":"Akebonobashi","korean":"아케보노바시","lines":["3"]},{"id":"304","name":"市ヶ谷","japanese":"市ヶ谷","romanized":"Ichigaya","korean":"이치가야","lines":["3"]},{"id":"305","name":"九段下","japanese":"九段下","romanized":"Kudanshita","korean":"쿠단시타","lines":["3"]},{"id":"306","name":"神保町","japanese":"神保町","romanized":"Jimbocho","korean":"진보초","lines":["3"]},{"id":"307","name":"小川町","japanese":"小川町","romanized":"Ogawamachi","korean":"오가와마치","lines":["3"]},{"id":"308","name":"岩本町","japanese":"岩本町","romanized":"Iwamotocho","korean":"이와모토초","lines":["3"]},{"id":"309","name":"馬喰横山","japanese":"馬喰横山","romanized":"Bakuro-yokoyama","korean":"바쿠로요코야마","lines":["3"]},{"id":"310","name":"浜町","japanese":"浜町","romanized":"Hamacho","korean":"하마초","lines":["3"]},{"id":"311","name":"森下","japanese":"森下","romanized":"Morishita","korean":"모리시타","lines":["3"]},{"id":"312","name":"菊川","japanese":"菊川","romanized":"Kikukawa","korean":"키쿠카와","lines":["3"]},{"id":"313","name":"住吉","japanese":"住吉","romanized":"Sumiyoshi","korean":"스미요시","lines":["3"]},{"id":"314","name":"西大島","japanese":"西大島","romanized":"Nishi-ojima","korean":"니시오지마","lines":["3"]},{"id":"315","name":"大島","japanese":"大島","romanized":"Ojima","korean":"오지마","lines":["3"]},{"id":"316","name":"東大島","japanese":"東大島","romanized":"Higashi-ojima","korean":"히가시오지마","lines":["3"]},{"id":"317","name":"船堀","japanese":"船堀","romanized":"Funabori","korean":"후나보리","lines":["3"]},{"id":"318","name":"一之江","japanese":"一之江","romanized":"Ichinoe","korean":"이치노에","lines":["3"]},{"id":"319","name":"瑞江","japanese":"瑞江","romanized":"Mizue","korean":"미즈에","lines":["3"]},{"id":"320","name":"篠崎","japanese":"篠崎","romanized":"Shinozaki","korean":"시노자키","lines":["3"]},{"id":"321","name":"本八幡","japanese":"本八幡","romanized":"Motoyawata","korean":"모토야와타","lines":["3"]},{"id":"402","name":"新宿西口","japanese":"新宿西口","romanized":"Shinjuku-nishiguchi","korean":"신주쿠니시구치","lines":["4"]},{"id":"403","name":"東新宿","japanese":"東新宿","romanized":"Higashi-shinjuku","korean":"히가시신주쿠","lines":["4"]},{"id":"404","name":"若松河田","japanese":"若松河田","romanized":"Wakamatsu-kawada","korean":"와카마츠카와다","lines":["4"]},{"id":"405","name":"牛込柳町","japanese":"牛込柳町","romanized":"Ushigome-yanagicho","korean":"우시고메야나기초","lines":["4"]},{"id":"406","name":"牛込神楽坂","japanese":"牛込神楽坂","romanized":"Ushigome-kagurazaka","korean":"우시고메카구라자카","lines":["4"]},{"id":"407","name":"飯田橋","japanese":"飯田橋","romanized":"Iidabashi","korean":"이다바시","lines":["4"]},{"id":"408","name":"春日","japanese":"春日","romanized":"Kasuga","korean":"카스가","lines":["4"]},{"id":"409","name":"本郷三丁目","japanese":"本郷三丁目","romanized":"Hongo-sanchome","korean":"혼고산초메","lines":["4"]},{"id":"410","name":"上野御徒町","japanese":"上野御徒町","romanized":"Ueno-okachimachi","korean":"우에노오카치마치","lines":["4"]},{"id":"411","name":"新御徒町","japanese":"新御徒町","romanized":"Shin-okachimachi","korean":"신오카치마치","lines":["4"]},{"id":"412","name":"蔵前","japanese":"蔵前","romanized":"Kuramae","korean":"쿠라마에","lines":["4"]},{"id":"413","name":"両国","japanese":"両国","romanized":"Ryogoku","korean":"료고쿠","lines":["4"]},{"id":"414","name":"森下","japanese":"森下","romanized":"Morishita","korean":"모리시타","lines":["4"]},{"id":"415","name":"清澄白河","japanese":"清澄白河","romanized":"Kiyosumi-shirakawa","korean":"키요스미시라카와","lines":["4"]},{"id":"416","name":"門前仲町","japanese":"門前仲町","romanized":"Monzen-nakacho","korean":"몬젠나카초","lines":["4"]},{"id":"417","name":"月島","japanese":"月島","romanized":"Tsukishima","korean":"츠키시마","lines":["4"]},{"id":"418","name":"勝どき","japanese":"勝どき","romanized":"Kachidoki","korean":"카치도키","lines":["4"]},{"id":"419","name":"築地市場","japanese":"築地市場","romanized":"Tsukijishijo","korean":"츠키지시조","lines":["4"]},{"id":"420","name":"汐留","japanese":"汐留","romanized":"Shiodome","korean":"시오도메","lines":["4"]},{"id":"421","name":"大門","japanese":"大門","romanized":"Daimon","korean":"다이몬","lines":["4"]},{"id":"422","name":"赤羽橋","japanese":"赤羽橋","romanized":"Akabanebashi","korean":"아카바네바시","lines":["4"]},{"id":"423","name":"麻布十番","japanese":"麻布十番","romanized":"Azabu-juban","korean":"아자부주반","lines":["4"]},{"id":"424","name":"六本木","japanese":"六本木","romanized":"Roppongi","korean":"롯폰기","lines":["4"]},{"id":"425","name":"青山一丁目","japanese":"青山一丁目","romanized":"Aoyama-itchome","korean":"아오야마잇초메","lines":["4"]},{"id":"426","name":"国立競技場","japanese":"国立競技場","romanized":"Kokuritsu-kyogijo","korean":"코쿠리츠쿄기조","lines":["4"]},{"id":"427","name":"代々木","japanese":"代々木","romanized":"Yoyogi","korean":"요요기","lines":["4"]},{"id":"428","name":"新宿","japanese":"新宿","romanized":"Shinjuku","korean":"신주쿠","lines":["4"]},{"id":"429","name":"都庁前","japanese":"都庁前","romanized":"Tochomae","korean":"도초마에","lines":["4"]},{"id":"430","name":"西新宿五丁目","japanese":"西新宿五丁目","romanized":"Nishi-shinjuku-gochome","korean":"니시신주쿠고초메","lines":["4"]},{"id":"431","name":"中野坂上","japanese":"中野坂上","romanized":"Nakano-sakaue","korean":"나카노사카우에","lines":["4"]},{"id":"432","name":"東中野","japanese":"東中野","romanized":"Higashi-nakano","korean":"히가시나카노","lines":["4"]},{"id":"433","name":"中井","japanese":"中井","romanized":"Nakai","korean":"나카이","lines":["4"]},{"id":"434","name":"落合南長崎","japanese":"落合南長崎","romanized":"Ochiai-minami-nagasaki","korean":"오치아이미나미나가사키","lines":["4"]},{"id":"435","name":"新江古田","japanese":"新江古田","romanized":"Shin-egota","korean":"신에고타","lines":["4"]},{"id":"436","name":"練馬","japanese":"練馬","romanized":"Nerima","korean":"네리마","lines":["4"]},{"id":"437","name":"豊島園","japanese":"豊島園","romanized":"Toshimaen","korean":"토시마엔","lines":["4"]},{"id":"438","name":"練馬春日町","japanese":"練馬春日町","romanized":"Nerima-kasugacho","korean":"네리마카스가초","lines":["4"]},{"id":"439","name":"光が丘","japanese":"光が丘","romanized":"Hikarigaoka","korean":"히카리가오카","lines":["4"]},{"id":"501","name":"日暮里","japanese":"日暮里","romanized":"Nippori","korean":"","lines":["5"]},{"id":"502","name":"西日暮里","japanese":"西日暮里","romanized":"Nishi-nippori","korean":"","lines":["5"]},{"id":"503","name":"赤土小学校前","japanese":"赤土小学校前","romanized":"Akado-shogakkomae","korean":"","lines":["5"]},{"id":"504","name":"熊野前","japanese":"熊野前","romanized":"Kumanomae","korean":"","lines":["5"]},{"id":"505","name":"足立小台","japanese":"足立小台","romanized":"Adachi-odai","korean":"","lines":["5"]},{"id":"506","name":"扇大橋","japanese":"扇大橋","romanized":"Ogi-ohashi","korean":"","lines":["5"]},{"id":"507","name":"高野","japanese":"高野","romanized":"Koya","korean":"","lines":["5"]},{"id":"508","name":"江北","japanese":"江北","romanized":"Kohoku","korean":"","lines":["5"]},{"id":"509","name":"西新井大師西","japanese":"西新井大師西","romanized":"Nishiaraidaishi-nishi","korean":"","lines":["5"]},{"id":"510","name":"谷在家","japanese":"谷在家","romanized":"Yazaike","korean":"","lines":["5"]},{"id":"511","name":"舎人公園","japanese":"舎人公園","romanized":"Toneri-koen","korean":"","lines":["5"]},{"id":"512","name":"舎人","japanese":"舎人","romanized":"Toneri","korean":"","lines":["5"]},{"id":"513","name":"見沼代親水公園","japanese":"見沼代親水公園","romanized":"Minumadai-shinsuikoen","korean":"","lines":["5"]},{"id":"601","name":"三ノ輪橋","japanese":"三ノ輪橋","romanized":"Minowabashi","korean":"","lines":["6"]},{"id":"602","name":"荒川一中前","japanese":"荒川一中前","romanized":"Arakawa-itchumae","korean":"","lines":["6"]},{"id":"603","name":"荒川区役所前","japanese":"荒川区役所前","romanized":"Arakawakuyakushomae","korean":"","lines":["6"]},{"id":"604","name":"荒川二丁目","japanese":"荒川二丁目","romanized":"Arakawa-nichome","korean":"","lines":["6"]},{"id":"605","name":"荒川七丁目","japanese":"荒川七丁目","romanized":"Arakawa-nanachome","korean":"","lines":["6"]},{"id":"606","name":"町屋駅前","japanese":"町屋駅前","romanized":"Machiya-ekimae","korean":"","lines":["6"]},{"id":"607","name":"町屋二丁目","japanese":"町屋二丁目","romanized":"Machiya-nichome","korean":"","lines":["6"]},{"id":"608","name":"東尾久三丁目","japanese":"東尾久三丁目","romanized":"Higashi-ogu-sanchome","korean":"","lines":["6"]},{"id":"609","name":"熊野前","japanese":"熊野前","romanized":"Kumanomae","korean":"","lines":["6"]},{"id":"610","name":"宮ノ前","japanese":"宮ノ前","romanized":"Miyanomae","korean":"","lines":["6"]},{"id":"611","name":"小台","japanese":"小台","romanized":"Odai","korean":"","lines":["6"]},{"id":"612","name":"荒川遊園地前","japanese":"荒川遊園地前","romanized":"Arakawa-Yuenchimae","korean":"","lines":["6"]},{"id":"613","name":"荒川車庫前","japanese":"荒川車庫前","romanized":"Arakawa-shakomae","korean":"","lines":["6"]},{"id":"614","name":"梶原","japanese":"梶原","romanized":"Kajiwara","korean":"","lines":["6"]},{"id":"615","name":"栄町","japanese":"栄町","romanized":"Sakaecho","korean":"","lines":["6"]},{"id":"616","name":"王子駅前","japanese":"王子駅前","romanized":"Oji-ekimae","korean":"","lines":["6"]},{"id":"617","name":"飛鳥山","japanese":"飛鳥山","romanized":"Asukayama","korean":"","lines":["6"]},{"id":"618","name":"滝野川一丁目","japanese":"滝野川一丁目","romanized":"Takinogawa-itchome","korean":"","lines":["6"]},{"id":"619","name":"西ヶ原四丁目","japanese":"西ヶ原四丁目","romanized":"Nishigahara-yonchome","korean":"","lines":["6"]},{"id":"620","name":"新庚申塚","japanese":"新庚申塚","romanized":"Shin-koshinzuka","korean":"","lines":["6"]},{"id":"621","name":"庚申塚","japanese":"庚申塚","romanized":"Koshinzuka","korean":"","lines":["6"]},{"id":"622","name":"巣鴨新田","japanese":"巣鴨新田","romanized":"Sugamoshinden","korean":"","lines":["6"]},{"id":"623","name":"大塚駅前","japanese":"大塚駅前","romanized":"Otsuka-ekimae","korean":"","lines":["6"]},{"id":"624","name":"向原","japanese":"向原","romanized":"Mukohara","korean":"","lines":["6"]},{"id":"625","name":"東池袋四丁目","japanese":"東池袋四丁目","romanized":"Higashi-ikebukuro-yonchome","korean":"","lines":["6"]},{"id":"626","name":"都電雑司ヶ谷","japanese":"都電雑司ヶ谷","romanized":"Toden-zoshigaya","korean":"","lines":["6"]},{"id":"627","name":"鬼子母神前","japanese":"鬼子母神前","romanized":"Kishibojimmae","korean":"","lines":["6"]},{"id":"628","name":"学習院下","japanese":"学習院下","romanized":"Gakushuinshita","korean":"","lines":["6"]},{"id":"629","name":"面影橋","japanese":"面影橋","romanized":"Omokagebashi","korean":"","lines":["6"]},{"id":"630","name":"早稲田","japanese":"早稲田","romanized":"Waseda","korean":"","lines":["6"]}]
+[
+  {
+    "id": "101",
+    "name": "西馬込",
+    "japanese": "西馬込",
+    "romanized": "Nishi-magome",
+    "korean": "니시마고메",
+    "lines": [
+      "1"
+    ],
+    "zoneId": "101",
+    "operator": "toei",
+    "lat": 35.58705,
+    "lon": 139.706086
+  },
+  {
+    "id": "102",
+    "name": "馬込",
+    "japanese": "馬込",
+    "romanized": "Magome",
+    "korean": "마고메",
+    "lines": [
+      "1"
+    ],
+    "zoneId": "102",
+    "operator": "toei",
+    "lat": 35.596773,
+    "lon": 139.711884
+  },
+  {
+    "id": "103",
+    "name": "中延",
+    "japanese": "中延",
+    "romanized": "Nakanobu",
+    "korean": "나카노부",
+    "lines": [
+      "1"
+    ],
+    "zoneId": "103",
+    "operator": "toei",
+    "lat": 35.605274,
+    "lon": 139.713645
+  },
+  {
+    "id": "104",
+    "name": "戸越",
+    "japanese": "戸越",
+    "romanized": "Togoshi",
+    "korean": "토고시",
+    "lines": [
+      "1"
+    ],
+    "zoneId": "104",
+    "operator": "toei",
+    "lat": 35.614421,
+    "lon": 139.716315
+  },
+  {
+    "id": "105",
+    "name": "五反田",
+    "japanese": "五反田",
+    "romanized": "Gotanda",
+    "korean": "고탄다",
+    "lines": [
+      "1"
+    ],
+    "zoneId": "105",
+    "operator": "toei",
+    "lat": 35.626878,
+    "lon": 139.723965
+  },
+  {
+    "id": "106",
+    "name": "高輪台",
+    "japanese": "高輪台",
+    "romanized": "Takanawadai",
+    "korean": "타카나와다이",
+    "lines": [
+      "1"
+    ],
+    "zoneId": "106",
+    "operator": "toei",
+    "lat": 35.631751,
+    "lon": 139.730384
+  },
+  {
+    "id": "107",
+    "name": "泉岳寺",
+    "japanese": "泉岳寺",
+    "romanized": "Sengakuji",
+    "korean": "센가쿠지",
+    "lines": [
+      "1"
+    ],
+    "zoneId": "107",
+    "operator": "toei",
+    "lat": 35.638715,
+    "lon": 139.739993
+  },
+  {
+    "id": "108",
+    "name": "三田",
+    "japanese": "三田",
+    "romanized": "Mita",
+    "korean": "미타",
+    "lines": [
+      "1"
+    ],
+    "zoneId": "108",
+    "operator": "toei",
+    "lat": 35.646749,
+    "lon": 139.746877
+  },
+  {
+    "id": "109",
+    "name": "大門",
+    "japanese": "大門",
+    "romanized": "Daimon",
+    "korean": "다이몬",
+    "lines": [
+      "1"
+    ],
+    "zoneId": "109",
+    "operator": "toei",
+    "lat": 35.65687,
+    "lon": 139.754679
+  },
+  {
+    "id": "110",
+    "name": "新橋",
+    "japanese": "新橋",
+    "romanized": "Shimbashi",
+    "korean": "신바시",
+    "lines": [
+      "1"
+    ],
+    "zoneId": "110",
+    "operator": "toei",
+    "lat": 35.665386,
+    "lon": 139.759338
+  },
+  {
+    "id": "111",
+    "name": "東銀座",
+    "japanese": "東銀座",
+    "romanized": "Higashi-ginza",
+    "korean": "히가시긴자",
+    "lines": [
+      "1"
+    ],
+    "zoneId": "111",
+    "operator": "toei",
+    "lat": 35.669915,
+    "lon": 139.76735
+  },
+  {
+    "id": "112",
+    "name": "宝町",
+    "japanese": "宝町",
+    "romanized": "Takaracho",
+    "korean": "타카라초",
+    "lines": [
+      "1"
+    ],
+    "zoneId": "112",
+    "operator": "toei",
+    "lat": 35.675606,
+    "lon": 139.771966
+  },
+  {
+    "id": "113",
+    "name": "日本橋",
+    "japanese": "日本橋",
+    "romanized": "Nihombashi",
+    "korean": "니혼바시",
+    "lines": [
+      "1"
+    ],
+    "zoneId": "113",
+    "operator": "toei",
+    "lat": 35.681796,
+    "lon": 139.775814
+  },
+  {
+    "id": "114",
+    "name": "人形町",
+    "japanese": "人形町",
+    "romanized": "Ningyocho",
+    "korean": "닌교초",
+    "lines": [
+      "1"
+    ],
+    "zoneId": "114",
+    "operator": "toei",
+    "lat": 35.686345,
+    "lon": 139.782276
+  },
+  {
+    "id": "115",
+    "name": "東日本橋",
+    "japanese": "東日本橋",
+    "romanized": "Higashi-nihombashi",
+    "korean": "히가시니혼바시",
+    "lines": [
+      "1"
+    ],
+    "zoneId": "115",
+    "operator": "toei",
+    "lat": 35.692123,
+    "lon": 139.784886
+  },
+  {
+    "id": "116",
+    "name": "浅草橋",
+    "japanese": "浅草橋",
+    "romanized": "Asakusabashi",
+    "korean": "아사쿠사바시",
+    "lines": [
+      "1"
+    ],
+    "zoneId": "116",
+    "operator": "toei",
+    "lat": 35.697494,
+    "lon": 139.786335
+  },
+  {
+    "id": "117",
+    "name": "蔵前",
+    "japanese": "蔵前",
+    "romanized": "Kuramae",
+    "korean": "쿠라마에",
+    "lines": [
+      "1"
+    ],
+    "zoneId": "117",
+    "operator": "toei",
+    "lat": 35.703128,
+    "lon": 139.790858
+  },
+  {
+    "id": "118",
+    "name": "浅草",
+    "japanese": "浅草",
+    "romanized": "Asakusa",
+    "korean": "아사쿠사",
+    "lines": [
+      "1"
+    ],
+    "zoneId": "118",
+    "operator": "toei",
+    "lat": 35.70892,
+    "lon": 139.796542
+  },
+  {
+    "id": "119",
+    "name": "本所吾妻橋",
+    "japanese": "本所吾妻橋",
+    "romanized": "Honjo-azumabashi",
+    "korean": "혼조아즈마바시",
+    "lines": [
+      "1"
+    ],
+    "zoneId": "119",
+    "operator": "toei",
+    "lat": 35.708565,
+    "lon": 139.804397
+  },
+  {
+    "id": "120",
+    "name": "押上",
+    "japanese": "押上",
+    "romanized": "Oshiage",
+    "korean": "오시아게",
+    "lines": [
+      "1"
+    ],
+    "zoneId": "120",
+    "operator": "toei",
+    "lat": 35.710824,
+    "lon": 139.812993
+  },
+  {
+    "id": "201",
+    "name": "目黒",
+    "japanese": "目黒",
+    "romanized": "Meguro",
+    "korean": "메구로",
+    "lines": [
+      "2"
+    ],
+    "zoneId": "201",
+    "operator": "toei",
+    "lat": 35.633635,
+    "lon": 139.715444
+  },
+  {
+    "id": "202",
+    "name": "白金台",
+    "japanese": "白金台",
+    "romanized": "Shirokanedai",
+    "korean": "시로카네다이",
+    "lines": [
+      "2"
+    ],
+    "zoneId": "202",
+    "operator": "toei",
+    "lat": 35.637851,
+    "lon": 139.726007
+  },
+  {
+    "id": "203",
+    "name": "白金高輪",
+    "japanese": "白金高輪",
+    "romanized": "Shirokane-takanawa",
+    "korean": "시로카네타카나와",
+    "lines": [
+      "2"
+    ],
+    "zoneId": "203",
+    "operator": "toei",
+    "lat": 35.643283,
+    "lon": 139.734344
+  },
+  {
+    "id": "204",
+    "name": "三田",
+    "japanese": "三田",
+    "romanized": "Mita",
+    "korean": "미타",
+    "lines": [
+      "2"
+    ],
+    "zoneId": "204",
+    "operator": "toei",
+    "lat": 35.64865,
+    "lon": 139.748998
+  },
+  {
+    "id": "205",
+    "name": "芝公園",
+    "japanese": "芝公園",
+    "romanized": "Shibakoen",
+    "korean": "시바코엔",
+    "lines": [
+      "2"
+    ],
+    "zoneId": "205",
+    "operator": "toei",
+    "lat": 35.654186,
+    "lon": 139.74985
+  },
+  {
+    "id": "206",
+    "name": "御成門",
+    "japanese": "御成門",
+    "romanized": "Onarimon",
+    "korean": "오나리몬",
+    "lines": [
+      "2"
+    ],
+    "zoneId": "206",
+    "operator": "toei",
+    "lat": 35.660774,
+    "lon": 139.751366
+  },
+  {
+    "id": "207",
+    "name": "内幸町",
+    "japanese": "内幸町",
+    "romanized": "Uchisaiwaicho",
+    "korean": "우치사이와이초",
+    "lines": [
+      "2"
+    ],
+    "zoneId": "207",
+    "operator": "toei",
+    "lat": 35.669344,
+    "lon": 139.75533
+  },
+  {
+    "id": "208",
+    "name": "日比谷",
+    "japanese": "日比谷",
+    "romanized": "Hibiya",
+    "korean": "히비야",
+    "lines": [
+      "2"
+    ],
+    "zoneId": "208",
+    "operator": "toei",
+    "lat": 35.676585,
+    "lon": 139.760274
+  },
+  {
+    "id": "209",
+    "name": "大手町",
+    "japanese": "大手町",
+    "romanized": "Otemachi",
+    "korean": "오테마치",
+    "lines": [
+      "2"
+    ],
+    "zoneId": "209",
+    "operator": "toei",
+    "lat": 35.684093,
+    "lon": 139.762798
+  },
+  {
+    "id": "210",
+    "name": "神保町",
+    "japanese": "神保町",
+    "romanized": "Jimbocho",
+    "korean": "진보초",
+    "lines": [
+      "2"
+    ],
+    "zoneId": "210",
+    "operator": "toei",
+    "lat": 35.695331,
+    "lon": 139.758213
+  },
+  {
+    "id": "211",
+    "name": "水道橋",
+    "japanese": "水道橋",
+    "romanized": "Suidobashi",
+    "korean": "스이도바시",
+    "lines": [
+      "2"
+    ],
+    "zoneId": "211",
+    "operator": "toei",
+    "lat": 35.70346,
+    "lon": 139.755147
+  },
+  {
+    "id": "212",
+    "name": "春日",
+    "japanese": "春日",
+    "romanized": "Kasuga",
+    "korean": "카스가",
+    "lines": [
+      "2"
+    ],
+    "zoneId": "212",
+    "operator": "toei",
+    "lat": 35.709532,
+    "lon": 139.753287
+  },
+  {
+    "id": "213",
+    "name": "白山",
+    "japanese": "白山",
+    "romanized": "Hakusan",
+    "korean": "하쿠산",
+    "lines": [
+      "2"
+    ],
+    "zoneId": "213",
+    "operator": "toei",
+    "lat": 35.721682,
+    "lon": 139.752134
+  },
+  {
+    "id": "214",
+    "name": "千石",
+    "japanese": "千石",
+    "romanized": "Sengoku",
+    "korean": "센고쿠",
+    "lines": [
+      "2"
+    ],
+    "zoneId": "214",
+    "operator": "toei",
+    "lat": 35.727772,
+    "lon": 139.744984
+  },
+  {
+    "id": "215",
+    "name": "巣鴨",
+    "japanese": "巣鴨",
+    "romanized": "Sugamo",
+    "korean": "스가모",
+    "lines": [
+      "2"
+    ],
+    "zoneId": "215",
+    "operator": "toei",
+    "lat": 35.733793,
+    "lon": 139.738154
+  },
+  {
+    "id": "216",
+    "name": "西巣鴨",
+    "japanese": "西巣鴨",
+    "romanized": "Nishi-sugamo",
+    "korean": "니시스가모",
+    "lines": [
+      "2"
+    ],
+    "zoneId": "216",
+    "operator": "toei",
+    "lat": 35.743568,
+    "lon": 139.728703
+  },
+  {
+    "id": "217",
+    "name": "新板橋",
+    "japanese": "新板橋",
+    "romanized": "Shin-itabashi",
+    "korean": "신이타바시",
+    "lines": [
+      "2"
+    ],
+    "zoneId": "217",
+    "operator": "toei",
+    "lat": 35.748772,
+    "lon": 139.719808
+  },
+  {
+    "id": "218",
+    "name": "板橋区役所前",
+    "japanese": "板橋区役所前",
+    "romanized": "Itabashi-kuyakushomae",
+    "korean": "이타바시구야쿠쇼마에",
+    "lines": [
+      "2"
+    ],
+    "zoneId": "218",
+    "operator": "toei",
+    "lat": 35.751372,
+    "lon": 139.71012
+  },
+  {
+    "id": "219",
+    "name": "板橋本町",
+    "japanese": "板橋本町",
+    "romanized": "Itabashihoncho",
+    "korean": "이타바시혼초",
+    "lines": [
+      "2"
+    ],
+    "zoneId": "219",
+    "operator": "toei",
+    "lat": 35.761309,
+    "lon": 139.705544
+  },
+  {
+    "id": "220",
+    "name": "本蓮沼",
+    "japanese": "本蓮沼",
+    "romanized": "Motohasunuma",
+    "korean": "모토하스누마",
+    "lines": [
+      "2"
+    ],
+    "zoneId": "220",
+    "operator": "toei",
+    "lat": 35.768566,
+    "lon": 139.70241
+  },
+  {
+    "id": "221",
+    "name": "志村坂上",
+    "japanese": "志村坂上",
+    "romanized": "Shimura-sakaue",
+    "korean": "시무라사카우에",
+    "lines": [
+      "2"
+    ],
+    "zoneId": "221",
+    "operator": "toei",
+    "lat": 35.776082,
+    "lon": 139.695097
+  },
+  {
+    "id": "222",
+    "name": "志村三丁目",
+    "japanese": "志村三丁目",
+    "romanized": "Shimura-sanchome",
+    "korean": "시무라산초메",
+    "lines": [
+      "2"
+    ],
+    "zoneId": "222",
+    "operator": "toei",
+    "lat": 35.777468,
+    "lon": 139.685751
+  },
+  {
+    "id": "223",
+    "name": "蓮根",
+    "japanese": "蓮根",
+    "romanized": "Hasune",
+    "korean": "하스네",
+    "lines": [
+      "2"
+    ],
+    "zoneId": "223",
+    "operator": "toei",
+    "lat": 35.784262,
+    "lon": 139.678947
+  },
+  {
+    "id": "224",
+    "name": "西台",
+    "japanese": "西台",
+    "romanized": "Nishidai",
+    "korean": "니시다이",
+    "lines": [
+      "2"
+    ],
+    "zoneId": "224",
+    "operator": "toei",
+    "lat": 35.787074,
+    "lon": 139.672867
+  },
+  {
+    "id": "225",
+    "name": "高島平",
+    "japanese": "高島平",
+    "romanized": "Takashimadaira",
+    "korean": "타카시마다이라",
+    "lines": [
+      "2"
+    ],
+    "zoneId": "225",
+    "operator": "toei",
+    "lat": 35.788908,
+    "lon": 139.661361
+  },
+  {
+    "id": "226",
+    "name": "新高島平",
+    "japanese": "新高島平",
+    "romanized": "Shin-takashimadaira",
+    "korean": "신타카시마다이라",
+    "lines": [
+      "2"
+    ],
+    "zoneId": "226",
+    "operator": "toei",
+    "lat": 35.790289,
+    "lon": 139.65405
+  },
+  {
+    "id": "227",
+    "name": "西高島平",
+    "japanese": "西高島平",
+    "romanized": "Nishi-takashimadaira",
+    "korean": "니시타카시마다이라",
+    "lines": [
+      "2"
+    ],
+    "zoneId": "227",
+    "operator": "toei",
+    "lat": 35.791965,
+    "lon": 139.645421
+  },
+  {
+    "id": "301",
+    "name": "新宿",
+    "japanese": "新宿",
+    "romanized": "Shinjuku",
+    "korean": "신주쿠",
+    "lines": [
+      "3"
+    ],
+    "zoneId": "301",
+    "operator": "toei",
+    "lat": 35.688433,
+    "lon": 139.698418
+  },
+  {
+    "id": "302",
+    "name": "新宿三丁目",
+    "japanese": "新宿三丁目",
+    "romanized": "Shinjuku-sanchome",
+    "korean": "신주쿠산초메",
+    "lines": [
+      "3"
+    ],
+    "zoneId": "302",
+    "operator": "toei",
+    "lat": 35.691016,
+    "lon": 139.706794
+  },
+  {
+    "id": "303",
+    "name": "曙橋",
+    "japanese": "曙橋",
+    "romanized": "Akebonobashi",
+    "korean": "아케보노바시",
+    "lines": [
+      "3"
+    ],
+    "zoneId": "303",
+    "operator": "toei",
+    "lat": 35.692402,
+    "lon": 139.722317
+  },
+  {
+    "id": "304",
+    "name": "市ヶ谷",
+    "japanese": "市ヶ谷",
+    "romanized": "Ichigaya",
+    "korean": "이치가야",
+    "lines": [
+      "3"
+    ],
+    "zoneId": "304",
+    "operator": "toei",
+    "lat": 35.69153,
+    "lon": 139.737588
+  },
+  {
+    "id": "305",
+    "name": "九段下",
+    "japanese": "九段下",
+    "romanized": "Kudanshita",
+    "korean": "쿠단시타",
+    "lines": [
+      "3"
+    ],
+    "zoneId": "305",
+    "operator": "toei",
+    "lat": 35.695546,
+    "lon": 139.751738
+  },
+  {
+    "id": "306",
+    "name": "神保町",
+    "japanese": "神保町",
+    "romanized": "Jimbocho",
+    "korean": "진보초",
+    "lines": [
+      "3"
+    ],
+    "zoneId": "306",
+    "operator": "toei",
+    "lat": 35.695972,
+    "lon": 139.757981
+  },
+  {
+    "id": "307",
+    "name": "小川町",
+    "japanese": "小川町",
+    "romanized": "Ogawamachi",
+    "korean": "오가와마치",
+    "lines": [
+      "3"
+    ],
+    "zoneId": "307",
+    "operator": "toei",
+    "lat": 35.695005,
+    "lon": 139.766449
+  },
+  {
+    "id": "308",
+    "name": "岩本町",
+    "japanese": "岩本町",
+    "romanized": "Iwamotocho",
+    "korean": "이와모토초",
+    "lines": [
+      "3"
+    ],
+    "zoneId": "308",
+    "operator": "toei",
+    "lat": 35.695607,
+    "lon": 139.775115
+  },
+  {
+    "id": "309",
+    "name": "馬喰横山",
+    "japanese": "馬喰横山",
+    "romanized": "Bakuro-yokoyama",
+    "korean": "바쿠로요코야마",
+    "lines": [
+      "3"
+    ],
+    "zoneId": "309",
+    "operator": "toei",
+    "lat": 35.69193,
+    "lon": 139.783006
+  },
+  {
+    "id": "310",
+    "name": "浜町",
+    "japanese": "浜町",
+    "romanized": "Hamacho",
+    "korean": "하마초",
+    "lines": [
+      "3"
+    ],
+    "zoneId": "310",
+    "operator": "toei",
+    "lat": 35.688601,
+    "lon": 139.787725
+  },
+  {
+    "id": "311",
+    "name": "森下",
+    "japanese": "森下",
+    "romanized": "Morishita",
+    "korean": "모리시타",
+    "lines": [
+      "3"
+    ],
+    "zoneId": "311",
+    "operator": "toei",
+    "lat": 35.687982,
+    "lon": 139.796623
+  },
+  {
+    "id": "312",
+    "name": "菊川",
+    "japanese": "菊川",
+    "romanized": "Kikukawa",
+    "korean": "키쿠카와",
+    "lines": [
+      "3"
+    ],
+    "zoneId": "312",
+    "operator": "toei",
+    "lat": 35.688399,
+    "lon": 139.806057
+  },
+  {
+    "id": "313",
+    "name": "住吉",
+    "japanese": "住吉",
+    "romanized": "Sumiyoshi",
+    "korean": "스미요시",
+    "lines": [
+      "3"
+    ],
+    "zoneId": "313",
+    "operator": "toei",
+    "lat": 35.68904,
+    "lon": 139.815723
+  },
+  {
+    "id": "314",
+    "name": "西大島",
+    "japanese": "西大島",
+    "romanized": "Nishi-ojima",
+    "korean": "니시오지마",
+    "lines": [
+      "3"
+    ],
+    "zoneId": "314",
+    "operator": "toei",
+    "lat": 35.689391,
+    "lon": 139.826231
+  },
+  {
+    "id": "315",
+    "name": "大島",
+    "japanese": "大島",
+    "romanized": "Ojima",
+    "korean": "오지마",
+    "lines": [
+      "3"
+    ],
+    "zoneId": "315",
+    "operator": "toei",
+    "lat": 35.689752,
+    "lon": 139.834705
+  },
+  {
+    "id": "316",
+    "name": "東大島",
+    "japanese": "東大島",
+    "romanized": "Higashi-ojima",
+    "korean": "히가시오지마",
+    "lines": [
+      "3"
+    ],
+    "zoneId": "316",
+    "operator": "toei",
+    "lat": 35.689959,
+    "lon": 139.847255
+  },
+  {
+    "id": "317",
+    "name": "船堀",
+    "japanese": "船堀",
+    "romanized": "Funabori",
+    "korean": "후나보리",
+    "lines": [
+      "3"
+    ],
+    "zoneId": "317",
+    "operator": "toei",
+    "lat": 35.68376,
+    "lon": 139.863955
+  },
+  {
+    "id": "318",
+    "name": "一之江",
+    "japanese": "一之江",
+    "romanized": "Ichinoe",
+    "korean": "이치노에",
+    "lines": [
+      "3"
+    ],
+    "zoneId": "318",
+    "operator": "toei",
+    "lat": 35.685987,
+    "lon": 139.882586
+  },
+  {
+    "id": "319",
+    "name": "瑞江",
+    "japanese": "瑞江",
+    "romanized": "Mizue",
+    "korean": "미즈에",
+    "lines": [
+      "3"
+    ],
+    "zoneId": "319",
+    "operator": "toei",
+    "lat": 35.69351,
+    "lon": 139.8977
+  },
+  {
+    "id": "320",
+    "name": "篠崎",
+    "japanese": "篠崎",
+    "romanized": "Shinozaki",
+    "korean": "시노자키",
+    "lines": [
+      "3"
+    ],
+    "zoneId": "320",
+    "operator": "toei",
+    "lat": 35.706022,
+    "lon": 139.903796
+  },
+  {
+    "id": "321",
+    "name": "本八幡",
+    "japanese": "本八幡",
+    "romanized": "Motoyawata",
+    "korean": "모토야와타",
+    "lines": [
+      "3"
+    ],
+    "zoneId": "321",
+    "operator": "toei",
+    "lat": 35.722819,
+    "lon": 139.926613
+  },
+  {
+    "id": "402",
+    "name": "新宿西口",
+    "japanese": "新宿西口",
+    "romanized": "Shinjuku-nishiguchi",
+    "korean": "신주쿠니시구치",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "402",
+    "operator": "toei",
+    "lat": 35.693367,
+    "lon": 139.699121
+  },
+  {
+    "id": "403",
+    "name": "東新宿",
+    "japanese": "東新宿",
+    "romanized": "Higashi-shinjuku",
+    "korean": "히가시신주쿠",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "403",
+    "operator": "toei",
+    "lat": 35.697957,
+    "lon": 139.707434
+  },
+  {
+    "id": "404",
+    "name": "若松河田",
+    "japanese": "若松河田",
+    "romanized": "Wakamatsu-kawada",
+    "korean": "와카마츠카와다",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "404",
+    "operator": "toei",
+    "lat": 35.699188,
+    "lon": 139.718043
+  },
+  {
+    "id": "405",
+    "name": "牛込柳町",
+    "japanese": "牛込柳町",
+    "romanized": "Ushigome-yanagicho",
+    "korean": "우시고메야나기초",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "405",
+    "operator": "toei",
+    "lat": 35.699501,
+    "lon": 139.72504
+  },
+  {
+    "id": "406",
+    "name": "牛込神楽坂",
+    "japanese": "牛込神楽坂",
+    "romanized": "Ushigome-kagurazaka",
+    "korean": "우시고메카구라자카",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "406",
+    "operator": "toei",
+    "lat": 35.700911,
+    "lon": 139.735894
+  },
+  {
+    "id": "407",
+    "name": "飯田橋",
+    "japanese": "飯田橋",
+    "romanized": "Iidabashi",
+    "korean": "이다바시",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "407",
+    "operator": "toei",
+    "lat": 35.702952,
+    "lon": 139.745257
+  },
+  {
+    "id": "408",
+    "name": "春日",
+    "japanese": "春日",
+    "romanized": "Kasuga",
+    "korean": "카스가",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "408",
+    "operator": "toei",
+    "lat": 35.708493,
+    "lon": 139.752487
+  },
+  {
+    "id": "409",
+    "name": "本郷三丁目",
+    "japanese": "本郷三丁目",
+    "romanized": "Hongo-sanchome",
+    "korean": "혼고산초메",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "409",
+    "operator": "toei",
+    "lat": 35.70751,
+    "lon": 139.760524
+  },
+  {
+    "id": "410",
+    "name": "上野御徒町",
+    "japanese": "上野御徒町",
+    "romanized": "Ueno-okachimachi",
+    "korean": "우에노오카치마치",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "410",
+    "operator": "toei",
+    "lat": 35.707949,
+    "lon": 139.773351
+  },
+  {
+    "id": "411",
+    "name": "新御徒町",
+    "japanese": "新御徒町",
+    "romanized": "Shin-okachimachi",
+    "korean": "신오카치마치",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "411",
+    "operator": "toei",
+    "lat": 35.707009,
+    "lon": 139.782166
+  },
+  {
+    "id": "412",
+    "name": "蔵前",
+    "japanese": "蔵前",
+    "romanized": "Kuramae",
+    "korean": "쿠라마에",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "412",
+    "operator": "toei",
+    "lat": 35.705587,
+    "lon": 139.792244
+  },
+  {
+    "id": "413",
+    "name": "両国",
+    "japanese": "両国",
+    "romanized": "Ryogoku",
+    "korean": "료고쿠",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "413",
+    "operator": "toei",
+    "lat": 35.696807,
+    "lon": 139.797469
+  },
+  {
+    "id": "414",
+    "name": "森下",
+    "japanese": "森下",
+    "romanized": "Morishita",
+    "korean": "모리시타",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "414",
+    "operator": "toei",
+    "lat": 35.687926,
+    "lon": 139.798251
+  },
+  {
+    "id": "415",
+    "name": "清澄白河",
+    "japanese": "清澄白河",
+    "romanized": "Kiyosumi-shirakawa",
+    "korean": "키요스미시라카와",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "415",
+    "operator": "toei",
+    "lat": 35.682355,
+    "lon": 139.798758
+  },
+  {
+    "id": "416",
+    "name": "門前仲町",
+    "japanese": "門前仲町",
+    "romanized": "Monzen-nakacho",
+    "korean": "몬젠나카초",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "416",
+    "operator": "toei",
+    "lat": 35.672772,
+    "lon": 139.795124
+  },
+  {
+    "id": "417",
+    "name": "月島",
+    "japanese": "月島",
+    "romanized": "Tsukishima",
+    "korean": "츠키시마",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "417",
+    "operator": "toei",
+    "lat": 35.663757,
+    "lon": 139.783912
+  },
+  {
+    "id": "418",
+    "name": "勝どき",
+    "japanese": "勝どき",
+    "romanized": "Kachidoki",
+    "korean": "카치도키",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "418",
+    "operator": "toei",
+    "lat": 35.658934,
+    "lon": 139.777138
+  },
+  {
+    "id": "419",
+    "name": "築地市場",
+    "japanese": "築地市場",
+    "romanized": "Tsukijishijo",
+    "korean": "츠키지시조",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "419",
+    "operator": "toei",
+    "lat": 35.664919,
+    "lon": 139.766929
+  },
+  {
+    "id": "420",
+    "name": "汐留",
+    "japanese": "汐留",
+    "romanized": "Shiodome",
+    "korean": "시오도메",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "420",
+    "operator": "toei",
+    "lat": 35.663193,
+    "lon": 139.760225
+  },
+  {
+    "id": "421",
+    "name": "大門",
+    "japanese": "大門",
+    "romanized": "Daimon",
+    "korean": "다이몬",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "421",
+    "operator": "toei",
+    "lat": 35.656671,
+    "lon": 139.755696
+  },
+  {
+    "id": "422",
+    "name": "赤羽橋",
+    "japanese": "赤羽橋",
+    "romanized": "Akabanebashi",
+    "korean": "아카바네바시",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "422",
+    "operator": "toei",
+    "lat": 35.654985,
+    "lon": 139.743989
+  },
+  {
+    "id": "423",
+    "name": "麻布十番",
+    "japanese": "麻布十番",
+    "romanized": "Azabu-juban",
+    "korean": "아자부주반",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "423",
+    "operator": "toei",
+    "lat": 35.656448,
+    "lon": 139.73633
+  },
+  {
+    "id": "424",
+    "name": "六本木",
+    "japanese": "六本木",
+    "romanized": "Roppongi",
+    "korean": "롯폰기",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "424",
+    "operator": "toei",
+    "lat": 35.664106,
+    "lon": 139.731354
+  },
+  {
+    "id": "425",
+    "name": "青山一丁目",
+    "japanese": "青山一丁目",
+    "romanized": "Aoyama-itchome",
+    "korean": "아오야마잇초메",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "425",
+    "operator": "toei",
+    "lat": 35.673067,
+    "lon": 139.723925
+  },
+  {
+    "id": "426",
+    "name": "国立競技場",
+    "japanese": "国立競技場",
+    "romanized": "Kokuritsu-kyogijo",
+    "korean": "코쿠리츠쿄기조",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "426",
+    "operator": "toei",
+    "lat": 35.679896,
+    "lon": 139.714667
+  },
+  {
+    "id": "427",
+    "name": "代々木",
+    "japanese": "代々木",
+    "romanized": "Yoyogi",
+    "korean": "요요기",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "427",
+    "operator": "toei",
+    "lat": 35.683505,
+    "lon": 139.701603
+  },
+  {
+    "id": "428",
+    "name": "新宿",
+    "japanese": "新宿",
+    "romanized": "Shinjuku",
+    "korean": "신주쿠",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "428",
+    "operator": "toei",
+    "lat": 35.688462,
+    "lon": 139.699019
+  },
+  {
+    "id": "429",
+    "name": "都庁前",
+    "japanese": "都庁前",
+    "romanized": "Tochomae",
+    "korean": "도초마에",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "429",
+    "operator": "toei",
+    "lat": 35.690607,
+    "lon": 139.692677
+  },
+  {
+    "id": "430",
+    "name": "西新宿五丁目",
+    "japanese": "西新宿五丁目",
+    "romanized": "Nishi-shinjuku-gochome",
+    "korean": "니시신주쿠고초메",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "430",
+    "operator": "toei",
+    "lat": 35.689892,
+    "lon": 139.684545
+  },
+  {
+    "id": "431",
+    "name": "中野坂上",
+    "japanese": "中野坂上",
+    "romanized": "Nakano-sakaue",
+    "korean": "나카노사카우에",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "431",
+    "operator": "toei",
+    "lat": 35.697887,
+    "lon": 139.682899
+  },
+  {
+    "id": "432",
+    "name": "東中野",
+    "japanese": "東中野",
+    "romanized": "Higashi-nakano",
+    "korean": "히가시나카노",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "432",
+    "operator": "toei",
+    "lat": 35.70716,
+    "lon": 139.683112
+  },
+  {
+    "id": "433",
+    "name": "中井",
+    "japanese": "中井",
+    "romanized": "Nakai",
+    "korean": "나카이",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "433",
+    "operator": "toei",
+    "lat": 35.713935,
+    "lon": 139.686296
+  },
+  {
+    "id": "434",
+    "name": "落合南長崎",
+    "japanese": "落合南長崎",
+    "romanized": "Ochiai-minami-nagasaki",
+    "korean": "오치아이미나미나가사키",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "434",
+    "operator": "toei",
+    "lat": 35.723435,
+    "lon": 139.683389
+  },
+  {
+    "id": "435",
+    "name": "新江古田",
+    "japanese": "新江古田",
+    "romanized": "Shin-egota",
+    "korean": "신에고타",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "435",
+    "operator": "toei",
+    "lat": 35.732579,
+    "lon": 139.670498
+  },
+  {
+    "id": "436",
+    "name": "練馬",
+    "japanese": "練馬",
+    "romanized": "Nerima",
+    "korean": "네리마",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "436",
+    "operator": "toei",
+    "lat": 35.737411,
+    "lon": 139.654762
+  },
+  {
+    "id": "437",
+    "name": "豊島園",
+    "japanese": "豊島園",
+    "romanized": "Toshimaen",
+    "korean": "토시마엔",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "437",
+    "operator": "toei",
+    "lat": 35.741711,
+    "lon": 139.649116
+  },
+  {
+    "id": "438",
+    "name": "練馬春日町",
+    "japanese": "練馬春日町",
+    "romanized": "Nerima-kasugacho",
+    "korean": "네리마카스가초",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "438",
+    "operator": "toei",
+    "lat": 35.75141,
+    "lon": 139.6403
+  },
+  {
+    "id": "439",
+    "name": "光が丘",
+    "japanese": "光が丘",
+    "romanized": "Hikarigaoka",
+    "korean": "히카리가오카",
+    "lines": [
+      "4"
+    ],
+    "zoneId": "439",
+    "operator": "toei",
+    "lat": 35.758527,
+    "lon": 139.628901
+  },
+  {
+    "id": "501",
+    "name": "日暮里",
+    "japanese": "日暮里",
+    "romanized": "Nippori",
+    "korean": "닛포리",
+    "lines": [
+      "5"
+    ],
+    "zoneId": "501",
+    "operator": "toei",
+    "lat": 35.728793,
+    "lon": 139.771121
+  },
+  {
+    "id": "502",
+    "name": "西日暮里",
+    "japanese": "西日暮里",
+    "romanized": "Nishi-nippori",
+    "korean": "니시닛포리",
+    "lines": [
+      "5"
+    ],
+    "zoneId": "502",
+    "operator": "toei",
+    "lat": 35.733739,
+    "lon": 139.768169
+  },
+  {
+    "id": "503",
+    "name": "赤土小学校前",
+    "japanese": "赤土小学校前",
+    "romanized": "Akado-shogakkomae",
+    "korean": "아카도쇼갓코마에",
+    "lines": [
+      "5"
+    ],
+    "zoneId": "503",
+    "operator": "toei",
+    "lat": 35.742868,
+    "lon": 139.769025
+  },
+  {
+    "id": "504",
+    "name": "熊野前",
+    "japanese": "熊野前",
+    "romanized": "Kumanomae",
+    "korean": "구마노마에",
+    "lines": [
+      "5"
+    ],
+    "zoneId": "504",
+    "operator": "toei",
+    "lat": 35.748513,
+    "lon": 139.769828
+  },
+  {
+    "id": "505",
+    "name": "足立小台",
+    "japanese": "足立小台",
+    "romanized": "Adachi-odai",
+    "korean": "아다치오다이",
+    "lines": [
+      "5"
+    ],
+    "zoneId": "505",
+    "operator": "toei",
+    "lat": 35.754655,
+    "lon": 139.770376
+  },
+  {
+    "id": "506",
+    "name": "扇大橋",
+    "japanese": "扇大橋",
+    "romanized": "Ogi-ohashi",
+    "korean": "오기오하시",
+    "lines": [
+      "5"
+    ],
+    "zoneId": "506",
+    "operator": "toei",
+    "lat": 35.763906,
+    "lon": 139.770798
+  },
+  {
+    "id": "507",
+    "name": "高野",
+    "japanese": "高野",
+    "romanized": "Koya",
+    "korean": "고야",
+    "lines": [
+      "5"
+    ],
+    "zoneId": "507",
+    "operator": "toei",
+    "lat": 35.768351,
+    "lon": 139.770692
+  },
+  {
+    "id": "508",
+    "name": "江北",
+    "japanese": "江北",
+    "romanized": "Kohoku",
+    "korean": "고호쿠",
+    "lines": [
+      "5"
+    ],
+    "zoneId": "508",
+    "operator": "toei",
+    "lat": 35.773954,
+    "lon": 139.77029
+  },
+  {
+    "id": "509",
+    "name": "西新井大師西",
+    "japanese": "西新井大師西",
+    "romanized": "Nishiaraidaishi-nishi",
+    "korean": "니시아라이 다이시니시",
+    "lines": [
+      "5"
+    ],
+    "zoneId": "509",
+    "operator": "toei",
+    "lat": 35.78151,
+    "lon": 139.770077
+  },
+  {
+    "id": "510",
+    "name": "谷在家",
+    "japanese": "谷在家",
+    "romanized": "Yazaike",
+    "korean": "야자이케",
+    "lines": [
+      "5"
+    ],
+    "zoneId": "510",
+    "operator": "toei",
+    "lat": 35.788787,
+    "lon": 139.770036
+  },
+  {
+    "id": "511",
+    "name": "舎人公園",
+    "japanese": "舎人公園",
+    "romanized": "Toneri-koen",
+    "korean": "도네리코엔",
+    "lines": [
+      "5"
+    ],
+    "zoneId": "511",
+    "operator": "toei",
+    "lat": 35.796384,
+    "lon": 139.770159
+  },
+  {
+    "id": "512",
+    "name": "舎人",
+    "japanese": "舎人",
+    "romanized": "Toneri",
+    "korean": "도네리",
+    "lines": [
+      "5"
+    ],
+    "zoneId": "512",
+    "operator": "toei",
+    "lat": 35.80569,
+    "lon": 139.770069
+  },
+  {
+    "id": "513",
+    "name": "見沼代親水公園",
+    "japanese": "見沼代親水公園",
+    "romanized": "Minumadai-shinsuikoen",
+    "korean": "미누마다이신스이코엔",
+    "lines": [
+      "5"
+    ],
+    "zoneId": "513",
+    "operator": "toei",
+    "lat": 35.814541,
+    "lon": 139.770707
+  },
+  {
+    "id": "601",
+    "name": "三ノ輪橋",
+    "japanese": "三ノ輪橋",
+    "romanized": "Minowabashi",
+    "korean": "미노와바시",
+    "lines": [
+      "6"
+    ],
+    "zoneId": "600",
+    "operator": "toei",
+    "lat": 35.732207,
+    "lon": 139.791509
+  },
+  {
+    "id": "602",
+    "name": "荒川一中前",
+    "japanese": "荒川一中前",
+    "romanized": "Arakawa-itchumae",
+    "korean": "아라카와잇추마에",
+    "lines": [
+      "6"
+    ],
+    "zoneId": "600",
+    "operator": "toei",
+    "lat": 35.733768,
+    "lon": 139.788841
+  },
+  {
+    "id": "603",
+    "name": "荒川区役所前",
+    "japanese": "荒川区役所前",
+    "romanized": "Arakawakuyakushomae",
+    "korean": "아라카와쿠야쿠쇼마에",
+    "lines": [
+      "6"
+    ],
+    "zoneId": "600",
+    "operator": "toei",
+    "lat": 35.734913,
+    "lon": 139.786416
+  },
+  {
+    "id": "604",
+    "name": "荒川二丁目",
+    "japanese": "荒川二丁目",
+    "romanized": "Arakawa-nichome",
+    "korean": "아라카와니초메",
+    "lines": [
+      "6"
+    ],
+    "zoneId": "600",
+    "operator": "toei",
+    "lat": 35.738573,
+    "lon": 139.784704
+  },
+  {
+    "id": "605",
+    "name": "荒川七丁目",
+    "japanese": "荒川七丁目",
+    "romanized": "Arakawa-nanachome",
+    "korean": "아라카와나나초메",
+    "lines": [
+      "6"
+    ],
+    "zoneId": "600",
+    "operator": "toei",
+    "lat": 35.741923,
+    "lon": 139.78421
+  },
+  {
+    "id": "606",
+    "name": "町屋駅前",
+    "japanese": "町屋駅前",
+    "romanized": "Machiya-ekimae",
+    "korean": "마치야에키마에",
+    "lines": [
+      "6"
+    ],
+    "zoneId": "600",
+    "operator": "toei",
+    "lat": 35.742783,
+    "lon": 139.780891
+  },
+  {
+    "id": "607",
+    "name": "町屋二丁目",
+    "japanese": "町屋二丁目",
+    "romanized": "Machiya-nichome",
+    "korean": "마치야니초메",
+    "lines": [
+      "6"
+    ],
+    "zoneId": "600",
+    "operator": "toei",
+    "lat": 35.743919,
+    "lon": 139.776416
+  },
+  {
+    "id": "608",
+    "name": "東尾久三丁目",
+    "japanese": "東尾久三丁目",
+    "romanized": "Higashi-ogu-sanchome",
+    "korean": "히가시오구산초메",
+    "lines": [
+      "6"
+    ],
+    "zoneId": "600",
+    "operator": "toei",
+    "lat": 35.745626,
+    "lon": 139.773867
+  },
+  {
+    "id": "609",
+    "name": "熊野前",
+    "japanese": "熊野前",
+    "romanized": "Kumanomae",
+    "korean": "구마노마에",
+    "lines": [
+      "6"
+    ],
+    "zoneId": "600",
+    "operator": "toei",
+    "lat": 35.748487,
+    "lon": 139.769859
+  },
+  {
+    "id": "610",
+    "name": "宮ノ前",
+    "japanese": "宮ノ前",
+    "romanized": "Miyanomae",
+    "korean": "미야노마에",
+    "lines": [
+      "6"
+    ],
+    "zoneId": "600",
+    "operator": "toei",
+    "lat": 35.749811,
+    "lon": 139.76619
+  },
+  {
+    "id": "611",
+    "name": "小台",
+    "japanese": "小台",
+    "romanized": "Odai",
+    "korean": "오다이",
+    "lines": [
+      "6"
+    ],
+    "zoneId": "600",
+    "operator": "toei",
+    "lat": 35.750477,
+    "lon": 139.761739
+  },
+  {
+    "id": "612",
+    "name": "荒川遊園地前",
+    "japanese": "荒川遊園地前",
+    "romanized": "Arakawa-Yuenchimae",
+    "korean": "아라카와유엔치마에",
+    "lines": [
+      "6"
+    ],
+    "zoneId": "600",
+    "operator": "toei",
+    "lat": 35.750646,
+    "lon": 139.757517
+  },
+  {
+    "id": "613",
+    "name": "荒川車庫前",
+    "japanese": "荒川車庫前",
+    "romanized": "Arakawa-shakomae",
+    "korean": "아라카와샤코마에",
+    "lines": [
+      "6"
+    ],
+    "zoneId": "600",
+    "operator": "toei",
+    "lat": 35.750865,
+    "lon": 139.752461
+  },
+  {
+    "id": "614",
+    "name": "梶原",
+    "japanese": "梶原",
+    "romanized": "Kajiwara",
+    "korean": "가지와라",
+    "lines": [
+      "6"
+    ],
+    "zoneId": "600",
+    "operator": "toei",
+    "lat": 35.75107,
+    "lon": 139.747268
+  },
+  {
+    "id": "615",
+    "name": "栄町",
+    "japanese": "栄町",
+    "romanized": "Sakaecho",
+    "korean": "사카에초",
+    "lines": [
+      "6"
+    ],
+    "zoneId": "600",
+    "operator": "toei",
+    "lat": 35.750865,
+    "lon": 139.742186
+  },
+  {
+    "id": "616",
+    "name": "王子駅前",
+    "japanese": "王子駅前",
+    "romanized": "Oji-ekimae",
+    "korean": "오지에키마에",
+    "lines": [
+      "6"
+    ],
+    "zoneId": "600",
+    "operator": "toei",
+    "lat": 35.752982,
+    "lon": 139.738045
+  },
+  {
+    "id": "617",
+    "name": "飛鳥山",
+    "japanese": "飛鳥山",
+    "romanized": "Asukayama",
+    "korean": "아스카야마",
+    "lines": [
+      "6"
+    ],
+    "zoneId": "600",
+    "operator": "toei",
+    "lat": 35.750109,
+    "lon": 139.737333
+  },
+  {
+    "id": "618",
+    "name": "滝野川一丁目",
+    "japanese": "滝野川一丁目",
+    "romanized": "Takinogawa-itchome",
+    "korean": "다키노가와잇초메",
+    "lines": [
+      "6"
+    ],
+    "zoneId": "600",
+    "operator": "toei",
+    "lat": 35.747283,
+    "lon": 139.73542
+  },
+  {
+    "id": "619",
+    "name": "西ヶ原四丁目",
+    "japanese": "西ヶ原四丁目",
+    "romanized": "Nishigahara-yonchome",
+    "korean": "니시가하라욘초메",
+    "lines": [
+      "6"
+    ],
+    "zoneId": "600",
+    "operator": "toei",
+    "lat": 35.744222,
+    "lon": 139.732665
+  },
+  {
+    "id": "620",
+    "name": "新庚申塚",
+    "japanese": "新庚申塚",
+    "romanized": "Shin-koshinzuka",
+    "korean": "신고신즈카",
+    "lines": [
+      "6"
+    ],
+    "zoneId": "600",
+    "operator": "toei",
+    "lat": 35.74107,
+    "lon": 139.730344
+  },
+  {
+    "id": "621",
+    "name": "庚申塚",
+    "japanese": "庚申塚",
+    "romanized": "Koshinzuka",
+    "korean": "고신즈카",
+    "lines": [
+      "6"
+    ],
+    "zoneId": "600",
+    "operator": "toei",
+    "lat": 35.739504,
+    "lon": 139.729625
+  },
+  {
+    "id": "622",
+    "name": "巣鴨新田",
+    "japanese": "巣鴨新田",
+    "romanized": "Sugamoshinden",
+    "korean": "스가모신덴",
+    "lines": [
+      "6"
+    ],
+    "zoneId": "600",
+    "operator": "toei",
+    "lat": 35.735682,
+    "lon": 139.727684
+  },
+  {
+    "id": "623",
+    "name": "大塚駅前",
+    "japanese": "大塚駅前",
+    "romanized": "Otsuka-ekimae",
+    "korean": "오쓰카에키마에",
+    "lines": [
+      "6"
+    ],
+    "zoneId": "600",
+    "operator": "toei",
+    "lat": 35.731188,
+    "lon": 139.729098
+  },
+  {
+    "id": "624",
+    "name": "向原",
+    "japanese": "向原",
+    "romanized": "Mukohara",
+    "korean": "무코하라",
+    "lines": [
+      "6"
+    ],
+    "zoneId": "600",
+    "operator": "toei",
+    "lat": 35.728775,
+    "lon": 139.724759
+  },
+  {
+    "id": "625",
+    "name": "東池袋四丁目",
+    "japanese": "東池袋四丁目",
+    "romanized": "Higashi-ikebukuro-yonchome",
+    "korean": "히가시이케부쿠로욘초메",
+    "lines": [
+      "6"
+    ],
+    "zoneId": "600",
+    "operator": "toei",
+    "lat": 35.725398,
+    "lon": 139.720404
+  },
+  {
+    "id": "626",
+    "name": "都電雑司ヶ谷",
+    "japanese": "都電雑司ヶ谷",
+    "romanized": "Toden-zoshigaya",
+    "korean": "도덴조시가야",
+    "lines": [
+      "6"
+    ],
+    "zoneId": "600",
+    "operator": "toei",
+    "lat": 35.724081,
+    "lon": 139.717835
+  },
+  {
+    "id": "627",
+    "name": "鬼子母神前",
+    "japanese": "鬼子母神前",
+    "romanized": "Kishibojimmae",
+    "korean": "기시보진마에",
+    "lines": [
+      "6"
+    ],
+    "zoneId": "600",
+    "operator": "toei",
+    "lat": 35.720569,
+    "lon": 139.71516
+  },
+  {
+    "id": "628",
+    "name": "学習院下",
+    "japanese": "学習院下",
+    "romanized": "Gakushuinshita",
+    "korean": "가쿠슈인시타",
+    "lines": [
+      "6"
+    ],
+    "zoneId": "600",
+    "operator": "toei",
+    "lat": 35.716347,
+    "lon": 139.712529
+  },
+  {
+    "id": "629",
+    "name": "面影橋",
+    "japanese": "面影橋",
+    "romanized": "Omokagebashi",
+    "korean": "오모카게바시",
+    "lines": [
+      "6"
+    ],
+    "zoneId": "600",
+    "operator": "toei",
+    "lat": 35.713012,
+    "lon": 139.714199
+  },
+  {
+    "id": "630",
+    "name": "早稲田",
+    "japanese": "早稲田",
+    "romanized": "Waseda",
+    "korean": "와세다",
+    "lines": [
+      "6"
+    ],
+    "zoneId": "600",
+    "operator": "toei",
+    "lat": 35.71176,
+    "lon": 139.719003
+  },
+  {
+    "id": "TM-101",
+    "name": "渋谷",
+    "japanese": "渋谷",
+    "romanized": "Shibuya",
+    "korean": "시부야",
+    "lat": 35.659097,
+    "lon": 139.702673,
+    "zoneId": "101",
+    "stationCode": "G01",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-1"
+    ]
+  },
+  {
+    "id": "TM-102",
+    "name": "表参道",
+    "japanese": "表参道",
+    "romanized": "Omote-sando",
+    "korean": "오모테산도",
+    "lat": 35.665042,
+    "lon": 139.712473,
+    "zoneId": "102",
+    "stationCode": "G02",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-1"
+    ]
+  },
+  {
+    "id": "TM-103",
+    "name": "外苑前",
+    "japanese": "外苑前",
+    "romanized": "Gaiemmae",
+    "korean": "가이엔마에",
+    "lat": 35.670375,
+    "lon": 139.717825,
+    "zoneId": "103",
+    "stationCode": "G03",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-1"
+    ]
+  },
+  {
+    "id": "TM-104",
+    "name": "青山一丁目",
+    "japanese": "青山一丁目",
+    "romanized": "Aoyama-itchome",
+    "korean": "아오야마잇초메",
+    "lat": 35.67279,
+    "lon": 139.724145,
+    "zoneId": "104",
+    "stationCode": "G04",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-1"
+    ]
+  },
+  {
+    "id": "TM-105",
+    "name": "赤坂見附",
+    "japanese": "赤坂見附",
+    "romanized": "Akasaka-mitsuke",
+    "korean": "아카사카미쓰케",
+    "lat": 35.676845,
+    "lon": 139.737347,
+    "zoneId": "105",
+    "stationCode": "G05",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-1"
+    ]
+  },
+  {
+    "id": "TM-106",
+    "name": "溜池山王",
+    "japanese": "溜池山王",
+    "romanized": "Tameike-sanno",
+    "korean": "다메이케산노",
+    "lat": 35.671511,
+    "lon": 139.741943,
+    "zoneId": "106",
+    "stationCode": "G06",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-1"
+    ]
+  },
+  {
+    "id": "TM-107",
+    "name": "虎ノ門",
+    "japanese": "虎ノ門",
+    "romanized": "Toranomon",
+    "korean": "도라노몬",
+    "lat": 35.67016,
+    "lon": 139.75012,
+    "zoneId": "107",
+    "stationCode": "G07",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-1"
+    ]
+  },
+  {
+    "id": "TM-108",
+    "name": "新橋",
+    "japanese": "新橋",
+    "romanized": "Shimbashi",
+    "korean": "신바시",
+    "lat": 35.667382,
+    "lon": 139.758512,
+    "zoneId": "108",
+    "stationCode": "G08",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-1"
+    ]
+  },
+  {
+    "id": "TM-109",
+    "name": "銀座",
+    "japanese": "銀座",
+    "romanized": "Ginza",
+    "korean": "긴자",
+    "lat": 35.6715,
+    "lon": 139.765366,
+    "zoneId": "109",
+    "stationCode": "G09",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-1"
+    ]
+  },
+  {
+    "id": "TM-110",
+    "name": "京橋",
+    "japanese": "京橋",
+    "romanized": "Kyobashi",
+    "korean": "교바시",
+    "lat": 35.676704,
+    "lon": 139.77011,
+    "zoneId": "110",
+    "stationCode": "G10",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-1"
+    ]
+  },
+  {
+    "id": "TM-111",
+    "name": "日本橋",
+    "japanese": "日本橋",
+    "romanized": "Nihombashi",
+    "korean": "니혼바시",
+    "lat": 35.681879,
+    "lon": 139.773335,
+    "zoneId": "111",
+    "stationCode": "G11",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-1"
+    ]
+  },
+  {
+    "id": "TM-112",
+    "name": "三越前",
+    "japanese": "三越前",
+    "romanized": "Mitsukoshimae",
+    "korean": "미쓰코시마에",
+    "lat": 35.687173,
+    "lon": 139.773582,
+    "zoneId": "112",
+    "stationCode": "G12",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-1"
+    ]
+  },
+  {
+    "id": "TM-113",
+    "name": "神田",
+    "japanese": "神田",
+    "romanized": "Kanda",
+    "korean": "간다",
+    "lat": 35.693715,
+    "lon": 139.77089,
+    "zoneId": "113",
+    "stationCode": "G13",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-1"
+    ]
+  },
+  {
+    "id": "TM-114",
+    "name": "末広町",
+    "japanese": "末広町",
+    "romanized": "Suehirocho",
+    "korean": "수에히로초",
+    "lat": 35.70278,
+    "lon": 139.771762,
+    "zoneId": "114",
+    "stationCode": "G14",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-1"
+    ]
+  },
+  {
+    "id": "TM-115",
+    "name": "上野広小路",
+    "japanese": "上野広小路",
+    "romanized": "Ueno-hirokoji",
+    "korean": "우에노히로코지",
+    "lat": 35.707765,
+    "lon": 139.773011,
+    "zoneId": "115",
+    "stationCode": "G15",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-1"
+    ]
+  },
+  {
+    "id": "TM-116",
+    "name": "上野",
+    "japanese": "上野",
+    "romanized": "Ueno",
+    "korean": "우에노",
+    "lat": 35.711835,
+    "lon": 139.775625,
+    "zoneId": "116",
+    "stationCode": "G16",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-1"
+    ]
+  },
+  {
+    "id": "TM-117",
+    "name": "稲荷町",
+    "japanese": "稲荷町",
+    "romanized": "Inaricho",
+    "korean": "이나리초",
+    "lat": 35.711389,
+    "lon": 139.78221,
+    "zoneId": "117",
+    "stationCode": "G17",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-1"
+    ]
+  },
+  {
+    "id": "TM-118",
+    "name": "田原町",
+    "japanese": "田原町",
+    "romanized": "Tawaramachi",
+    "korean": "다와라마치",
+    "lat": 35.709917,
+    "lon": 139.790306,
+    "zoneId": "118",
+    "stationCode": "G18",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-1"
+    ]
+  },
+  {
+    "id": "TM-119",
+    "name": "浅草",
+    "japanese": "浅草",
+    "romanized": "Asakusa",
+    "korean": "아사쿠사",
+    "lat": 35.710746,
+    "lon": 139.797774,
+    "zoneId": "119",
+    "stationCode": "G19",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-1"
+    ]
+  },
+  {
+    "id": "TM-201",
+    "name": "荻窪",
+    "japanese": "荻窪",
+    "romanized": "Ogikubo",
+    "korean": "오기쿠보",
+    "lat": 35.704175,
+    "lon": 139.61976,
+    "zoneId": "201",
+    "stationCode": "M01",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-2"
+    ]
+  },
+  {
+    "id": "TM-202",
+    "name": "南阿佐ケ谷",
+    "japanese": "南阿佐ケ谷",
+    "romanized": "Minami-asagaya",
+    "korean": "미나미아사가야",
+    "lat": 35.699455,
+    "lon": 139.635575,
+    "zoneId": "202",
+    "stationCode": "M02",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-2"
+    ]
+  },
+  {
+    "id": "TM-203",
+    "name": "新高円寺",
+    "japanese": "新高円寺",
+    "romanized": "Shin-koenji",
+    "korean": "신코엔지",
+    "lat": 35.69786,
+    "lon": 139.64851,
+    "zoneId": "203",
+    "stationCode": "M03",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-2"
+    ]
+  },
+  {
+    "id": "TM-204",
+    "name": "東高円寺",
+    "japanese": "東高円寺",
+    "romanized": "Higashi-koenji",
+    "korean": "히가시코엔지",
+    "lat": 35.697965,
+    "lon": 139.658295,
+    "zoneId": "204",
+    "stationCode": "M04",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-2"
+    ]
+  },
+  {
+    "id": "TM-205",
+    "name": "新中野",
+    "japanese": "新中野",
+    "romanized": "Shin-nakano",
+    "korean": "신나카노",
+    "lat": 35.697475,
+    "lon": 139.66951,
+    "zoneId": "205",
+    "stationCode": "M05",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-2"
+    ]
+  },
+  {
+    "id": "TM-206",
+    "name": "方南町",
+    "japanese": "方南町",
+    "romanized": "Honancho",
+    "korean": "호난초",
+    "lat": 35.683515,
+    "lon": 139.657935,
+    "zoneId": "206",
+    "stationCode": "Mb03",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-2"
+    ]
+  },
+  {
+    "id": "TM-207",
+    "name": "中野富士見町",
+    "japanese": "中野富士見町",
+    "romanized": "Nakano-fujimicho",
+    "korean": "나카노후지미초",
+    "lat": 35.69082,
+    "lon": 139.668155,
+    "zoneId": "207",
+    "stationCode": "Mb04",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-2"
+    ]
+  },
+  {
+    "id": "TM-208",
+    "name": "中野新橋",
+    "japanese": "中野新橋",
+    "romanized": "Nakano-Shimbashi",
+    "korean": "나카노신바시",
+    "lat": 35.691685,
+    "lon": 139.674001,
+    "zoneId": "208",
+    "stationCode": "Mb05",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-2"
+    ]
+  },
+  {
+    "id": "TM-209",
+    "name": "中野坂上",
+    "japanese": "中野坂上",
+    "romanized": "Nakano-sakaue",
+    "korean": "나카노사카우에",
+    "lat": 35.697085,
+    "lon": 139.682205,
+    "zoneId": "209",
+    "stationCode": "M06",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-2"
+    ]
+  },
+  {
+    "id": "TM-210",
+    "name": "西新宿",
+    "japanese": "西新宿",
+    "romanized": "Nishi-shinjuku",
+    "korean": "니시신주쿠",
+    "lat": 35.694515,
+    "lon": 139.69256,
+    "zoneId": "210",
+    "stationCode": "M07",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-2"
+    ]
+  },
+  {
+    "id": "TM-211",
+    "name": "新宿",
+    "japanese": "新宿",
+    "romanized": "Shinjuku",
+    "korean": "신주쿠",
+    "lat": 35.692452,
+    "lon": 139.700548,
+    "zoneId": "211",
+    "stationCode": "M08",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-2"
+    ]
+  },
+  {
+    "id": "TM-212",
+    "name": "新宿三丁目",
+    "japanese": "新宿三丁目",
+    "romanized": "Shinjuku-sanchome",
+    "korean": "신주쿠산초메",
+    "lat": 35.69118,
+    "lon": 139.70421,
+    "zoneId": "212",
+    "stationCode": "M09",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-2"
+    ]
+  },
+  {
+    "id": "TM-213",
+    "name": "新宿御苑前",
+    "japanese": "新宿御苑前",
+    "romanized": "Shinjuku-gyoemmae",
+    "korean": "신주쿠교엔마에",
+    "lat": 35.688525,
+    "lon": 139.710915,
+    "zoneId": "213",
+    "stationCode": "M10",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-2"
+    ]
+  },
+  {
+    "id": "TM-214",
+    "name": "四谷三丁目",
+    "japanese": "四谷三丁目",
+    "romanized": "Yotsuya-sanchome",
+    "korean": "요쓰야산초메",
+    "lat": 35.687835,
+    "lon": 139.719325,
+    "zoneId": "214",
+    "stationCode": "M11",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-2"
+    ]
+  },
+  {
+    "id": "TM-215",
+    "name": "四ツ谷",
+    "japanese": "四ツ谷",
+    "romanized": "Yotsuya",
+    "korean": "요쓰야",
+    "lat": 35.684197,
+    "lon": 139.730047,
+    "zoneId": "215",
+    "stationCode": "M12",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-2"
+    ]
+  },
+  {
+    "id": "TM-216",
+    "name": "赤坂見附",
+    "japanese": "赤坂見附",
+    "romanized": "Akasaka-mitsuke",
+    "korean": "아카사카미쓰케",
+    "lat": 35.676845,
+    "lon": 139.737347,
+    "zoneId": "216",
+    "stationCode": "M13",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-2"
+    ]
+  },
+  {
+    "id": "TM-217",
+    "name": "国会議事堂前",
+    "japanese": "国会議事堂前",
+    "romanized": "Kokkai-gijidomae",
+    "korean": "곳카이기지도마에",
+    "lat": 35.674926,
+    "lon": 139.745473,
+    "zoneId": "217",
+    "stationCode": "M14",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-2"
+    ]
+  },
+  {
+    "id": "TM-218",
+    "name": "霞ケ関",
+    "japanese": "霞ケ関",
+    "romanized": "Kasumigaseki",
+    "korean": "가스미가세키",
+    "lat": 35.674235,
+    "lon": 139.75268,
+    "zoneId": "218",
+    "stationCode": "M15",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-2"
+    ]
+  },
+  {
+    "id": "TM-219",
+    "name": "銀座",
+    "japanese": "銀座",
+    "romanized": "Ginza",
+    "korean": "긴자",
+    "lat": 35.673159,
+    "lon": 139.763876,
+    "zoneId": "219",
+    "stationCode": "M16",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-2"
+    ]
+  },
+  {
+    "id": "TM-220",
+    "name": "東京",
+    "japanese": "東京",
+    "romanized": "Tokyo",
+    "korean": "도쿄",
+    "lat": 35.681935,
+    "lon": 139.7648,
+    "zoneId": "220",
+    "stationCode": "M17",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-2"
+    ]
+  },
+  {
+    "id": "TM-221",
+    "name": "大手町",
+    "japanese": "大手町",
+    "romanized": "Otemachi",
+    "korean": "오테마치",
+    "lat": 35.686875,
+    "lon": 139.766203,
+    "zoneId": "221",
+    "stationCode": "M18",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-2"
+    ]
+  },
+  {
+    "id": "TM-222",
+    "name": "淡路町",
+    "japanese": "淡路町",
+    "romanized": "Awajicho",
+    "korean": "아와지초",
+    "lat": 35.69487,
+    "lon": 139.767455,
+    "zoneId": "222",
+    "stationCode": "M19",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-2"
+    ]
+  },
+  {
+    "id": "TM-223",
+    "name": "御茶ノ水",
+    "japanese": "御茶ノ水",
+    "romanized": "Ochanomizu",
+    "korean": "오차노미즈",
+    "lat": 35.70043,
+    "lon": 139.764405,
+    "zoneId": "223",
+    "stationCode": "M20",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-2"
+    ]
+  },
+  {
+    "id": "TM-224",
+    "name": "本郷三丁目",
+    "japanese": "本郷三丁目",
+    "romanized": "Hongo-sanchome",
+    "korean": "혼고산초메",
+    "lat": 35.706726,
+    "lon": 139.760154,
+    "zoneId": "224",
+    "stationCode": "M21",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-2"
+    ]
+  },
+  {
+    "id": "TM-225",
+    "name": "後楽園",
+    "japanese": "後楽園",
+    "romanized": "Korakuen",
+    "korean": "고라쿠엔",
+    "lat": 35.707307,
+    "lon": 139.750861,
+    "zoneId": "225",
+    "stationCode": "M22",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-2"
+    ]
+  },
+  {
+    "id": "TM-226",
+    "name": "茗荷谷",
+    "japanese": "茗荷谷",
+    "romanized": "Myogadani",
+    "korean": "묘가다니",
+    "lat": 35.7172,
+    "lon": 139.736895,
+    "zoneId": "226",
+    "stationCode": "M23",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-2"
+    ]
+  },
+  {
+    "id": "TM-227",
+    "name": "新大塚",
+    "japanese": "新大塚",
+    "romanized": "Shin-otsuka",
+    "korean": "신오쓰카",
+    "lat": 35.72613,
+    "lon": 139.729354,
+    "zoneId": "227",
+    "stationCode": "M24",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-2"
+    ]
+  },
+  {
+    "id": "TM-228",
+    "name": "池袋",
+    "japanese": "池袋",
+    "romanized": "Ikebukuro",
+    "korean": "이케부쿠로",
+    "lat": 35.730345,
+    "lon": 139.71115,
+    "zoneId": "228",
+    "stationCode": "M25",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-2"
+    ]
+  },
+  {
+    "id": "TM-301",
+    "name": "中目黒",
+    "japanese": "中目黒",
+    "romanized": "Naka-meguro",
+    "korean": "나카메구로",
+    "lat": 35.644108,
+    "lon": 139.698833,
+    "zoneId": "301",
+    "stationCode": "H01",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-3"
+    ]
+  },
+  {
+    "id": "TM-302",
+    "name": "恵比寿",
+    "japanese": "恵比寿",
+    "romanized": "Ebisu",
+    "korean": "에비스",
+    "lat": 35.64704,
+    "lon": 139.708701,
+    "zoneId": "302",
+    "stationCode": "H02",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-3"
+    ]
+  },
+  {
+    "id": "TM-303",
+    "name": "広尾",
+    "japanese": "広尾",
+    "romanized": "Hiro-o",
+    "korean": "히로오",
+    "lat": 35.651499,
+    "lon": 139.722209,
+    "zoneId": "303",
+    "stationCode": "H03",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-3"
+    ]
+  },
+  {
+    "id": "TM-304",
+    "name": "六本木",
+    "japanese": "六本木",
+    "romanized": "Roppongi",
+    "korean": "롯폰기",
+    "lat": 35.6628,
+    "lon": 139.731155,
+    "zoneId": "304",
+    "stationCode": "H04",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-3"
+    ]
+  },
+  {
+    "id": "TM-305",
+    "name": "神谷町",
+    "japanese": "神谷町",
+    "romanized": "Kamiyacho",
+    "korean": "가미야초",
+    "lat": 35.662625,
+    "lon": 139.744725,
+    "zoneId": "305",
+    "stationCode": "H05",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-3"
+    ]
+  },
+  {
+    "id": "TM-306",
+    "name": "虎ノ門ヒルズ",
+    "japanese": "虎ノ門ヒルズ",
+    "romanized": "Toranomon-hills",
+    "korean": "도라노몬힐스",
+    "lat": 35.667309,
+    "lon": 139.747738,
+    "zoneId": "306",
+    "stationCode": "H06",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-3"
+    ]
+  },
+  {
+    "id": "TM-307",
+    "name": "霞ケ関",
+    "japanese": "霞ケ関",
+    "romanized": "Kasumigaseki",
+    "korean": "가스미가세키",
+    "lat": 35.673875,
+    "lon": 139.75106,
+    "zoneId": "307",
+    "stationCode": "H07",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-3"
+    ]
+  },
+  {
+    "id": "TM-308",
+    "name": "日比谷",
+    "japanese": "日比谷",
+    "romanized": "Hibiya",
+    "korean": "히비야",
+    "lat": 35.674271,
+    "lon": 139.7606,
+    "zoneId": "308",
+    "stationCode": "H08",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-3"
+    ]
+  },
+  {
+    "id": "TM-309",
+    "name": "銀座",
+    "japanese": "銀座",
+    "romanized": "Ginza",
+    "korean": "긴자",
+    "lat": 35.671983,
+    "lon": 139.764007,
+    "zoneId": "309",
+    "stationCode": "H09",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-3"
+    ]
+  },
+  {
+    "id": "TM-310",
+    "name": "東銀座",
+    "japanese": "東銀座",
+    "romanized": "Higashi-ginza",
+    "korean": "히가시긴자",
+    "lat": 35.669129,
+    "lon": 139.767633,
+    "zoneId": "310",
+    "stationCode": "H10",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-3"
+    ]
+  },
+  {
+    "id": "TM-311",
+    "name": "築地",
+    "japanese": "築地",
+    "romanized": "Tsukiji",
+    "korean": "쓰키지",
+    "lat": 35.667928,
+    "lon": 139.772473,
+    "zoneId": "311",
+    "stationCode": "H11",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-3"
+    ]
+  },
+  {
+    "id": "TM-312",
+    "name": "八丁堀",
+    "japanese": "八丁堀",
+    "romanized": "Hatchobori",
+    "korean": "핫초보리",
+    "lat": 35.675368,
+    "lon": 139.777334,
+    "zoneId": "312",
+    "stationCode": "H12",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-3"
+    ]
+  },
+  {
+    "id": "TM-313",
+    "name": "茅場町",
+    "japanese": "茅場町",
+    "romanized": "Kayabacho",
+    "korean": "가야바초",
+    "lat": 35.679078,
+    "lon": 139.779619,
+    "zoneId": "313",
+    "stationCode": "H13",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-3"
+    ]
+  },
+  {
+    "id": "TM-314",
+    "name": "人形町",
+    "japanese": "人形町",
+    "romanized": "Ningyocho",
+    "korean": "닌교초",
+    "lat": 35.686259,
+    "lon": 139.782339,
+    "zoneId": "314",
+    "stationCode": "H14",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-3"
+    ]
+  },
+  {
+    "id": "TM-315",
+    "name": "小伝馬町",
+    "japanese": "小伝馬町",
+    "romanized": "Kodemmacho",
+    "korean": "고덴마초",
+    "lat": 35.690423,
+    "lon": 139.778758,
+    "zoneId": "315",
+    "stationCode": "H15",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-3"
+    ]
+  },
+  {
+    "id": "TM-316",
+    "name": "秋葉原",
+    "japanese": "秋葉原",
+    "romanized": "Akihabara",
+    "korean": "아키하바라",
+    "lat": 35.697965,
+    "lon": 139.775529,
+    "zoneId": "316",
+    "stationCode": "H16",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-3"
+    ]
+  },
+  {
+    "id": "TM-317",
+    "name": "仲御徒町",
+    "japanese": "仲御徒町",
+    "romanized": "Naka-okachimachi",
+    "korean": "나카오카치마치",
+    "lat": 35.706655,
+    "lon": 139.77619,
+    "zoneId": "317",
+    "stationCode": "H17",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-3"
+    ]
+  },
+  {
+    "id": "TM-318",
+    "name": "上野",
+    "japanese": "上野",
+    "romanized": "Ueno",
+    "korean": "우에노",
+    "lat": 35.711558,
+    "lon": 139.777061,
+    "zoneId": "318",
+    "stationCode": "H18",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-3"
+    ]
+  },
+  {
+    "id": "TM-319",
+    "name": "入谷",
+    "japanese": "入谷",
+    "romanized": "Iriya",
+    "korean": "이리야",
+    "lat": 35.720565,
+    "lon": 139.784466,
+    "zoneId": "319",
+    "stationCode": "H19",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-3"
+    ]
+  },
+  {
+    "id": "TM-320",
+    "name": "三ノ輪",
+    "japanese": "三ノ輪",
+    "romanized": "Minowa",
+    "korean": "미노와",
+    "lat": 35.729285,
+    "lon": 139.791165,
+    "zoneId": "320",
+    "stationCode": "H20",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-3"
+    ]
+  },
+  {
+    "id": "TM-321",
+    "name": "南千住",
+    "japanese": "南千住",
+    "romanized": "Minami-senju",
+    "korean": "미나미센주",
+    "lat": 35.73231,
+    "lon": 139.79878,
+    "zoneId": "321",
+    "stationCode": "H21",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-3"
+    ]
+  },
+  {
+    "id": "TM-322",
+    "name": "北千住",
+    "japanese": "北千住",
+    "romanized": "Kita-senju",
+    "korean": "기타센주",
+    "lat": 35.749904,
+    "lon": 139.805591,
+    "zoneId": "322",
+    "stationCode": "H22",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-3"
+    ]
+  },
+  {
+    "id": "TM-401",
+    "name": "中野",
+    "japanese": "中野",
+    "romanized": "Nakano",
+    "korean": "나카노",
+    "lat": 35.70574,
+    "lon": 139.665605,
+    "zoneId": "401",
+    "stationCode": "T01",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-4"
+    ]
+  },
+  {
+    "id": "TM-402",
+    "name": "落合",
+    "japanese": "落合",
+    "romanized": "Ochiai",
+    "korean": "오치아이",
+    "lat": 35.710635,
+    "lon": 139.685965,
+    "zoneId": "402",
+    "stationCode": "T02",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-4"
+    ]
+  },
+  {
+    "id": "TM-403",
+    "name": "高田馬場",
+    "japanese": "高田馬場",
+    "romanized": "Takadanobaba",
+    "korean": "다카다노바바",
+    "lat": 35.71328,
+    "lon": 139.705045,
+    "zoneId": "403",
+    "stationCode": "T03",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-4"
+    ]
+  },
+  {
+    "id": "TM-404",
+    "name": "早稲田",
+    "japanese": "早稲田",
+    "romanized": "Waseda",
+    "korean": "와세다",
+    "lat": 35.70568,
+    "lon": 139.72219,
+    "zoneId": "404",
+    "stationCode": "T04",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-4"
+    ]
+  },
+  {
+    "id": "TM-405",
+    "name": "神楽坂",
+    "japanese": "神楽坂",
+    "romanized": "Kagurazaka",
+    "korean": "가구라자카",
+    "lat": 35.703865,
+    "lon": 139.73452,
+    "zoneId": "405",
+    "stationCode": "T05",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-4"
+    ]
+  },
+  {
+    "id": "TM-406",
+    "name": "飯田橋",
+    "japanese": "飯田橋",
+    "romanized": "Iidabashi",
+    "korean": "이다바시",
+    "lat": 35.701403,
+    "lon": 139.746521,
+    "zoneId": "406",
+    "stationCode": "T06",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-4"
+    ]
+  },
+  {
+    "id": "TM-407",
+    "name": "九段下",
+    "japanese": "九段下",
+    "romanized": "Kudanshita",
+    "korean": "구단시타",
+    "lat": 35.696091,
+    "lon": 139.751265,
+    "zoneId": "407",
+    "stationCode": "T07",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-4"
+    ]
+  },
+  {
+    "id": "TM-408",
+    "name": "竹橋",
+    "japanese": "竹橋",
+    "romanized": "Takebashi",
+    "korean": "다케바시",
+    "lat": 35.69044,
+    "lon": 139.75767,
+    "zoneId": "408",
+    "stationCode": "T08",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-4"
+    ]
+  },
+  {
+    "id": "TM-409",
+    "name": "大手町",
+    "japanese": "大手町",
+    "romanized": "Otemachi",
+    "korean": "오테마치",
+    "lat": 35.684697,
+    "lon": 139.76603,
+    "zoneId": "409",
+    "stationCode": "T09",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-4"
+    ]
+  },
+  {
+    "id": "TM-410",
+    "name": "日本橋",
+    "japanese": "日本橋",
+    "romanized": "Nihombashi",
+    "korean": "니혼바시",
+    "lat": 35.682376,
+    "lon": 139.774101,
+    "zoneId": "410",
+    "stationCode": "T10",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-4"
+    ]
+  },
+  {
+    "id": "TM-411",
+    "name": "茅場町",
+    "japanese": "茅場町",
+    "romanized": "Kayabacho",
+    "korean": "가야바초",
+    "lat": 35.680346,
+    "lon": 139.77927,
+    "zoneId": "411",
+    "stationCode": "T11",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-4"
+    ]
+  },
+  {
+    "id": "TM-412",
+    "name": "門前仲町",
+    "japanese": "門前仲町",
+    "romanized": "Monzen-nakacho",
+    "korean": "몬젠나카초",
+    "lat": 35.671892,
+    "lon": 139.796099,
+    "zoneId": "412",
+    "stationCode": "T12",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-4"
+    ]
+  },
+  {
+    "id": "TM-413",
+    "name": "木場",
+    "japanese": "木場",
+    "romanized": "Kiba",
+    "korean": "기바",
+    "lat": 35.669356,
+    "lon": 139.807115,
+    "zoneId": "413",
+    "stationCode": "T13",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-4"
+    ]
+  },
+  {
+    "id": "TM-414",
+    "name": "東陽町",
+    "japanese": "東陽町",
+    "romanized": "Toyocho",
+    "korean": "도요초",
+    "lat": 35.66959,
+    "lon": 139.81768,
+    "zoneId": "414",
+    "stationCode": "T14",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-4"
+    ]
+  },
+  {
+    "id": "TM-415",
+    "name": "南砂町",
+    "japanese": "南砂町",
+    "romanized": "Minami-sunamachi",
+    "korean": "미나미스나마치",
+    "lat": 35.668415,
+    "lon": 139.831695,
+    "zoneId": "415",
+    "stationCode": "T15",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-4"
+    ]
+  },
+  {
+    "id": "TM-416",
+    "name": "西葛西",
+    "japanese": "西葛西",
+    "romanized": "Nishi-kasai",
+    "korean": "니시카사이",
+    "lat": 35.664562,
+    "lon": 139.8596,
+    "zoneId": "416",
+    "stationCode": "T16",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-4"
+    ]
+  },
+  {
+    "id": "TM-417",
+    "name": "葛西",
+    "japanese": "葛西",
+    "romanized": "Kasai",
+    "korean": "가사이",
+    "lat": 35.663616,
+    "lon": 139.87253,
+    "zoneId": "417",
+    "stationCode": "T17",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-4"
+    ]
+  },
+  {
+    "id": "TM-418",
+    "name": "浦安",
+    "japanese": "浦安",
+    "romanized": "Urayasu",
+    "korean": "우라야스",
+    "lat": 35.665903,
+    "lon": 139.893236,
+    "zoneId": "418",
+    "stationCode": "T18",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-4"
+    ]
+  },
+  {
+    "id": "TM-419",
+    "name": "南行徳",
+    "japanese": "南行徳",
+    "romanized": "Minami-gyotoku",
+    "korean": "미나미교토쿠",
+    "lat": 35.672729,
+    "lon": 139.902276,
+    "zoneId": "419",
+    "stationCode": "T19",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-4"
+    ]
+  },
+  {
+    "id": "TM-420",
+    "name": "行徳",
+    "japanese": "行徳",
+    "romanized": "Gyotoku",
+    "korean": "교토쿠",
+    "lat": 35.68262,
+    "lon": 139.914185,
+    "zoneId": "420",
+    "stationCode": "T20",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-4"
+    ]
+  },
+  {
+    "id": "TM-421",
+    "name": "妙典",
+    "japanese": "妙典",
+    "romanized": "Myoden",
+    "korean": "묘덴",
+    "lat": 35.691014,
+    "lon": 139.924286,
+    "zoneId": "421",
+    "stationCode": "T21",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-4"
+    ]
+  },
+  {
+    "id": "TM-422",
+    "name": "原木中山",
+    "japanese": "原木中山",
+    "romanized": "Baraki-nakayama",
+    "korean": "바라키나카야마",
+    "lat": 35.7033,
+    "lon": 139.941915,
+    "zoneId": "422",
+    "stationCode": "T22",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-4"
+    ]
+  },
+  {
+    "id": "TM-423",
+    "name": "西船橋",
+    "japanese": "西船橋",
+    "romanized": "Nishi-funabashi",
+    "korean": "니시후나바시",
+    "lat": 35.707174,
+    "lon": 139.958767,
+    "zoneId": "423",
+    "stationCode": "T23",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-4"
+    ]
+  },
+  {
+    "id": "TM-501",
+    "name": "代々木上原",
+    "japanese": "代々木上原",
+    "romanized": "Yoyogi-uehara",
+    "korean": "요요기우에하라",
+    "lat": 35.669017,
+    "lon": 139.679884,
+    "zoneId": "501",
+    "stationCode": "C01",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-5"
+    ]
+  },
+  {
+    "id": "TM-502",
+    "name": "代々木公園",
+    "japanese": "代々木公園",
+    "romanized": "Yoyogi-koen",
+    "korean": "요요기코엔",
+    "lat": 35.669104,
+    "lon": 139.689791,
+    "zoneId": "502",
+    "stationCode": "C02",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-5"
+    ]
+  },
+  {
+    "id": "TM-503",
+    "name": "明治神宮前〈原宿〉",
+    "japanese": "明治神宮前〈原宿〉",
+    "romanized": "Meiji-jingumae<Harajuku>",
+    "korean": "메이지진구마에<하라주쿠>",
+    "lat": 35.669123,
+    "lon": 139.703944,
+    "zoneId": "503",
+    "stationCode": "C03",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-5"
+    ]
+  },
+  {
+    "id": "TM-504",
+    "name": "表参道",
+    "japanese": "表参道",
+    "romanized": "Omote-sando",
+    "korean": "오모테산도",
+    "lat": 35.665652,
+    "lon": 139.711346,
+    "zoneId": "504",
+    "stationCode": "C04",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-5"
+    ]
+  },
+  {
+    "id": "TM-505",
+    "name": "乃木坂",
+    "japanese": "乃木坂",
+    "romanized": "Nogizaka",
+    "korean": "노기자카",
+    "lat": 35.666592,
+    "lon": 139.726229,
+    "zoneId": "505",
+    "stationCode": "C05",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-5"
+    ]
+  },
+  {
+    "id": "TM-506",
+    "name": "赤坂",
+    "japanese": "赤坂",
+    "romanized": "Akasaka",
+    "korean": "아카사카",
+    "lat": 35.672104,
+    "lon": 139.736413,
+    "zoneId": "506",
+    "stationCode": "C06",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-5"
+    ]
+  },
+  {
+    "id": "TM-507",
+    "name": "国会議事堂前",
+    "japanese": "国会議事堂前",
+    "romanized": "Kokkai-gijidomae",
+    "korean": "곳카이기지도마에",
+    "lat": 35.673566,
+    "lon": 139.743188,
+    "zoneId": "507",
+    "stationCode": "C07",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-5"
+    ]
+  },
+  {
+    "id": "TM-508",
+    "name": "霞ケ関",
+    "japanese": "霞ケ関",
+    "romanized": "Kasumigaseki",
+    "korean": "가스미가세키",
+    "lat": 35.67256,
+    "lon": 139.75177,
+    "zoneId": "508",
+    "stationCode": "C08",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-5"
+    ]
+  },
+  {
+    "id": "TM-509",
+    "name": "日比谷",
+    "japanese": "日比谷",
+    "romanized": "Hibiya",
+    "korean": "히비야",
+    "lat": 35.673955,
+    "lon": 139.758765,
+    "zoneId": "509",
+    "stationCode": "C09",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-5"
+    ]
+  },
+  {
+    "id": "TM-510",
+    "name": "二重橋前〈丸の内〉",
+    "japanese": "二重橋前〈丸の内〉",
+    "romanized": "Nijubashimae<Marunouchi>",
+    "korean": "니주바시마에<마루노우치선>",
+    "lat": 35.680505,
+    "lon": 139.76178,
+    "zoneId": "510",
+    "stationCode": "C10",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-5"
+    ]
+  },
+  {
+    "id": "TM-511",
+    "name": "大手町",
+    "japanese": "大手町",
+    "romanized": "Otemachi",
+    "korean": "오테마치",
+    "lat": 35.68525,
+    "lon": 139.763285,
+    "zoneId": "511",
+    "stationCode": "C11",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-5"
+    ]
+  },
+  {
+    "id": "TM-512",
+    "name": "新御茶ノ水",
+    "japanese": "新御茶ノ水",
+    "romanized": "Shin-ochanomizu",
+    "korean": "신오차노미즈",
+    "lat": 35.696925,
+    "lon": 139.76545,
+    "zoneId": "512",
+    "stationCode": "C12",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-5"
+    ]
+  },
+  {
+    "id": "TM-513",
+    "name": "湯島",
+    "japanese": "湯島",
+    "romanized": "Yushima",
+    "korean": "유시마",
+    "lat": 35.706805,
+    "lon": 139.769981,
+    "zoneId": "513",
+    "stationCode": "C13",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-5"
+    ]
+  },
+  {
+    "id": "TM-514",
+    "name": "根津",
+    "japanese": "根津",
+    "romanized": "Nezu",
+    "korean": "네즈",
+    "lat": 35.717325,
+    "lon": 139.76575,
+    "zoneId": "514",
+    "stationCode": "C14",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-5"
+    ]
+  },
+  {
+    "id": "TM-515",
+    "name": "千駄木",
+    "japanese": "千駄木",
+    "romanized": "Sendagi",
+    "korean": "센다기",
+    "lat": 35.725746,
+    "lon": 139.763303,
+    "zoneId": "515",
+    "stationCode": "C15",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-5"
+    ]
+  },
+  {
+    "id": "TM-516",
+    "name": "西日暮里",
+    "japanese": "西日暮里",
+    "romanized": "Nishi-nippori",
+    "korean": "니시닛포리",
+    "lat": 35.732355,
+    "lon": 139.76689,
+    "zoneId": "516",
+    "stationCode": "C16",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-5"
+    ]
+  },
+  {
+    "id": "TM-517",
+    "name": "町屋",
+    "japanese": "町屋",
+    "romanized": "Machiya",
+    "korean": "마치야",
+    "lat": 35.742068,
+    "lon": 139.780047,
+    "zoneId": "517",
+    "stationCode": "C17",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-5"
+    ]
+  },
+  {
+    "id": "TM-518",
+    "name": "北千住",
+    "japanese": "北千住",
+    "romanized": "Kita-senju",
+    "korean": "기타센주",
+    "lat": 35.7492,
+    "lon": 139.804403,
+    "zoneId": "518",
+    "stationCode": "C18",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-5"
+    ]
+  },
+  {
+    "id": "TM-519",
+    "name": "綾瀬",
+    "japanese": "綾瀬",
+    "romanized": "Ayase",
+    "korean": "아야세",
+    "lat": 35.762285,
+    "lon": 139.82489,
+    "zoneId": "519",
+    "stationCode": "C19",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-5"
+    ]
+  },
+  {
+    "id": "TM-520",
+    "name": "北綾瀬",
+    "japanese": "北綾瀬",
+    "romanized": "Kita-ayase",
+    "korean": "기타아야세",
+    "lat": 35.77689,
+    "lon": 139.832095,
+    "zoneId": "520",
+    "stationCode": "C20",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-5"
+    ]
+  },
+  {
+    "id": "TM-601",
+    "name": "和光市",
+    "japanese": "和光市",
+    "romanized": "Wakoshi",
+    "korean": "와코시",
+    "lat": 35.78835,
+    "lon": 139.612865,
+    "zoneId": "601",
+    "stationCode": "Y01",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-6"
+    ]
+  },
+  {
+    "id": "TM-602",
+    "name": "地下鉄成増",
+    "japanese": "地下鉄成増",
+    "romanized": "Chikatetsu-narimasu",
+    "korean": "지카테쓰나리마스",
+    "lat": 35.77674,
+    "lon": 139.63117,
+    "zoneId": "602",
+    "stationCode": "Y02",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-6"
+    ]
+  },
+  {
+    "id": "TM-603",
+    "name": "地下鉄赤塚",
+    "japanese": "地下鉄赤塚",
+    "romanized": "Chikatetsu-akatsuka",
+    "korean": "지카테쓰아카쓰카",
+    "lat": 35.769981,
+    "lon": 139.644,
+    "zoneId": "603",
+    "stationCode": "Y03",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-6"
+    ]
+  },
+  {
+    "id": "TM-604",
+    "name": "平和台",
+    "japanese": "平和台",
+    "romanized": "Heiwadai",
+    "korean": "헤이와다이",
+    "lat": 35.757555,
+    "lon": 139.6543,
+    "zoneId": "604",
+    "stationCode": "Y04",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-6"
+    ]
+  },
+  {
+    "id": "TM-605",
+    "name": "氷川台",
+    "japanese": "氷川台",
+    "romanized": "Hikawadai",
+    "korean": "히카와다이",
+    "lat": 35.74962,
+    "lon": 139.66547,
+    "zoneId": "605",
+    "stationCode": "Y05",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-6"
+    ]
+  },
+  {
+    "id": "TM-606",
+    "name": "小竹向原",
+    "japanese": "小竹向原",
+    "romanized": "Kotake-mukaihara",
+    "korean": "고타케무카이하라",
+    "lat": 35.743395,
+    "lon": 139.67952,
+    "zoneId": "606",
+    "stationCode": "Y06",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-6"
+    ]
+  },
+  {
+    "id": "TM-607",
+    "name": "千川",
+    "japanese": "千川",
+    "romanized": "Senkawa",
+    "korean": "센카와",
+    "lat": 35.738175,
+    "lon": 139.6894,
+    "zoneId": "607",
+    "stationCode": "Y07",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-6"
+    ]
+  },
+  {
+    "id": "TM-608",
+    "name": "要町",
+    "japanese": "要町",
+    "romanized": "Kanamecho",
+    "korean": "가나메초",
+    "lat": 35.733215,
+    "lon": 139.69848,
+    "zoneId": "608",
+    "stationCode": "Y08",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-6"
+    ]
+  },
+  {
+    "id": "TM-609",
+    "name": "池袋",
+    "japanese": "池袋",
+    "romanized": "Ikebukuro",
+    "korean": "이케부쿠로",
+    "lat": 35.729185,
+    "lon": 139.710885,
+    "zoneId": "609",
+    "stationCode": "Y09",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-6"
+    ]
+  },
+  {
+    "id": "TM-610",
+    "name": "東池袋",
+    "japanese": "東池袋",
+    "romanized": "Higashi-ikebukuro",
+    "korean": "히가시이케부쿠로",
+    "lat": 35.72595,
+    "lon": 139.718865,
+    "zoneId": "610",
+    "stationCode": "Y10",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-6"
+    ]
+  },
+  {
+    "id": "TM-611",
+    "name": "護国寺",
+    "japanese": "護国寺",
+    "romanized": "Gokokuji",
+    "korean": "고코쿠지",
+    "lat": 35.71918,
+    "lon": 139.72745,
+    "zoneId": "611",
+    "stationCode": "Y11",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-6"
+    ]
+  },
+  {
+    "id": "TM-612",
+    "name": "江戸川橋",
+    "japanese": "江戸川橋",
+    "romanized": "Edogawabashi",
+    "korean": "에도가와바시",
+    "lat": 35.709295,
+    "lon": 139.73413,
+    "zoneId": "612",
+    "stationCode": "Y12",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-6"
+    ]
+  },
+  {
+    "id": "TM-613",
+    "name": "飯田橋",
+    "japanese": "飯田橋",
+    "romanized": "Iidabashi",
+    "korean": "이다바시",
+    "lat": 35.701342,
+    "lon": 139.743207,
+    "zoneId": "613",
+    "stationCode": "Y13",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-6"
+    ]
+  },
+  {
+    "id": "TM-614",
+    "name": "市ケ谷",
+    "japanese": "市ケ谷",
+    "romanized": "Ichigaya",
+    "korean": "이치가야",
+    "lat": 35.692576,
+    "lon": 139.736891,
+    "zoneId": "614",
+    "stationCode": "Y14",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-6"
+    ]
+  },
+  {
+    "id": "TM-615",
+    "name": "麴町",
+    "japanese": "麴町",
+    "romanized": "Kojimachi",
+    "korean": "고지마치",
+    "lat": 35.684785,
+    "lon": 139.73735,
+    "zoneId": "615",
+    "stationCode": "Y15",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-6"
+    ]
+  },
+  {
+    "id": "TM-616",
+    "name": "永田町",
+    "japanese": "永田町",
+    "romanized": "Nagatacho",
+    "korean": "나가타초",
+    "lat": 35.677895,
+    "lon": 139.741773,
+    "zoneId": "616",
+    "stationCode": "Y16",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-6"
+    ]
+  },
+  {
+    "id": "TM-617",
+    "name": "桜田門",
+    "japanese": "桜田門",
+    "romanized": "Sakuradamon",
+    "korean": "사쿠라다몬",
+    "lat": 35.677459,
+    "lon": 139.751886,
+    "zoneId": "617",
+    "stationCode": "Y17",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-6"
+    ]
+  },
+  {
+    "id": "TM-618",
+    "name": "有楽町",
+    "japanese": "有楽町",
+    "romanized": "Yurakucho",
+    "korean": "유라쿠초",
+    "lat": 35.675973,
+    "lon": 139.762286,
+    "zoneId": "618",
+    "stationCode": "Y18",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-6"
+    ]
+  },
+  {
+    "id": "TM-619",
+    "name": "銀座一丁目",
+    "japanese": "銀座一丁目",
+    "romanized": "Ginza-itchome",
+    "korean": "긴자잇초메",
+    "lat": 35.674519,
+    "lon": 139.766786,
+    "zoneId": "619",
+    "stationCode": "Y19",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-6"
+    ]
+  },
+  {
+    "id": "TM-620",
+    "name": "新富町",
+    "japanese": "新富町",
+    "romanized": "Shintomicho",
+    "korean": "신토미초",
+    "lat": 35.670529,
+    "lon": 139.773594,
+    "zoneId": "620",
+    "stationCode": "Y20",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-6"
+    ]
+  },
+  {
+    "id": "TM-621",
+    "name": "月島",
+    "japanese": "月島",
+    "romanized": "Tsukishima",
+    "korean": "쓰키시마",
+    "lat": 35.664711,
+    "lon": 139.784405,
+    "zoneId": "621",
+    "stationCode": "Y21",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-6"
+    ]
+  },
+  {
+    "id": "TM-622",
+    "name": "豊洲",
+    "japanese": "豊洲",
+    "romanized": "Toyosu",
+    "korean": "도요스",
+    "lat": 35.655153,
+    "lon": 139.795994,
+    "zoneId": "622",
+    "stationCode": "Y22",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-6"
+    ]
+  },
+  {
+    "id": "TM-623",
+    "name": "辰巳",
+    "japanese": "辰巳",
+    "romanized": "Tatsumi",
+    "korean": "다쓰미",
+    "lat": 35.645775,
+    "lon": 139.81033,
+    "zoneId": "623",
+    "stationCode": "Y23",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-6"
+    ]
+  },
+  {
+    "id": "TM-624",
+    "name": "新木場",
+    "japanese": "新木場",
+    "romanized": "Shin-kiba",
+    "korean": "신키바",
+    "lat": 35.64578,
+    "lon": 139.826605,
+    "zoneId": "624",
+    "stationCode": "Y24",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-6"
+    ]
+  },
+  {
+    "id": "TM-701",
+    "name": "渋谷",
+    "japanese": "渋谷",
+    "romanized": "Shibuya",
+    "korean": "시부야",
+    "lat": 35.65945,
+    "lon": 139.701035,
+    "zoneId": "701",
+    "stationCode": "Z01",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-7"
+    ]
+  },
+  {
+    "id": "TM-702",
+    "name": "表参道",
+    "japanese": "表参道",
+    "romanized": "Omote-sando",
+    "korean": "오모테산도",
+    "lat": 35.665143,
+    "lon": 139.712383,
+    "zoneId": "702",
+    "stationCode": "Z02",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-7"
+    ]
+  },
+  {
+    "id": "TM-703",
+    "name": "青山一丁目",
+    "japanese": "青山一丁目",
+    "romanized": "Aoyama-itchome",
+    "korean": "아오야마잇초메",
+    "lat": 35.672956,
+    "lon": 139.724075,
+    "zoneId": "703",
+    "stationCode": "Z03",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-7"
+    ]
+  },
+  {
+    "id": "TM-704",
+    "name": "永田町",
+    "japanese": "永田町",
+    "romanized": "Nagatacho",
+    "korean": "나가타초",
+    "lat": 35.678407,
+    "lon": 139.738865,
+    "zoneId": "704",
+    "stationCode": "Z04",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-7"
+    ]
+  },
+  {
+    "id": "TM-705",
+    "name": "半蔵門",
+    "japanese": "半蔵門",
+    "romanized": "Hanzomon",
+    "korean": "한조몬",
+    "lat": 35.68538,
+    "lon": 139.741695,
+    "zoneId": "705",
+    "stationCode": "Z05",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-7"
+    ]
+  },
+  {
+    "id": "TM-706",
+    "name": "九段下",
+    "japanese": "九段下",
+    "romanized": "Kudanshita",
+    "korean": "구단시타",
+    "lat": 35.695501,
+    "lon": 139.751117,
+    "zoneId": "706",
+    "stationCode": "Z06",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-7"
+    ]
+  },
+  {
+    "id": "TM-707",
+    "name": "神保町",
+    "japanese": "神保町",
+    "romanized": "Jimbocho",
+    "korean": "진보초",
+    "lat": 35.696021,
+    "lon": 139.75756,
+    "zoneId": "707",
+    "stationCode": "Z07",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-7"
+    ]
+  },
+  {
+    "id": "TM-708",
+    "name": "大手町",
+    "japanese": "大手町",
+    "romanized": "Otemachi",
+    "korean": "오테마치",
+    "lat": 35.686745,
+    "lon": 139.764905,
+    "zoneId": "708",
+    "stationCode": "Z08",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-7"
+    ]
+  },
+  {
+    "id": "TM-709",
+    "name": "三越前",
+    "japanese": "三越前",
+    "romanized": "Mitsukoshimae",
+    "korean": "미쓰코시마에",
+    "lat": 35.684928,
+    "lon": 139.77308,
+    "zoneId": "709",
+    "stationCode": "Z09",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-7"
+    ]
+  },
+  {
+    "id": "TM-710",
+    "name": "水天宮前",
+    "japanese": "水天宮前",
+    "romanized": "Suitengumae",
+    "korean": "스이텐구마에",
+    "lat": 35.683,
+    "lon": 139.785171,
+    "zoneId": "710",
+    "stationCode": "Z10",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-7"
+    ]
+  },
+  {
+    "id": "TM-711",
+    "name": "清澄白河",
+    "japanese": "清澄白河",
+    "romanized": "Kiyosumi-shirakawa",
+    "korean": "기요스미시라카와",
+    "lat": 35.682119,
+    "lon": 139.799841,
+    "zoneId": "711",
+    "stationCode": "Z11",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-7"
+    ]
+  },
+  {
+    "id": "TM-712",
+    "name": "住吉",
+    "japanese": "住吉",
+    "romanized": "Sumiyoshi",
+    "korean": "수미요시",
+    "lat": 35.688704,
+    "lon": 139.815667,
+    "zoneId": "712",
+    "stationCode": "Z12",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-7"
+    ]
+  },
+  {
+    "id": "TM-713",
+    "name": "錦糸町",
+    "japanese": "錦糸町",
+    "romanized": "Kinshicho",
+    "korean": "긴시초",
+    "lat": 35.697441,
+    "lon": 139.814957,
+    "zoneId": "713",
+    "stationCode": "Z13",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-7"
+    ]
+  },
+  {
+    "id": "TM-714",
+    "name": "押上〈スカイツリー前〉",
+    "japanese": "押上〈スカイツリー前〉",
+    "romanized": "Oshiage<SKYTREE>",
+    "korean": "오시아게<스가이트리>",
+    "lat": 35.708467,
+    "lon": 139.813735,
+    "zoneId": "714",
+    "stationCode": "Z14",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-7"
+    ]
+  },
+  {
+    "id": "TM-801",
+    "name": "目黒",
+    "japanese": "目黒",
+    "romanized": "Meguro",
+    "korean": "메구로",
+    "lat": 35.632485,
+    "lon": 139.71566,
+    "zoneId": "801",
+    "stationCode": "N01",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-8"
+    ]
+  },
+  {
+    "id": "TM-802",
+    "name": "白金台",
+    "japanese": "白金台",
+    "romanized": "Shirokanedai",
+    "korean": "시로카네다이",
+    "lat": 35.63777,
+    "lon": 139.72586,
+    "zoneId": "802",
+    "stationCode": "N02",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-8"
+    ]
+  },
+  {
+    "id": "TM-803",
+    "name": "白金高輪",
+    "japanese": "白金高輪",
+    "romanized": "Shirokane-takanawa",
+    "korean": "시로카네타카나와",
+    "lat": 35.643145,
+    "lon": 139.734285,
+    "zoneId": "803",
+    "stationCode": "N03",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-8"
+    ]
+  },
+  {
+    "id": "TM-804",
+    "name": "麻布十番",
+    "japanese": "麻布十番",
+    "romanized": "Azabu-juban",
+    "korean": "아자부주반",
+    "lat": 35.65481,
+    "lon": 139.737045,
+    "zoneId": "804",
+    "stationCode": "N04",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-8"
+    ]
+  },
+  {
+    "id": "TM-805",
+    "name": "六本木一丁目",
+    "japanese": "六本木一丁目",
+    "romanized": "Roppongi-itchome",
+    "korean": "롯폰기잇초메",
+    "lat": 35.665075,
+    "lon": 139.7389,
+    "zoneId": "805",
+    "stationCode": "N05",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-8"
+    ]
+  },
+  {
+    "id": "TM-806",
+    "name": "溜池山王",
+    "japanese": "溜池山王",
+    "romanized": "Tameike-sanno",
+    "korean": "다메이케산노",
+    "lat": 35.673091,
+    "lon": 139.741294,
+    "zoneId": "806",
+    "stationCode": "N06",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-8"
+    ]
+  },
+  {
+    "id": "TM-807",
+    "name": "永田町",
+    "japanese": "永田町",
+    "romanized": "Nagatacho",
+    "korean": "나가타초",
+    "lat": 35.678338,
+    "lon": 139.739288,
+    "zoneId": "807",
+    "stationCode": "N07",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-8"
+    ]
+  },
+  {
+    "id": "TM-808",
+    "name": "四ツ谷",
+    "japanese": "四ツ谷",
+    "romanized": "Yotsuya",
+    "korean": "요쓰야",
+    "lat": 35.686082,
+    "lon": 139.72968,
+    "zoneId": "808",
+    "stationCode": "N08",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-8"
+    ]
+  },
+  {
+    "id": "TM-809",
+    "name": "市ケ谷",
+    "japanese": "市ケ谷",
+    "romanized": "Ichigaya",
+    "korean": "이치가야",
+    "lat": 35.692894,
+    "lon": 139.736324,
+    "zoneId": "809",
+    "stationCode": "N09",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-8"
+    ]
+  },
+  {
+    "id": "TM-810",
+    "name": "飯田橋",
+    "japanese": "飯田橋",
+    "romanized": "Iidabashi",
+    "korean": "이다바시",
+    "lat": 35.701532,
+    "lon": 139.743716,
+    "zoneId": "810",
+    "stationCode": "N10",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-8"
+    ]
+  },
+  {
+    "id": "TM-811",
+    "name": "後楽園",
+    "japanese": "後楽園",
+    "romanized": "Korakuen",
+    "korean": "고라쿠엔",
+    "lat": 35.70839,
+    "lon": 139.751786,
+    "zoneId": "811",
+    "stationCode": "N11",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-8"
+    ]
+  },
+  {
+    "id": "TM-812",
+    "name": "東大前",
+    "japanese": "東大前",
+    "romanized": "Todaimae",
+    "korean": "도다이마에",
+    "lat": 35.718014,
+    "lon": 139.75788,
+    "zoneId": "812",
+    "stationCode": "N12",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-8"
+    ]
+  },
+  {
+    "id": "TM-813",
+    "name": "本駒込",
+    "japanese": "本駒込",
+    "romanized": "Hon-komagome",
+    "korean": "혼고마고메",
+    "lat": 35.724365,
+    "lon": 139.753812,
+    "zoneId": "813",
+    "stationCode": "N13",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-8"
+    ]
+  },
+  {
+    "id": "TM-814",
+    "name": "駒込",
+    "japanese": "駒込",
+    "romanized": "Komagome",
+    "korean": "고마고메",
+    "lat": 35.735913,
+    "lon": 139.746909,
+    "zoneId": "814",
+    "stationCode": "N14",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-8"
+    ]
+  },
+  {
+    "id": "TM-815",
+    "name": "西ケ原",
+    "japanese": "西ケ原",
+    "romanized": "Nishigahara",
+    "korean": "니시가하라",
+    "lat": 35.745945,
+    "lon": 139.74226,
+    "zoneId": "815",
+    "stationCode": "N15",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-8"
+    ]
+  },
+  {
+    "id": "TM-816",
+    "name": "王子",
+    "japanese": "王子",
+    "romanized": "Oji",
+    "korean": "오지",
+    "lat": 35.75447,
+    "lon": 139.737362,
+    "zoneId": "816",
+    "stationCode": "N16",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-8"
+    ]
+  },
+  {
+    "id": "TM-817",
+    "name": "王子神谷",
+    "japanese": "王子神谷",
+    "romanized": "Oji-kamiya",
+    "korean": "오지카미야",
+    "lat": 35.765292,
+    "lon": 139.735641,
+    "zoneId": "817",
+    "stationCode": "N17",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-8"
+    ]
+  },
+  {
+    "id": "TM-818",
+    "name": "志茂",
+    "japanese": "志茂",
+    "romanized": "Shimo",
+    "korean": "시모",
+    "lat": 35.778025,
+    "lon": 139.7325,
+    "zoneId": "818",
+    "stationCode": "N18",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-8"
+    ]
+  },
+  {
+    "id": "TM-819",
+    "name": "赤羽岩淵",
+    "japanese": "赤羽岩淵",
+    "romanized": "Akabane-iwabuchi",
+    "korean": "아카바네이와부치",
+    "lat": 35.783355,
+    "lon": 139.72211,
+    "zoneId": "819",
+    "stationCode": "N19",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-8"
+    ]
+  },
+  {
+    "id": "TM-901",
+    "name": "和光市",
+    "japanese": "和光市",
+    "romanized": "Wakoshi",
+    "korean": "와코시",
+    "lat": 35.78835,
+    "lon": 139.612865,
+    "zoneId": "901",
+    "stationCode": "F01",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-9"
+    ]
+  },
+  {
+    "id": "TM-902",
+    "name": "地下鉄成増",
+    "japanese": "地下鉄成増",
+    "romanized": "Chikatetsu-narimasu",
+    "korean": "지카테쓰나리마스",
+    "lat": 35.77674,
+    "lon": 139.63117,
+    "zoneId": "902",
+    "stationCode": "F02",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-9"
+    ]
+  },
+  {
+    "id": "TM-903",
+    "name": "地下鉄赤塚",
+    "japanese": "地下鉄赤塚",
+    "romanized": "Chikatetsu-akatsuka",
+    "korean": "지카테쓰아카쓰카",
+    "lat": 35.76998,
+    "lon": 139.644001,
+    "zoneId": "903",
+    "stationCode": "F03",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-9"
+    ]
+  },
+  {
+    "id": "TM-904",
+    "name": "平和台",
+    "japanese": "平和台",
+    "romanized": "Heiwadai",
+    "korean": "헤이와다이",
+    "lat": 35.757555,
+    "lon": 139.6543,
+    "zoneId": "904",
+    "stationCode": "F04",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-9"
+    ]
+  },
+  {
+    "id": "TM-905",
+    "name": "氷川台",
+    "japanese": "氷川台",
+    "romanized": "Hikawadai",
+    "korean": "히카와다이",
+    "lat": 35.74962,
+    "lon": 139.66547,
+    "zoneId": "905",
+    "stationCode": "F05",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-9"
+    ]
+  },
+  {
+    "id": "TM-906",
+    "name": "小竹向原",
+    "japanese": "小竹向原",
+    "romanized": "Kotake-mukaihara",
+    "korean": "고타케무카이하라",
+    "lat": 35.743395,
+    "lon": 139.67952,
+    "zoneId": "906",
+    "stationCode": "F06",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-9"
+    ]
+  },
+  {
+    "id": "TM-907",
+    "name": "千川",
+    "japanese": "千川",
+    "romanized": "Senkawa",
+    "korean": "센카와",
+    "lat": 35.738175,
+    "lon": 139.6894,
+    "zoneId": "907",
+    "stationCode": "F07",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-9"
+    ]
+  },
+  {
+    "id": "TM-908",
+    "name": "要町",
+    "japanese": "要町",
+    "romanized": "Kanamecho",
+    "korean": "가나메초",
+    "lat": 35.733215,
+    "lon": 139.69848,
+    "zoneId": "908",
+    "stationCode": "F08",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-9"
+    ]
+  },
+  {
+    "id": "TM-909",
+    "name": "池袋",
+    "japanese": "池袋",
+    "romanized": "Ikebukuro",
+    "korean": "이케부쿠로",
+    "lat": 35.730345,
+    "lon": 139.71115,
+    "zoneId": "909",
+    "stationCode": "F09",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-9"
+    ]
+  },
+  {
+    "id": "TM-910",
+    "name": "雑司が谷",
+    "japanese": "雑司が谷",
+    "romanized": "Zoshigaya",
+    "korean": "조시가야",
+    "lat": 35.7202,
+    "lon": 139.714715,
+    "zoneId": "910",
+    "stationCode": "F10",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-9"
+    ]
+  },
+  {
+    "id": "TM-911",
+    "name": "西早稲田",
+    "japanese": "西早稲田",
+    "romanized": "Nishi-waseda",
+    "korean": "니시와세다",
+    "lat": 35.707806,
+    "lon": 139.70912,
+    "zoneId": "911",
+    "stationCode": "F11",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-9"
+    ]
+  },
+  {
+    "id": "TM-912",
+    "name": "東新宿",
+    "japanese": "東新宿",
+    "romanized": "Higashi-shinjuku",
+    "korean": "히가시신주쿠",
+    "lat": 35.699829,
+    "lon": 139.707846,
+    "zoneId": "912",
+    "stationCode": "F12",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-9"
+    ]
+  },
+  {
+    "id": "TM-913",
+    "name": "新宿三丁目",
+    "japanese": "新宿三丁目",
+    "romanized": "Shinjuku-sanchome",
+    "korean": "신주쿠산초메",
+    "lat": 35.690609,
+    "lon": 139.704727,
+    "zoneId": "913",
+    "stationCode": "F13",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-9"
+    ]
+  },
+  {
+    "id": "TM-914",
+    "name": "北参道",
+    "japanese": "北参道",
+    "romanized": "Kita-sando",
+    "korean": "기타산도",
+    "lat": 35.678503,
+    "lon": 139.705469,
+    "zoneId": "914",
+    "stationCode": "F14",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-9"
+    ]
+  },
+  {
+    "id": "TM-915",
+    "name": "明治神宮前〈原宿〉",
+    "japanese": "明治神宮前〈原宿〉",
+    "romanized": "Meiji-jingumae<Harajuku>",
+    "korean": "메이지진구마에<하라주쿠>",
+    "lat": 35.668205,
+    "lon": 139.70524,
+    "zoneId": "915",
+    "stationCode": "F15",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-9"
+    ]
+  },
+  {
+    "id": "TM-916",
+    "name": "渋谷",
+    "japanese": "渋谷",
+    "romanized": "Shibuya",
+    "korean": "시부야",
+    "lat": 35.659092,
+    "lon": 139.70257,
+    "zoneId": "916",
+    "stationCode": "F16",
+    "operator": "tokyometro",
+    "lines": [
+      "TM-9"
+    ]
+  }
+]

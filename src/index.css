@@ -850,7 +850,7 @@ input::placeholder {
 .route-info {
   display: grid;
 
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 
   border-top: 1px solid #eef0f2;
 }
@@ -878,7 +878,8 @@ input::placeholder {
 }
 
 .route-info strong {
-  font-size: 13px;
+  font-size: 12px;
+  white-space: nowrap;
 }
 
 /* =========================
@@ -1130,10 +1131,58 @@ input::placeholder {
 }
 
 .route-path-station-name-middle {
-  font-size: 13px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #59616d;
+}
+
+/* Keep endpoints and interchange stations prominent; compact only pass-through stops. */
+.route-path-item.is-intermediate-station .route-path-station {
+  min-height: 0;
+}
+
+.route-path-item.is-intermediate-station .route-path-station-text {
+  gap: 1px;
+}
+
+.route-path-item.is-intermediate-station .route-path-station-japanese {
+  font-size: 9px;
+  line-height: 1.1;
+  color: #9aa0a8;
+}
+
+.route-path-item.is-intermediate-station .route-path-station-time {
+  margin-top: 1px;
+  font-size: 10px;
   font-weight: 600;
-  line-height: 1.25;
-  color: #4b5563;
+  line-height: 1.1;
+  color: #59616d;
+}
+
+.route-path-item.is-intermediate-station .route-path-dot {
+  width: 8px;
+  height: 8px;
+  margin-left: 2px;
+  margin-right: 15px;
+}
+
+.route-path-dot.transfer {
+  border-color: #788391;
+}
+
+.route-path-segment.compact {
+  min-height: 22px;
+}
+
+.route-path-segment.compact .route-path-train {
+  padding: 2px 0 4px;
+}
+
+.route-path-segment.compact .route-path-train-info {
+  margin-top: 0;
+  font-size: 10px;
+  line-height: 1.2;
 }
 
 .route-line-summary {
@@ -1316,4 +1365,141 @@ input::placeholder {
 
 .via-icon {
   color: #9ca3af;
+}
+/* Keep pass-through stations compact while leaving key stations unchanged. */
+.route-path-item.is-intermediate-station .route-path-station-name-middle {
+  font-size: 11px;
+  line-height: 1.15;
+}
+
+.route-path-item.is-intermediate-station .route-path-station-japanese {
+  font-size: 8px;
+  line-height: 1.1;
+}
+
+.route-path-item.is-intermediate-station .route-path-station-time {
+  font-size: 9px;
+  line-height: 1.1;
+}
+
+/* Expand/collapse controls use the same understated, text-only treatment as the time selector. */
+.route-path-segment.route-path-segment-folded.compact {
+  min-height: 44px;
+}
+
+.route-path-segment-folded .route-path-train {
+  padding: 3px 0 7px;
+  width: calc(100% - 29px);
+  min-width: 0;
+}
+
+.route-path-time-service-row {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  column-gap: 12px;
+  row-gap: 2px;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.route-path-time-service-row .route-path-station-time {
+  flex-shrink: 0;
+  margin-top: 0;
+}
+
+/* Preserve the folded train-info typography; only its position changes. */
+.route-path-time-service-row .route-path-train-info-folded {
+  margin: 0;
+  font-size: 10px;
+  line-height: 1.2;
+}
+
+.route-path-fold-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+  max-width: 250px;
+  min-width: 0;
+  min-height: 30px;
+  padding: 6px 2px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: #68717d;
+  font: inherit;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.3;
+  text-align: left;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.route-path-fold-toggle:active {
+  background: transparent;
+  color: #374151;
+}
+
+.route-path-fold-icon {
+  flex-shrink: 0;
+  color: #9ca3af;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.route-path-fold-toggle-collapse {
+  margin-top: 6px;
+  min-height: 28px;
+  padding: 5px 2px;
+  max-width: 190px;
+  color: #8a929d;
+  font-size: 10px;
+}
+
+.route-path-fold-toggle-collapse:active {
+  background: transparent;
+  color: #59616d;
+}
+
+/* Keep native date/time inputs inside their grid cells on mobile browsers. */
+.time-selector-row {
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  width: 100%;
+}
+
+.time-selector-row input {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  min-inline-size: 0;
+  max-width: 100%;
+  padding: 9px 6px;
+  font-size: 13px;
+}
+
+@media (max-width: 420px) {
+  .time-selector-row {
+    gap: 6px;
+  }
+
+  .time-selector-row input {
+    padding: 8px 4px;
+    font-size: 12px;
+    border-radius: 8px;
+  }
+}
+
+@media (max-width: 360px) {
+  .time-selector-row {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 7px;
+  }
+
+  .time-selector-row input {
+    padding: 9px 8px;
+    font-size: 13px;
+  }
 }

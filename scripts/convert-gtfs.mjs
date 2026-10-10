@@ -21,6 +21,7 @@ fs.mkdirSync(outputDir, { recursive: true })
 const zipFiles = fs
   .readdirSync(inputDir)
   .filter((file) => file.toLowerCase().endsWith('.zip'))
+  .sort()
 
 if (zipFiles.length === 0) {
   console.log('GTFS ZIP 파일을 찾지 못했습니다.')
@@ -28,9 +29,17 @@ if (zipFiles.length === 0) {
   process.exit(0)
 }
 
-const zipPath = path.join(inputDir, zipFiles[0])
+const requestedZip = process.env.GTFS_ZIP
+const preferredZip = requestedZip
+  ? path.resolve(requestedZip)
+  : path.join(inputDir, zipFiles.find((file) => /^Toei-Train-GTFS\.zip$/i.test(file)) || zipFiles[0])
+const zipPath = preferredZip
 
-console.log(`GTFS 파일: ${zipFiles[0]}`)
+if (!fs.existsSync(zipPath)) {
+  throw new Error(`GTFS ZIP 파일을 찾지 못했습니다: ${zipPath}`)
+}
+
+console.log(`GTFS 파일: ${path.basename(zipPath)}`)
 
 const zip = new AdmZip(zipPath)
 
@@ -61,6 +70,13 @@ const routes = readCsv('routes.txt')
 const stops = readCsv('stops.txt')
 const stopTimes = readCsv('stop_times.txt')
 const trips = readCsv('trips.txt')
+const untimedStopTimes = stopTimes.filter((item) => !item.arrival_time || !item.departure_time)
+const untimedServiceableStops = untimedStopTimes.filter((item) =>
+  (item.pickup_type || '0') !== '1' || (item.drop_off_type || '0') !== '1'
+)
+if (untimedServiceableStops.length) {
+  throw new Error(`GTFS stop_times에 승차 또는 하차가 허용되지만 시각이 비어 있는 기록이 ${untimedServiceableStops.length}건 있습니다.`)
+}
 const translations = readCsv('translations.txt')
 
 console.log('')
@@ -354,93 +370,69 @@ function writeJson(filename, data) {
 
 const connectionMap = new Map()
 
+function connectionDurationMinutes(departure, arrival) {
+  if (!departure || !arrival) return null
+  const [dh, dm, ds] = departure.split(':').map(Number)
+  const [ah, am, as] = arrival.split(':').map(Number)
+  if ([dh, dm, ds, ah, am, as].some((value) => !Number.isFinite(value))) return null
+  let departureSeconds = dh * 3600 + dm * 60 + ds
+  let arrivalSeconds = ah * 3600 + am * 60 + as
+  if (arrivalSeconds < departureSeconds) arrivalSeconds += 24 * 60 * 60
+  return Math.max(0, Math.round((arrivalSeconds - departureSeconds) / 60))
+}
+
 for (const trip of processedTrips) {
-  const stopsForTrip = trip.stops
+  // Skip GTFS pass-through rows where both pickup and drop-off are prohibited
+  // and times are blank. Connect a boardable origin directly to the next
+  // timed, alightable stop. Otherwise a limited-stop train would be lost at
+  // each untimed intermediate row even though the train continues running.
+  const activeOrigins = []
+  for (const [stopIndex, stop] of trip.stops.entries()) {
+    const pickupAllowed = stop.pickupType !== '1'
+    const dropOffAllowed = stop.dropOffType !== '1'
+    const hasArrival = Boolean(stop.arrivalTime)
+    const hasDeparture = Boolean(stop.departureTime)
 
-  for (let i = 0; i < stopsForTrip.length - 1; i += 1) {
-    const current = stopsForTrip[i]
-    const next = stopsForTrip[i + 1]
-
-    if (!current.stopId || !next.stopId) {
-      continue
-    }
-
-    const key = [
-      trip.routeId,
-      current.stopId,
-      next.stopId,
-    ].join('|')
-
-    if (!connectionMap.has(key)) {
-      connectionMap.set(key, {
-        id: key,
-        from: current.stopId,
-        to: next.stopId,
-        lineId: trip.routeId,
-        duration: null,
-        services: [],
-      })
-    }
-
-    const connection = connectionMap.get(key)
-
-    const departure = current.departureTime
-    const arrival = next.arrivalTime
-
-    let duration = null
-
-    if (departure && arrival) {
-      const [dh, dm, ds] = departure
-        .split(':')
-        .map(Number)
-
-      const [ah, am, as] = arrival
-        .split(':')
-        .map(Number)
-
-      let departureSeconds =
-        dh * 3600 +
-        dm * 60 +
-        ds
-
-      let arrivalSeconds =
-        ah * 3600 +
-        am * 60 +
-        as
-
-      // GTFS에서는 자정을 넘어 24:00 이후 시간이
-      // 나올 수 있으므로 필요하면 하루를 보정한다.
-      if (arrivalSeconds < departureSeconds) {
-        arrivalSeconds += 24 * 60 * 60
+    if (dropOffAllowed && hasArrival) {
+      for (const origin of activeOrigins) {
+        if (!origin.stopId || !stop.stopId || origin.stopId === stop.stopId || !origin.departureTime) continue
+        const key = [trip.routeId, origin.stopId, stop.stopId].join('|')
+        if (!connectionMap.has(key)) {
+          connectionMap.set(key, {
+            id: key,
+            from: origin.stopId,
+            to: stop.stopId,
+            lineId: trip.routeId,
+            duration: null,
+            services: [],
+          })
+        }
+        const connection = connectionMap.get(key)
+        const duration = connectionDurationMinutes(origin.departureTime, stop.arrivalTime)
+        if (duration == null) continue
+        if (connection.duration === null) connection.duration = duration
+        connection.services.push({
+          tripId: trip.id,
+          serviceId: trip.serviceId,
+          departure: origin.departureTime,
+          arrival: stop.arrivalTime,
+          headsign: trip.headsign,
+          tripShortName: trip.tripShortName || '',
+          directionId: trip.directionId,
+          pickupType: origin.pickupType,
+          dropOffType: stop.dropOffType,
+          skippedStopCount: Math.max(0, stopIndex - origin.sourceIndex - 1),
+        })
       }
-
-      duration = Math.round(
-        (arrivalSeconds - departureSeconds) / 60
-      )
     }
 
-    if (
-      connection.duration === null &&
-      duration !== null
-    ) {
-      connection.duration = duration
+    if (pickupAllowed && hasDeparture) {
+      if (dropOffAllowed && hasArrival) {
+        activeOrigins.splice(0, activeOrigins.length, { ...stop, sourceIndex: stopIndex })
+      } else {
+        activeOrigins.push({ ...stop, sourceIndex: stopIndex })
+      }
     }
-
-   connection.services.push({
-  tripId: trip.id,
-  serviceId: trip.serviceId,
-
-  departure,
-  arrival,
-
-  // 행선지
-  headsign: trip.headsign,
-
-  // 열차 번호
-  tripShortName: trip.tripShortName || '',
-
-  directionId: trip.directionId,
-})
   }
 }
 

@@ -2,11 +2,2217 @@
   {
     "from": "117",
     "to": "412",
-    "duration": 180
+    "duration": 840,
+    "durationBasis": "user_reported_yahoo_minimum",
+    "durationNote": "Yahoo!乗換案内の浅草→蔵前→新宿で観測された最小14分。徒歩・ホーム移動を含む最低接続時間として扱う。",
+    "durationUnit": "seconds"
   },
   {
     "from": "412",
     "to": "117",
-    "duration": 180
+    "duration": 840,
+    "durationBasis": "user_reported_yahoo_minimum",
+    "durationNote": "Yahoo!乗換案内の浅草→蔵前→新宿で観測された最小14分。徒歩・ホーム移動を含む最低接続時間として扱う。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-211",
+    "to": "402",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Oedo.ShinjukuNishiguchi",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の新宿↔新宿西口間の徒歩移動は約5分。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "402",
+    "to": "TM-211",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Oedo.ShinjukuNishiguchi",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の新宿↔新宿西口間の徒歩移動は約5分。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-116",
+    "to": "TM-318",
+    "duration": 360,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Hibiya.Ueno",
+    "durationBasis": "yahoo_connection_interval",
+    "durationNote": "Yahoo!乗換案内の上野・銀座線↔日比谷線の経路例では約6分の接続間隔を観測。歩行だけの計測とは限らないため、6分を接続最低時間の保守値として使用。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-318",
+    "to": "TM-116",
+    "duration": 360,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Hibiya.Ueno",
+    "durationBasis": "yahoo_connection_interval",
+    "durationNote": "Yahoo!乗換案内の上野・銀座線↔日比谷線の経路例では約6分の接続間隔を観測。歩行だけの計測とは限らないため、6分を接続最低時間の保守値として使用。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-509",
+    "to": "TM-308",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Hibiya.Hibiya",
+    "durationBasis": "station_internal_baseline",
+    "durationNote": "同じ日比谷駅構内の別路線接続。具体的な歩行分数を独立資料で未確認のため既定5分を維持。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-308",
+    "to": "TM-509",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Hibiya.Hibiya",
+    "durationBasis": "station_internal_baseline",
+    "durationNote": "同じ日比谷駅構内の別路線接続。具体的な歩行分数を独立資料で未確認のため既定5分を維持。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-509",
+    "to": "TM-618",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.Yurakucho",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の日比谷↔有楽町の同駅内徒歩5分を参考。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-618",
+    "to": "TM-509",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.Yurakucho",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の日比谷↔有楽町の同駅内徒歩5分を参考。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-509",
+    "to": "208",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Mita.Hibiya",
+    "durationBasis": "station_internal_baseline",
+    "durationNote": "同じ日比谷駅構内の別路線接続。具体的な歩行分数を独立資料で未確認のため既定5分を維持。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "208",
+    "to": "TM-509",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Mita.Hibiya",
+    "durationBasis": "station_internal_baseline",
+    "durationNote": "同じ日比谷駅構内の別路線接続。具体的な歩行分数を独立資料で未確認のため既定5分を維持。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-508",
+    "to": "TM-307",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Hibiya.Kasumigaseki"
+  },
+  {
+    "from": "TM-307",
+    "to": "TM-508",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Hibiya.Kasumigaseki"
+  },
+  {
+    "from": "TM-508",
+    "to": "TM-218",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Marunouchi.Kasumigaseki"
+  },
+  {
+    "from": "TM-218",
+    "to": "TM-508",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Marunouchi.Kasumigaseki"
+  },
+  {
+    "from": "TM-518",
+    "to": "TM-322",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Hibiya.KitaSenju"
+  },
+  {
+    "from": "TM-322",
+    "to": "TM-518",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Hibiya.KitaSenju"
+  },
+  {
+    "from": "TM-507",
+    "to": "TM-106",
+    "duration": 360,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Ginza.TameikeSanno",
+    "durationBasis": "yahoo_interstation_walk",
+    "durationNote": "Yahoo!乗換案内の溜池山王↔国会議事堂前で同駅内徒歩6分を確認。異なる駅名間の接続に適用。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-106",
+    "to": "TM-507",
+    "duration": 360,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Ginza.TameikeSanno",
+    "durationBasis": "yahoo_interstation_walk",
+    "durationNote": "Yahoo!乗換案内の溜池山王↔国会議事堂前で同駅内徒歩6分を確認。異なる駅名間の接続に適用。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-507",
+    "to": "TM-217",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Marunouchi.KokkaiGijidomae"
+  },
+  {
+    "from": "TM-217",
+    "to": "TM-507",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Marunouchi.KokkaiGijidomae"
+  },
+  {
+    "from": "TM-507",
+    "to": "TM-806",
+    "duration": 360,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Namboku.TameikeSanno",
+    "durationBasis": "yahoo_interstation_walk",
+    "durationNote": "Yahoo!乗換案内の溜池山王↔国会議事堂前で同駅内徒歩6分を確認。異なる駅名間の接続に適用。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-806",
+    "to": "TM-507",
+    "duration": 360,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Namboku.TameikeSanno",
+    "durationBasis": "yahoo_interstation_walk",
+    "durationNote": "Yahoo!乗換案内の溜池山王↔国会議事堂前で同駅内徒歩6分を確認。異なる駅名間の接続に適用。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-517",
+    "to": "606",
+    "duration": 120,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Arakawa.MachiyaEkimae",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の東京メトロ町屋→都電町屋駅前の徒歩接続は約2分。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "606",
+    "to": "TM-517",
+    "duration": 120,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Arakawa.MachiyaEkimae",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の東京メトロ町屋→都電町屋駅前の徒歩接続は約2分。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-511",
+    "to": "TM-708",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Hanzomon.Otemachi",
+    "durationBasis": "station_internal_baseline",
+    "durationNote": "大手町駅構内の路線間接続。個別所要時間の確認が取れていないため既定5分を維持。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-708",
+    "to": "TM-511",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Hanzomon.Otemachi",
+    "durationBasis": "station_internal_baseline",
+    "durationNote": "大手町駅構内の路線間接続。個別所要時間の確認が取れていないため既定5分を維持。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-511",
+    "to": "TM-221",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Marunouchi.Otemachi",
+    "durationBasis": "station_internal_baseline",
+    "durationNote": "大手町駅構内の路線間接続。個別所要時間の確認が取れていないため既定5分を維持。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-221",
+    "to": "TM-511",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Marunouchi.Otemachi",
+    "durationBasis": "station_internal_baseline",
+    "durationNote": "大手町駅構内の路線間接続。個別所要時間の確認が取れていないため既定5分を維持。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-511",
+    "to": "TM-409",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Tozai.Otemachi",
+    "durationBasis": "station_internal_baseline",
+    "durationNote": "大手町駅構内の路線間接続。個別所要時間の確認が取れていないため既定5分を維持。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-409",
+    "to": "TM-511",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Tozai.Otemachi",
+    "durationBasis": "station_internal_baseline",
+    "durationNote": "大手町駅構内の路線間接続。個別所要時間の確認が取れていないため既定5分を維持。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-511",
+    "to": "209",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Mita.Otemachi"
+  },
+  {
+    "from": "209",
+    "to": "TM-511",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Mita.Otemachi"
+  },
+  {
+    "from": "TM-503",
+    "to": "TM-915",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Fukutoshin.MeijiJingumae"
+  },
+  {
+    "from": "TM-915",
+    "to": "TM-503",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Fukutoshin.MeijiJingumae"
+  },
+  {
+    "from": "TM-516",
+    "to": "502",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.NipporiToneri.NishiNippori"
+  },
+  {
+    "from": "502",
+    "to": "TM-516",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.NipporiToneri.NishiNippori"
+  },
+  {
+    "from": "TM-504",
+    "to": "TM-102",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Ginza.OmoteSando"
+  },
+  {
+    "from": "TM-102",
+    "to": "TM-504",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Ginza.OmoteSando"
+  },
+  {
+    "from": "TM-504",
+    "to": "TM-702",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Hanzomon.OmoteSando"
+  },
+  {
+    "from": "TM-702",
+    "to": "TM-504",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Hanzomon.OmoteSando"
+  },
+  {
+    "from": "TM-512",
+    "to": "TM-222",
+    "duration": 360,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Marunouchi.Awajicho",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の淡路町↔新御茶ノ水の同駅内徒歩6分を参考。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-222",
+    "to": "TM-512",
+    "duration": 360,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Marunouchi.Awajicho",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の淡路町↔新御茶ノ水の同駅内徒歩6分を参考。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-512",
+    "to": "307",
+    "duration": 240,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Shinjuku.Ogawamachi",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の小川町→新御茶ノ水で同駅内徒歩4分を確認。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "307",
+    "to": "TM-512",
+    "duration": 240,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Shinjuku.Ogawamachi",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の小川町→新御茶ノ水で同駅内徒歩4分を確認。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-903",
+    "to": "TM-603",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.ChikatetsuAkatsuka"
+  },
+  {
+    "from": "TM-603",
+    "to": "TM-903",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.ChikatetsuAkatsuka"
+  },
+  {
+    "from": "TM-902",
+    "to": "TM-602",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.ChikatetsuNarimasu"
+  },
+  {
+    "from": "TM-602",
+    "to": "TM-902",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.ChikatetsuNarimasu"
+  },
+  {
+    "from": "TM-904",
+    "to": "TM-604",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.Heiwadai"
+  },
+  {
+    "from": "TM-604",
+    "to": "TM-904",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.Heiwadai"
+  },
+  {
+    "from": "TM-912",
+    "to": "403",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Oedo.HigashiShinjuku"
+  },
+  {
+    "from": "403",
+    "to": "TM-912",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Oedo.HigashiShinjuku"
+  },
+  {
+    "from": "TM-905",
+    "to": "TM-605",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.Hikawadai"
+  },
+  {
+    "from": "TM-605",
+    "to": "TM-905",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.Hikawadai"
+  },
+  {
+    "from": "TM-907",
+    "to": "TM-607",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.Senkawa"
+  },
+  {
+    "from": "TM-607",
+    "to": "TM-907",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.Senkawa"
+  },
+  {
+    "from": "TM-909",
+    "to": "TM-228",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Marunouchi.Ikebukuro"
+  },
+  {
+    "from": "TM-228",
+    "to": "TM-909",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Marunouchi.Ikebukuro"
+  },
+  {
+    "from": "TM-909",
+    "to": "TM-609",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.Ikebukuro",
+    "durationBasis": "transfer_guide_platform_walk",
+    "durationNote": "乗換ルート実測例では池袋の有楽町線↔副都心線は約5分13秒。5分を近似値として適用。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-609",
+    "to": "TM-909",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.Ikebukuro",
+    "durationBasis": "transfer_guide_platform_walk",
+    "durationNote": "乗換ルート実測例では池袋の有楽町線↔副都心線は約5分13秒。5分を近似値として適用。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-908",
+    "to": "TM-608",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.Kanamecho"
+  },
+  {
+    "from": "TM-608",
+    "to": "TM-908",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.Kanamecho"
+  },
+  {
+    "from": "TM-906",
+    "to": "TM-606",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.KotakeMukaihara"
+  },
+  {
+    "from": "TM-606",
+    "to": "TM-906",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.KotakeMukaihara"
+  },
+  {
+    "from": "TM-916",
+    "to": "TM-101",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Ginza.Shibuya"
+  },
+  {
+    "from": "TM-101",
+    "to": "TM-916",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Ginza.Shibuya"
+  },
+  {
+    "from": "TM-916",
+    "to": "TM-701",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Hanzomon.Shibuya"
+  },
+  {
+    "from": "TM-701",
+    "to": "TM-916",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Hanzomon.Shibuya"
+  },
+  {
+    "from": "TM-913",
+    "to": "TM-212",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Marunouchi.ShinjukuSanchome"
+  },
+  {
+    "from": "TM-212",
+    "to": "TM-913",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Marunouchi.ShinjukuSanchome"
+  },
+  {
+    "from": "TM-913",
+    "to": "302",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Shinjuku.ShinjukuSanchome",
+    "durationBasis": "transfer_guide_platform_walk",
+    "durationNote": "駅乗換ルート解説では新宿三丁目の都営新宿線↔副都心線の移動は約4〜5分。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "302",
+    "to": "TM-913",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Shinjuku.ShinjukuSanchome",
+    "durationBasis": "transfer_guide_platform_walk",
+    "durationNote": "駅乗換ルート解説では新宿三丁目の都営新宿線↔副都心線の移動は約4〜5分。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-901",
+    "to": "TM-601",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.Wakoshi"
+  },
+  {
+    "from": "TM-601",
+    "to": "TM-901",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.Wakoshi"
+  },
+  {
+    "from": "TM-910",
+    "to": "627",
+    "duration": 180,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Arakawa.Kishibojimmae",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の雑司が谷↔鬼子母神前の徒歩経路3分。長い接続だけでなく、既定値による過大評価も是正。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "627",
+    "to": "TM-910",
+    "duration": 180,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Arakawa.Kishibojimmae",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の雑司が谷↔鬼子母神前の徒歩経路3分。長い接続だけでなく、既定値による過大評価も是正。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-105",
+    "to": "TM-704",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Hanzomon.Nagatacho",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内で赤坂見附↔永田町の駅間徒歩は約5分。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-704",
+    "to": "TM-105",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Hanzomon.Nagatacho",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内で赤坂見附↔永田町の駅間徒歩は約5分。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-105",
+    "to": "TM-216",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Marunouchi.AkasakaMitsuke"
+  },
+  {
+    "from": "TM-216",
+    "to": "TM-105",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Marunouchi.AkasakaMitsuke"
+  },
+  {
+    "from": "TM-105",
+    "to": "TM-807",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Namboku.Nagatacho",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内で赤坂見附↔永田町の駅間徒歩は約5分。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-807",
+    "to": "TM-105",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Namboku.Nagatacho",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内で赤坂見附↔永田町の駅間徒歩は約5分。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-105",
+    "to": "TM-616",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.Nagatacho",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内で赤坂見附↔永田町の駅間徒歩は約5分。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-616",
+    "to": "TM-105",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.Nagatacho",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内で赤坂見附↔永田町の駅間徒歩は約5分。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-104",
+    "to": "TM-703",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Hanzomon.AoyamaItchome"
+  },
+  {
+    "from": "TM-703",
+    "to": "TM-104",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Hanzomon.AoyamaItchome"
+  },
+  {
+    "from": "TM-104",
+    "to": "425",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Oedo.AoyamaItchome"
+  },
+  {
+    "from": "425",
+    "to": "TM-104",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Oedo.AoyamaItchome"
+  },
+  {
+    "from": "TM-119",
+    "to": "118",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Asakusa.Asakusa"
+  },
+  {
+    "from": "118",
+    "to": "TM-119",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Asakusa.Asakusa"
+  },
+  {
+    "from": "TM-109",
+    "to": "TM-309",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Hibiya.Ginza"
+  },
+  {
+    "from": "TM-309",
+    "to": "TM-109",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Hibiya.Ginza"
+  },
+  {
+    "from": "TM-109",
+    "to": "TM-219",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Marunouchi.Ginza"
+  },
+  {
+    "from": "TM-219",
+    "to": "TM-109",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Marunouchi.Ginza"
+  },
+  {
+    "from": "TM-109",
+    "to": "TM-619",
+    "duration": 360,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.GinzaItchome",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の銀座→銀座一丁目の同駅内徒歩6分を参考。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-619",
+    "to": "TM-109",
+    "duration": 360,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.GinzaItchome",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の銀座→銀座一丁目の同駅内徒歩6分を参考。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-112",
+    "to": "TM-709",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Hanzomon.Mitsukoshimae"
+  },
+  {
+    "from": "TM-709",
+    "to": "TM-112",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Hanzomon.Mitsukoshimae"
+  },
+  {
+    "from": "TM-111",
+    "to": "TM-410",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Tozai.Nihombashi"
+  },
+  {
+    "from": "TM-410",
+    "to": "TM-111",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Tozai.Nihombashi"
+  },
+  {
+    "from": "TM-111",
+    "to": "113",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Asakusa.Nihombashi"
+  },
+  {
+    "from": "113",
+    "to": "TM-111",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Asakusa.Nihombashi"
+  },
+  {
+    "from": "TM-102",
+    "to": "TM-702",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Hanzomon.OmoteSando"
+  },
+  {
+    "from": "TM-702",
+    "to": "TM-102",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Hanzomon.OmoteSando"
+  },
+  {
+    "from": "TM-101",
+    "to": "TM-701",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Hanzomon.Shibuya",
+    "durationBasis": "transfer_guide_platform_walk",
+    "durationNote": "乗換ルート実測例では渋谷の半蔵門線から銀座線が約4分59秒。5分を適用。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-701",
+    "to": "TM-101",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Hanzomon.Shibuya",
+    "durationBasis": "transfer_guide_platform_walk",
+    "durationNote": "乗換ルート実測例では渋谷の半蔵門線から銀座線が約4分59秒。5分を適用。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-107",
+    "to": "TM-306",
+    "duration": 420,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Hibiya.ToranomonHills",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の虎ノ門↔虎ノ門ヒルズの徒歩経路7分を参考。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-306",
+    "to": "TM-107",
+    "duration": 420,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Hibiya.ToranomonHills",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の虎ノ門↔虎ノ門ヒルズの徒歩経路7分を参考。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-115",
+    "to": "TM-317",
+    "duration": 420,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Hibiya.NakaOkachimachi",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "上野広小路↔仲御徒町の駅間徒歩案内を参考。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-317",
+    "to": "TM-115",
+    "duration": 420,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Hibiya.NakaOkachimachi",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "上野広小路↔仲御徒町の駅間徒歩案内を参考。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-115",
+    "to": "410",
+    "duration": 180,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Oedo.UenoOkachimachi",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の上野御徒町→上野広小路で表示される同駅内徒歩3分を参考。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "410",
+    "to": "TM-115",
+    "duration": 180,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Oedo.UenoOkachimachi",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の上野御徒町→上野広小路で表示される同駅内徒歩3分を参考。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-703",
+    "to": "425",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Oedo.AoyamaItchome"
+  },
+  {
+    "from": "425",
+    "to": "TM-703",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Oedo.AoyamaItchome"
+  },
+  {
+    "from": "TM-108",
+    "to": "110",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Asakusa.Shimbashi"
+  },
+  {
+    "from": "110",
+    "to": "TM-108",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Asakusa.Shimbashi"
+  },
+  {
+    "from": "TM-706",
+    "to": "TM-407",
+    "duration": 180,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Tozai.Kudanshita",
+    "durationBasis": "transfer_guide_platform_walk",
+    "durationNote": "乗換案内の乗り換えマップでは九段下の半蔵門線↔東西線は約1〜3分。接続最低時間は安全側に3分。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-407",
+    "to": "TM-706",
+    "duration": 180,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Tozai.Kudanshita",
+    "durationBasis": "transfer_guide_platform_walk",
+    "durationNote": "乗換案内の乗り換えマップでは九段下の半蔵門線↔東西線は約1〜3分。接続最低時間は安全側に3分。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-706",
+    "to": "305",
+    "duration": 180,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Shinjuku.Kudanshita",
+    "durationBasis": "transfer_guide_platform_walk",
+    "durationNote": "乗換案内の乗り換えマップでは九段下の半蔵門線↔都営新宿線は約2分。接続最低時間は安全側に3分。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "305",
+    "to": "TM-706",
+    "duration": 180,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Shinjuku.Kudanshita",
+    "durationBasis": "transfer_guide_platform_walk",
+    "durationNote": "乗換案内の乗り換えマップでは九段下の半蔵門線↔都営新宿線は約2分。接続最低時間は安全側に3分。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-106",
+    "to": "TM-217",
+    "duration": 360,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Marunouchi.KokkaiGijidomae",
+    "durationBasis": "yahoo_interstation_walk",
+    "durationNote": "Yahoo!乗換案内の溜池山王↔国会議事堂前で同駅内徒歩6分を確認。異なる駅名間の接続に適用。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-217",
+    "to": "TM-106",
+    "duration": 360,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Marunouchi.KokkaiGijidomae",
+    "durationBasis": "yahoo_interstation_walk",
+    "durationNote": "Yahoo!乗換案内の溜池山王↔国会議事堂前で同駅内徒歩6分を確認。異なる駅名間の接続に適用。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-106",
+    "to": "TM-806",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Namboku.TameikeSanno"
+  },
+  {
+    "from": "TM-806",
+    "to": "TM-106",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Namboku.TameikeSanno"
+  },
+  {
+    "from": "TM-707",
+    "to": "210",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Mita.Jimbocho"
+  },
+  {
+    "from": "210",
+    "to": "TM-707",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Mita.Jimbocho"
+  },
+  {
+    "from": "TM-707",
+    "to": "306",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Shinjuku.Jimbocho"
+  },
+  {
+    "from": "306",
+    "to": "TM-707",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Shinjuku.Jimbocho"
+  },
+  {
+    "from": "TM-711",
+    "to": "415",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Oedo.KiyosumiShirakawa"
+  },
+  {
+    "from": "415",
+    "to": "TM-711",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Oedo.KiyosumiShirakawa"
+  },
+  {
+    "from": "TM-704",
+    "to": "TM-216",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Marunouchi.AkasakaMitsuke"
+  },
+  {
+    "from": "TM-216",
+    "to": "TM-704",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Marunouchi.AkasakaMitsuke"
+  },
+  {
+    "from": "TM-704",
+    "to": "TM-807",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Namboku.Nagatacho"
+  },
+  {
+    "from": "TM-807",
+    "to": "TM-704",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Namboku.Nagatacho"
+  },
+  {
+    "from": "TM-704",
+    "to": "TM-616",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.Nagatacho"
+  },
+  {
+    "from": "TM-616",
+    "to": "TM-704",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.Nagatacho"
+  },
+  {
+    "from": "TM-714",
+    "to": "120",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Asakusa.Oshiage"
+  },
+  {
+    "from": "120",
+    "to": "TM-714",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Asakusa.Oshiage"
+  },
+  {
+    "from": "TM-708",
+    "to": "TM-221",
+    "duration": 480,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Marunouchi.Otemachi",
+    "durationBasis": "yahoo_connection_interval",
+    "durationNote": "Yahoo!乗換案内の大手町・丸ノ内線↔半蔵門線の経路例では約8分の接続間隔を観測。歩行だけの計測とは限らないため、8分を接続最低時間の保守値として使用。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-221",
+    "to": "TM-708",
+    "duration": 480,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Marunouchi.Otemachi",
+    "durationBasis": "yahoo_connection_interval",
+    "durationNote": "Yahoo!乗換案内の大手町・丸ノ内線↔半蔵門線の経路例では約8分の接続間隔を観測。歩行だけの計測とは限らないため、8分を接続最低時間の保守値として使用。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-708",
+    "to": "TM-409",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Tozai.Otemachi"
+  },
+  {
+    "from": "TM-409",
+    "to": "TM-708",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Tozai.Otemachi"
+  },
+  {
+    "from": "TM-708",
+    "to": "209",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Mita.Otemachi"
+  },
+  {
+    "from": "209",
+    "to": "TM-708",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Mita.Otemachi"
+  },
+  {
+    "from": "TM-710",
+    "to": "TM-314",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Hibiya.Ningyocho",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の人形町↔水天宮前の徒歩経路5分を参考。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-314",
+    "to": "TM-710",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Hibiya.Ningyocho",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の人形町↔水天宮前の徒歩経路5分を参考。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-710",
+    "to": "114",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Asakusa.Ningyocho",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の人形町↔水天宮前の駅間徒歩は約5分。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "114",
+    "to": "TM-710",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Asakusa.Ningyocho",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の人形町↔水天宮前の駅間徒歩は約5分。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-712",
+    "to": "313",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Shinjuku.Sumiyoshi"
+  },
+  {
+    "from": "313",
+    "to": "TM-712",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Shinjuku.Sumiyoshi"
+  },
+  {
+    "from": "TM-310",
+    "to": "111",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Asakusa.HigashiGinza"
+  },
+  {
+    "from": "111",
+    "to": "TM-310",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Asakusa.HigashiGinza"
+  },
+  {
+    "from": "TM-316",
+    "to": "308",
+    "duration": 360,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Shinjuku.Iwamotocho",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の秋葉原↔岩本町の同駅内徒歩6分。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "308",
+    "to": "TM-316",
+    "duration": 360,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Shinjuku.Iwamotocho",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の秋葉原↔岩本町の同駅内徒歩6分。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-309",
+    "to": "TM-219",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Marunouchi.Ginza"
+  },
+  {
+    "from": "TM-219",
+    "to": "TM-309",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Marunouchi.Ginza"
+  },
+  {
+    "from": "TM-309",
+    "to": "TM-619",
+    "duration": 360,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.GinzaItchome",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の銀座→銀座一丁目の同駅内徒歩6分を参考。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-619",
+    "to": "TM-309",
+    "duration": 360,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.GinzaItchome",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の銀座→銀座一丁目の同駅内徒歩6分を参考。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-308",
+    "to": "TM-618",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.Yurakucho",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の日比谷↔有楽町の同駅内徒歩5分を参考。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-618",
+    "to": "TM-308",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.Yurakucho",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の日比谷↔有楽町の同駅内徒歩5分を参考。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-308",
+    "to": "208",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Mita.Hibiya",
+    "durationBasis": "station_internal_baseline",
+    "durationNote": "同じ日比谷駅構内の別路線接続。具体的な歩行分数を独立資料で未確認のため既定5分を維持。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "208",
+    "to": "TM-308",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Mita.Hibiya",
+    "durationBasis": "station_internal_baseline",
+    "durationNote": "同じ日比谷駅構内の別路線接続。具体的な歩行分数を独立資料で未確認のため既定5分を維持。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-307",
+    "to": "TM-218",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Marunouchi.Kasumigaseki"
+  },
+  {
+    "from": "TM-218",
+    "to": "TM-307",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Marunouchi.Kasumigaseki"
+  },
+  {
+    "from": "TM-313",
+    "to": "TM-411",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Tozai.Kayabacho"
+  },
+  {
+    "from": "TM-411",
+    "to": "TM-313",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Tozai.Kayabacho"
+  },
+  {
+    "from": "TM-320",
+    "to": "601",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Arakawa.Minowabashi",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!路線情報の経路例で、三ノ輪→三ノ輪橋の徒歩区間は5分と表示。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "601",
+    "to": "TM-320",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Arakawa.Minowabashi",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!路線情報の経路例で、三ノ輪→三ノ輪橋の徒歩区間は5分と表示。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-317",
+    "to": "410",
+    "duration": 240,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Oedo.UenoOkachimachi",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の仲御徒町↔上野御徒町で同駅内徒歩4分を確認。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "410",
+    "to": "TM-317",
+    "duration": 240,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Oedo.UenoOkachimachi",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の仲御徒町↔上野御徒町で同駅内徒歩4分を確認。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-314",
+    "to": "114",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Asakusa.Ningyocho"
+  },
+  {
+    "from": "114",
+    "to": "TM-314",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Asakusa.Ningyocho"
+  },
+  {
+    "from": "TM-304",
+    "to": "424",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Oedo.Roppongi"
+  },
+  {
+    "from": "424",
+    "to": "TM-304",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Oedo.Roppongi"
+  },
+  {
+    "from": "TM-311",
+    "to": "TM-620",
+    "duration": 360,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.Shintomicho",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の築地↔新富町の同駅内徒歩6分を参考。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-620",
+    "to": "TM-311",
+    "duration": 360,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.Shintomicho",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の築地↔新富町の同駅内徒歩6分を参考。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-228",
+    "to": "TM-609",
+    "duration": 180,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.Ikebukuro",
+    "durationBasis": "transfer_guide_platform_walk",
+    "durationNote": "乗換ルートの実測例では池袋の丸ノ内線↔有楽町線のホーム間は約2分42秒。接続最低時間として安全側に3分を適用。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-609",
+    "to": "TM-228",
+    "duration": 180,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.Ikebukuro",
+    "durationBasis": "transfer_guide_platform_walk",
+    "durationNote": "乗換ルートの実測例では池袋の丸ノ内線↔有楽町線のホーム間は約2分42秒。接続最低時間として安全側に3分を適用。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-216",
+    "to": "TM-807",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Namboku.Nagatacho",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内で赤坂見附↔永田町の駅間徒歩は約5分。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-807",
+    "to": "TM-216",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Namboku.Nagatacho",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内で赤坂見附↔永田町の駅間徒歩は約5分。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-216",
+    "to": "TM-616",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.Nagatacho",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内で赤坂見附↔永田町の駅間徒歩は約5分。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-616",
+    "to": "TM-216",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.Nagatacho",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内で赤坂見附↔永田町の駅間徒歩は約5分。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-222",
+    "to": "307",
+    "duration": 180,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Shinjuku.Ogawamachi",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の小川町↔淡路町で同駅内徒歩3分を確認。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "307",
+    "to": "TM-222",
+    "duration": 180,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Shinjuku.Ogawamachi",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の小川町↔淡路町で同駅内徒歩3分を確認。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-219",
+    "to": "TM-619",
+    "duration": 360,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.GinzaItchome",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の銀座→銀座一丁目の同駅内徒歩6分を参考。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-619",
+    "to": "TM-219",
+    "duration": 360,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.GinzaItchome",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の銀座→銀座一丁目の同駅内徒歩6分を参考。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-224",
+    "to": "409",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Oedo.HongoSanchome"
+  },
+  {
+    "from": "409",
+    "to": "TM-224",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Oedo.HongoSanchome"
+  },
+  {
+    "from": "TM-217",
+    "to": "TM-806",
+    "duration": 360,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Namboku.TameikeSanno",
+    "durationBasis": "yahoo_interstation_walk",
+    "durationNote": "Yahoo!乗換案内の溜池山王↔国会議事堂前で同駅内徒歩6分を確認。異なる駅名間の接続に適用。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-806",
+    "to": "TM-217",
+    "duration": 360,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Namboku.TameikeSanno",
+    "durationBasis": "yahoo_interstation_walk",
+    "durationNote": "Yahoo!乗換案内の溜池山王↔国会議事堂前で同駅内徒歩6分を確認。異なる駅名間の接続に適用。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-225",
+    "to": "TM-811",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Namboku.Korakuen"
+  },
+  {
+    "from": "TM-811",
+    "to": "TM-225",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Namboku.Korakuen"
+  },
+  {
+    "from": "TM-225",
+    "to": "212",
+    "duration": 360,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Mita.Kasuga",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の春日↔後楽園の徒歩接続6分を参考。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "212",
+    "to": "TM-225",
+    "duration": 360,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Mita.Kasuga",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の春日↔後楽園の徒歩接続6分を参考。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-225",
+    "to": "408",
+    "duration": 360,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Oedo.Kasuga",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の春日↔後楽園の徒歩接続6分を参考。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "408",
+    "to": "TM-225",
+    "duration": 360,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Oedo.Kasuga",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の春日↔後楽園の徒歩接続6分を参考。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-209",
+    "to": "431",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Oedo.NakanoSakaue"
+  },
+  {
+    "from": "431",
+    "to": "TM-209",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Oedo.NakanoSakaue"
+  },
+  {
+    "from": "TM-221",
+    "to": "TM-409",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Tozai.Otemachi",
+    "durationBasis": "station_internal_baseline",
+    "durationNote": "大手町駅構内の路線間接続。8分の確認値は丸ノ内線↔半蔵門線の組合せに限定し、この組合せは既定5分を維持。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-409",
+    "to": "TM-221",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Tozai.Otemachi",
+    "durationBasis": "station_internal_baseline",
+    "durationNote": "大手町駅構内の路線間接続。8分の確認値は丸ノ内線↔半蔵門線の組合せに限定し、この組合せは既定5分を維持。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-221",
+    "to": "209",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Mita.Otemachi"
+  },
+  {
+    "from": "209",
+    "to": "TM-221",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Mita.Otemachi"
+  },
+  {
+    "from": "TM-212",
+    "to": "302",
+    "duration": 180,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Shinjuku.ShinjukuSanchome",
+    "durationBasis": "transfer_guide_platform_walk",
+    "durationNote": "駅乗換ルート解説では新宿三丁目の都営新宿線→丸ノ内線の移動は約3分。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "302",
+    "to": "TM-212",
+    "duration": 180,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Shinjuku.ShinjukuSanchome",
+    "durationBasis": "transfer_guide_platform_walk",
+    "durationNote": "駅乗換ルート解説では新宿三丁目の都営新宿線→丸ノ内線の移動は約3分。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-215",
+    "to": "TM-808",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Namboku.Yotsuya"
+  },
+  {
+    "from": "TM-808",
+    "to": "TM-215",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Namboku.Yotsuya"
+  },
+  {
+    "from": "TM-804",
+    "to": "423",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Oedo.AzabuJuban"
+  },
+  {
+    "from": "423",
+    "to": "TM-804",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Oedo.AzabuJuban"
+  },
+  {
+    "from": "TM-809",
+    "to": "TM-614",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.Ichigaya"
+  },
+  {
+    "from": "TM-614",
+    "to": "TM-809",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.Ichigaya"
+  },
+  {
+    "from": "TM-809",
+    "to": "304",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Shinjuku.Ichigaya"
+  },
+  {
+    "from": "304",
+    "to": "TM-809",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Shinjuku.Ichigaya"
+  },
+  {
+    "from": "TM-810",
+    "to": "TM-406",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Tozai.Iidabashi"
+  },
+  {
+    "from": "TM-406",
+    "to": "TM-810",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Tozai.Iidabashi"
+  },
+  {
+    "from": "TM-810",
+    "to": "TM-613",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.Iidabashi"
+  },
+  {
+    "from": "TM-613",
+    "to": "TM-810",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.Iidabashi"
+  },
+  {
+    "from": "TM-810",
+    "to": "407",
+    "duration": 480,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Oedo.Iidabashi",
+    "durationBasis": "transfer_guide_platform_walk",
+    "durationNote": "乗換案内の乗り換えマップでは飯田橋の大江戸線ホームがメトロ各ホームから離れ、乗換に約7〜8分。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "407",
+    "to": "TM-810",
+    "duration": 480,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Oedo.Iidabashi",
+    "durationBasis": "transfer_guide_platform_walk",
+    "durationNote": "乗換案内の乗り換えマップでは飯田橋の大江戸線ホームがメトロ各ホームから離れ、乗換に約7〜8分。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-811",
+    "to": "212",
+    "duration": 360,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Mita.Kasuga",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の春日↔後楽園の徒歩接続6分を参考。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "212",
+    "to": "TM-811",
+    "duration": 360,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Mita.Kasuga",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の春日↔後楽園の徒歩接続6分を参考。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-811",
+    "to": "408",
+    "duration": 360,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Oedo.Kasuga",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の春日↔後楽園の徒歩接続6分を参考。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "408",
+    "to": "TM-811",
+    "duration": 360,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Oedo.Kasuga",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!乗換案内の春日↔後楽園の徒歩接続6分を参考。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-801",
+    "to": "201",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Mita.Meguro"
+  },
+  {
+    "from": "201",
+    "to": "TM-801",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Mita.Meguro"
+  },
+  {
+    "from": "TM-807",
+    "to": "TM-616",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.Nagatacho"
+  },
+  {
+    "from": "TM-616",
+    "to": "TM-807",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.Nagatacho"
+  },
+  {
+    "from": "TM-816",
+    "to": "616",
+    "duration": 120,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Arakawa.OjiEkimae",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!路線情報の王子→王子駅前の経路で、徒歩区間は2分と表示。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "616",
+    "to": "TM-816",
+    "duration": 120,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Arakawa.OjiEkimae",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!路線情報の王子→王子駅前の経路で、徒歩区間は2分と表示。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-803",
+    "to": "203",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Mita.ShirokaneTakanawa"
+  },
+  {
+    "from": "203",
+    "to": "TM-803",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Mita.ShirokaneTakanawa"
+  },
+  {
+    "from": "TM-802",
+    "to": "202",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Mita.Shirokanedai"
+  },
+  {
+    "from": "202",
+    "to": "TM-802",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Mita.Shirokanedai"
+  },
+  {
+    "from": "TM-406",
+    "to": "TM-613",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.Iidabashi"
+  },
+  {
+    "from": "TM-613",
+    "to": "TM-406",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:TokyoMetro.Yurakucho.Iidabashi"
+  },
+  {
+    "from": "TM-406",
+    "to": "407",
+    "duration": 480,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Oedo.Iidabashi",
+    "durationBasis": "transfer_guide_platform_walk",
+    "durationNote": "乗換案内の乗り換えマップでは飯田橋の東西線↔大江戸線は約7〜8分。メトロ駅部と離れた大江戸線ホームのため8分を採用。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "407",
+    "to": "TM-406",
+    "duration": 480,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Oedo.Iidabashi",
+    "durationBasis": "transfer_guide_platform_walk",
+    "durationNote": "乗換案内の乗り換えマップでは飯田橋の東西線↔大江戸線は約7〜8分。メトロ駅部と離れた大江戸線ホームのため8分を採用。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-407",
+    "to": "305",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Shinjuku.Kudanshita"
+  },
+  {
+    "from": "305",
+    "to": "TM-407",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Shinjuku.Kudanshita"
+  },
+  {
+    "from": "TM-412",
+    "to": "416",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Oedo.MonzenNakacho"
+  },
+  {
+    "from": "416",
+    "to": "TM-412",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Oedo.MonzenNakacho"
+  },
+  {
+    "from": "TM-409",
+    "to": "209",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Mita.Otemachi"
+  },
+  {
+    "from": "209",
+    "to": "TM-409",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Mita.Otemachi"
+  },
+  {
+    "from": "TM-410",
+    "to": "113",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Asakusa.Nihombashi"
+  },
+  {
+    "from": "113",
+    "to": "TM-410",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Asakusa.Nihombashi"
+  },
+  {
+    "from": "TM-610",
+    "to": "625",
+    "duration": 180,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Arakawa.HigashiIkebukuroYonchome",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!経路の東池袋→東池袋四丁目、および歩行経路検索の3分を参考。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "625",
+    "to": "TM-610",
+    "duration": 180,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Arakawa.HigashiIkebukuroYonchome",
+    "durationBasis": "yahoo_station_walk",
+    "durationNote": "Yahoo!経路の東池袋→東池袋四丁目、および歩行経路検索の3分を参考。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-614",
+    "to": "304",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Shinjuku.Ichigaya"
+  },
+  {
+    "from": "304",
+    "to": "TM-614",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Shinjuku.Ichigaya"
+  },
+  {
+    "from": "TM-613",
+    "to": "407",
+    "duration": 480,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Oedo.Iidabashi",
+    "durationBasis": "transfer_guide_platform_walk",
+    "durationNote": "乗換案内の乗り換えマップでは飯田橋の大江戸線ホームがメトロ各ホームから離れ、乗換に約7〜8分。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "407",
+    "to": "TM-613",
+    "duration": 480,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Oedo.Iidabashi",
+    "durationBasis": "transfer_guide_platform_walk",
+    "durationNote": "乗換案内の乗り換えマップでは飯田橋の大江戸線ホームがメトロ各ホームから離れ、乗換に約7〜8分。",
+    "durationUnit": "seconds"
+  },
+  {
+    "from": "TM-621",
+    "to": "417",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Oedo.Tsukishima"
+  },
+  {
+    "from": "417",
+    "to": "TM-621",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Oedo.Tsukishima"
+  },
+  {
+    "from": "TM-618",
+    "to": "208",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Mita.Hibiya"
+  },
+  {
+    "from": "208",
+    "to": "TM-618",
+    "duration": 300,
+    "source": "odpt",
+    "sourceRef": "odpt.Station:Toei.Mita.Hibiya"
+  },
+  {
+    "from": "108",
+    "to": "204",
+    "duration": 300,
+    "source": "gtfs-name-coordinate-inference",
+    "sourceRef": "三田; 285m"
+  },
+  {
+    "from": "204",
+    "to": "108",
+    "duration": 300,
+    "source": "gtfs-name-coordinate-inference",
+    "sourceRef": "三田; 285m"
+  },
+  {
+    "from": "109",
+    "to": "421",
+    "duration": 300,
+    "source": "gtfs-name-coordinate-inference",
+    "sourceRef": "大門; 95m"
+  },
+  {
+    "from": "421",
+    "to": "109",
+    "duration": 300,
+    "source": "gtfs-name-coordinate-inference",
+    "sourceRef": "大門; 95m"
+  },
+  {
+    "from": "210",
+    "to": "306",
+    "duration": 300,
+    "source": "gtfs-name-coordinate-inference",
+    "sourceRef": "神保町; 74m"
+  },
+  {
+    "from": "306",
+    "to": "210",
+    "duration": 300,
+    "source": "gtfs-name-coordinate-inference",
+    "sourceRef": "神保町; 74m"
+  },
+  {
+    "from": "212",
+    "to": "408",
+    "duration": 300,
+    "source": "gtfs-name-coordinate-inference",
+    "sourceRef": "春日; 136m"
+  },
+  {
+    "from": "408",
+    "to": "212",
+    "duration": 300,
+    "source": "gtfs-name-coordinate-inference",
+    "sourceRef": "春日; 136m"
+  },
+  {
+    "from": "301",
+    "to": "428",
+    "duration": 300,
+    "source": "gtfs-name-coordinate-inference",
+    "sourceRef": "新宿; 54m"
+  },
+  {
+    "from": "428",
+    "to": "301",
+    "duration": 300,
+    "source": "gtfs-name-coordinate-inference",
+    "sourceRef": "新宿; 54m"
+  },
+  {
+    "from": "311",
+    "to": "414",
+    "duration": 300,
+    "source": "gtfs-name-coordinate-inference",
+    "sourceRef": "森下; 147m"
+  },
+  {
+    "from": "414",
+    "to": "311",
+    "duration": 300,
+    "source": "gtfs-name-coordinate-inference",
+    "sourceRef": "森下; 147m"
+  },
+  {
+    "from": "504",
+    "to": "609",
+    "duration": 300,
+    "source": "gtfs-name-coordinate-inference",
+    "sourceRef": "熊野前; 4m"
+  },
+  {
+    "from": "609",
+    "to": "504",
+    "duration": 300,
+    "source": "gtfs-name-coordinate-inference",
+    "sourceRef": "熊野前; 4m"
   }
 ]

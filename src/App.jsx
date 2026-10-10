@@ -1,6 +1,7 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 
 import stations from './stations'
+import meta from '../data/processed/meta.json'
 
 import {
   findRoutes,
@@ -13,27 +14,44 @@ import RoutePath from './RoutePath'
 function App() {
   const [from, setFrom] = useState('')
   const [to, setTo] = useState('')
+  const [fromStationId, setFromStationId] = useState('')
+  const [toStationId, setToStationId] = useState('')
   const [viaStations, setViaStations] = useState([])
 
   const [fromSelected, setFromSelected] = useState(false)
   const [toSelected, setToSelected] = useState(false)
 
-  const now = new Date()
-
-  const currentTime = `${String(now.getHours()).padStart(
-    2,
-    '0'
-  )}:${String(now.getMinutes()).padStart(2, '0')}`
-
-  const currentDate = `${now.getFullYear()}-${String(
-    now.getMonth() + 1
-  ).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`
-
+  const tokyoDateTimeParts = new Intl.DateTimeFormat('en-US', {
+    timeZone: 'Asia/Tokyo',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+    hourCycle: 'h23',
+  }).formatToParts(new Date())
+  const tokyoPart = (type) => tokyoDateTimeParts.find((part) => part.type === type)?.value || ''
+  const currentTime = `${tokyoPart('hour')}:${tokyoPart('minute')}`
+  const currentDate = `${tokyoPart('year')}-${tokyoPart('month')}-${tokyoPart('day')}`
+  const metroFeedInfo = meta.sources?.tokyoMetroGtfs?.feedInfo?.[0] || null
+  const metroFeedStart = metroFeedInfo?.feed_start_date || ''
+  const metroFeedEnd = metroFeedInfo?.feed_end_date || ''
+  const metroFeedStartDate = metroFeedStart.length === 8
+    ? `${metroFeedStart.slice(0, 4)}-${metroFeedStart.slice(4, 6)}-${metroFeedStart.slice(6, 8)}`
+    : ''
+  const metroFeedEndDate = metroFeedEnd.length === 8
+    ? `${metroFeedEnd.slice(0, 4)}-${metroFeedEnd.slice(4, 6)}-${metroFeedEnd.slice(6, 8)}`
+    : ''
+  const selectedViaStationIds = viaStations
+    .filter((station) => station.selected && station.stationId)
+    .map((station) => station.stationId)
   const [departureTime, setDepartureTime] =
     useState(currentTime)
 
   const [departureDate, setDepartureDate] =
     useState(currentDate)
+
+  const compactDepartureDate = departureDate.replaceAll('-', '')
 
   const [timeMode, setTimeMode] = useState('departure')
   const [timeSelectorOpen, setTimeSelectorOpen] =
@@ -41,31 +59,42 @@ function App() {
 
   const [searched, setSearched] = useState(false)
   const [route, setRoute] = useState(null)
+  // The graph includes Tokyo Metro connections even for searches whose selected
+  // endpoints are Toei stations, so coverage warnings must not depend only on
+  // endpoint/via station ID prefixes.
+  const metroDateOutsideFeed = Boolean(
+    metroFeedStart && metroFeedEnd &&
+    (compactDepartureDate < metroFeedStart || compactDepartureDate > metroFeedEnd)
+  )
 
   const [sortMode, setSortMode] = useState('fastest')
   const [expandedRoute, setExpandedRoute] = useState(null)
+  const routeRankLabel = sortMode === 'fastest'
+    ? '빠른순'
+    : sortMode === 'fewest-transfers'
+      ? '환승 적은순'
+      : sortMode === 'cheapest'
+        ? '저렴한순'
+        : '빠른순'
 
-  const [recentSearches, setRecentSearches] = useState([])
-
-  // 최근 검색 불러오기
-  useEffect(() => {
-    const saved = localStorage.getItem(
-      'noreba-recent-searches'
-    )
-
-    if (saved) {
-      try {
-        setRecentSearches(JSON.parse(saved))
-      } catch {
-        setRecentSearches([])
-      }
+  const [recentSearches, setRecentSearches] = useState(() => {
+    if (typeof window === 'undefined') return []
+    try {
+      const saved = window.localStorage.getItem('noreba-recent-searches')
+      return saved ? JSON.parse(saved) : []
+    } catch {
+      return []
     }
-  }, [])
+  })
 
   // 출발역 / 도착역 교체
   const swapStations = () => {
     setFrom(to)
     setTo(from)
+    setFromStationId(toStationId)
+    setToStationId(fromStationId)
+    setFromSelected(toSelected)
+    setToSelected(fromSelected)
 
     setSearched(false)
     setRoute(null)
@@ -78,6 +107,7 @@ function App() {
       {
         value: '',
         selected: false,
+        stationId: '',
       },
     ])
   }
@@ -90,6 +120,7 @@ function App() {
               ...station,
               value,
               selected: false,
+              stationId: '',
             }
           : station
       )
@@ -106,6 +137,7 @@ function App() {
           ? {
               value: station.name,
               selected: true,
+              stationId: station.id,
             }
           : item
       )
@@ -134,7 +166,7 @@ function App() {
 
   // 경로 검색
   const searchRoute = () => {
-    if (!from || !to) {
+    if (!fromStationId || !toStationId) {
       return
     }
 
@@ -154,45 +186,25 @@ function App() {
       day,
     }
 
-    const viaNames = viaStations
-      .filter(
-        (station) =>
-          station.selected &&
-          station.value
-      )
-      .map((station) => station.value)
+    const viaStationIds = selectedViaStationIds
 
     const result = findRoutes(
-      from,
-      to,
+      fromStationId,
+      toStationId,
       startSeconds,
       targetDate,
       timeMode,
-      viaNames
+      viaStationIds
     )
 
     setRoute(result)
+    setSortMode('fastest')
     setSearched(true)
     setExpandedRoute(null)
 
     // 최근 검색 저장
-    const searchedFrom =
-      stations.find(
-        (station) =>
-          station.name === from ||
-          station.japanese === from ||
-          station.romanized?.toLowerCase() ===
-            from.toLowerCase()
-      )
-
-    const searchedTo =
-      stations.find(
-        (station) =>
-          station.name === to ||
-          station.japanese === to ||
-          station.romanized?.toLowerCase() ===
-            to.toLowerCase()
-      )
+    const searchedFrom = stations.find((station) => station.id === fromStationId)
+    const searchedTo = stations.find((station) => station.id === toStationId)
 
     if (searchedFrom && searchedTo) {
       const newSearch = {
@@ -211,39 +223,29 @@ function App() {
 
       setRecentSearches(updatedSearches)
 
-      localStorage.setItem(
-        'noreba-recent-searches',
-        JSON.stringify(updatedSearches)
-      )
+      try {
+        window.localStorage.setItem(
+          'noreba-recent-searches',
+          JSON.stringify(updatedSearches)
+        )
+      } catch {
+        // Searching still succeeds when browser storage is blocked or full.
+      }
     }
   }
 
-  // 현재 선택된 역
-  const selectedFrom =
-    stations.find(
-      (station) =>
-        station.name === from ||
-        station.japanese === from ||
-        station.romanized?.toLowerCase() ===
-          from.toLowerCase()
-    )
-
-  const selectedTo =
-    stations.find(
-      (station) =>
-        station.name === to ||
-        station.japanese === to ||
-        station.romanized?.toLowerCase() ===
-          to.toLowerCase()
-    )
+  // 선택된 역은 이름이 아니라 GTFS 역 ID로 식별한다.
+  const selectedFrom = stations.find((station) => station.id === fromStationId)
+  const selectedTo = stations.find((station) => station.id === toStationId)
 
   // 최근 검색 전체 삭제
   const clearRecentSearches = () => {
     setRecentSearches([])
-
-    localStorage.removeItem(
-      'noreba-recent-searches'
-    )
+    try {
+      window.localStorage.removeItem('noreba-recent-searches')
+    } catch {
+      // Clearing in-memory history still succeeds when browser storage is blocked.
+    }
   }
 
   return (
@@ -306,6 +308,7 @@ function App() {
                 value={from}
                 onChange={(e) => {
                   setFrom(e.target.value)
+                  setFromStationId('')
                   setFromSelected(false)
 
                   setSearched(false)
@@ -325,9 +328,8 @@ function App() {
                           className="station-result"
                           type="button"
                           onClick={() => {
-                            setFrom(
-                              station.name
-                            )
+                            setFrom(station.name)
+                            setFromStationId(station.id)
                             setFromSelected(true)
 
                             setSearched(false)
@@ -562,6 +564,7 @@ function App() {
                 value={to}
                 onChange={(e) => {
                   setTo(e.target.value)
+                  setToStationId('')
                   setToSelected(false)
 
                   setSearched(false)
@@ -581,9 +584,8 @@ function App() {
                           className="station-result"
                           type="button"
                           onClick={() => {
-                            setTo(
-                              station.name
-                            )
+                            setTo(station.name)
+                            setToStationId(station.id)
                             setToSelected(true)
 
                             setSearched(false)
@@ -655,8 +657,8 @@ function App() {
           >
             <span>
               {departureTime
-                ? `${departureTime} 출발`
-                : '지금 출발'}
+                ? `${departureTime} ${timeMode === 'arrival' ? '도착' : '출발'}`
+                : timeMode === 'arrival' ? '도착 시각' : '지금 출발'}
             </span>
 
             <span>›</span>
@@ -674,21 +676,23 @@ function App() {
                 <input
                   type="time"
                   value={departureTime}
-                  onChange={(e) =>
-                    setDepartureTime(
-                      e.target.value
-                    )
-                  }
+                  onChange={(e) => {
+                    setDepartureTime(e.target.value)
+                    setSearched(false)
+                    setRoute(null)
+                    setExpandedRoute(null)
+                  }}
                 />
 
                 <input
                   type="date"
                   value={departureDate}
-                  onChange={(e) =>
-                    setDepartureDate(
-                      e.target.value
-                    )
-                  }
+                  onChange={(e) => {
+                    setDepartureDate(e.target.value)
+                    setSearched(false)
+                    setRoute(null)
+                    setExpandedRoute(null)
+                  }}
                 />
 
               </div>
@@ -702,9 +706,12 @@ function App() {
                       ? 'active'
                       : ''
                   }
-                  onClick={() =>
+                  onClick={() => {
                     setTimeMode('departure')
-                  }
+                    setExpandedRoute(null)
+                    setSearched(false)
+                    setRoute(null)
+                  }}
                 >
                   출발
                 </button>
@@ -716,9 +723,12 @@ function App() {
                       ? 'active'
                       : ''
                   }
-                  onClick={() =>
+                  onClick={() => {
                     setTimeMode('arrival')
-                  }
+                    setExpandedRoute(null)
+                    setSearched(false)
+                    setRoute(null)
+                  }}
                 >
                   도착
                 </button>
@@ -734,7 +744,7 @@ function App() {
             className="search-button"
             type="button"
             onClick={searchRoute}
-            disabled={!from || !to}
+            disabled={!fromStationId || !toStationId}
           >
             경로 검색
 
@@ -780,6 +790,16 @@ function App() {
 
               </div>
 
+              {metroDateOutsideFeed && route.length > 0 && (
+                <div className="route-card no-route feed-coverage-warning" role="status">
+                  <strong>시간표 데이터 범위 주의</strong>
+                  <span>
+                    도쿄메트로 시간표 데이터는 {metroFeedStartDate}부터 {metroFeedEndDate}까지 제공됩니다.
+                    선택한 날짜에는 메트로가 포함되는 대체 경로가 누락되거나 실제 시간과 다를 수 있습니다.
+                  </span>
+                </div>
+              )}
+
               {/* 경로 없음 */}
 
               {route.length === 0 && (
@@ -791,8 +811,9 @@ function App() {
                   </strong>
 
                   <span>
-                    실제 GTFS 데이터를 연결하면
-                    환승 경로까지 검색할 수 있습니다.
+                    {metroDateOutsideFeed
+                      ? `도쿄메트로 시간표 데이터는 ${metroFeedStartDate}부터 ${metroFeedEndDate}까지 제공됩니다. 선택한 날짜는 데이터 범위 밖이라 정확한 경로를 보장할 수 없습니다.`
+                      : '선택한 날짜와 시각에 이용 가능한 경로를 찾지 못했습니다. 운행 시간표나 환승 연결 정보가 부족할 수 있습니다.'}
                   </span>
 
                 </div>
@@ -809,6 +830,8 @@ function App() {
 
                   <div className="sort-tabs">
 
+
+
                     <button
                       type="button"
                       className={
@@ -816,11 +839,10 @@ function App() {
                           ? 'active'
                           : ''
                       }
-                      onClick={() =>
-                        setSortMode(
-                          'fastest'
-                        )
-                      }
+                      onClick={() => {
+                        setSortMode('fastest')
+                        setExpandedRoute(null)
+                      }}
                     >
                       ⚡ 빠른순
                     </button>
@@ -833,11 +855,10 @@ function App() {
                           ? 'active'
                           : ''
                       }
-                      onClick={() =>
-                        setSortMode(
-                          'fewest-transfers'
-                        )
-                      }
+                      onClick={() => {
+                        setSortMode('fewest-transfers')
+                        setExpandedRoute(null)
+                      }}
                     >
                       🔄 환승 적은순
                     </button>
@@ -850,11 +871,10 @@ function App() {
                           ? 'active'
                           : ''
                       }
-                      onClick={() =>
-                        setSortMode(
-                          'cheapest'
-                        )
-                      }
+                      onClick={() => {
+                        setSortMode('cheapest')
+                        setExpandedRoute(null)
+                      }}
                     >
                       ￥ 저렴한순
                     </button>
@@ -865,7 +885,8 @@ function App() {
 
                   {sortRoutes(
                     route,
-                    sortMode
+                    sortMode,
+                    timeMode
                   ).map(
                     (currentRoute, index) => (
 
@@ -879,7 +900,7 @@ function App() {
                       >
 
                         <div className="route-rank">
-                          추천 {index + 1}
+                          {routeRankLabel} {index + 1}
                         </div>
 
                         {/* 노선 요약 */}
@@ -951,18 +972,6 @@ function App() {
 
                           <div>
                             <span>
-                              환승
-                            </span>
-
-                            <strong>
-                              {currentRoute.transfers ??
-                                0}
-                              회
-                            </strong>
-                          </div>
-
-                          <div>
-                            <span>
                               소요시간
                             </span>
 
@@ -976,14 +985,27 @@ function App() {
 
                           <div>
                             <span>
+                              환승 횟수 및 이동시간
+                            </span>
+
+                            <strong>
+                              {currentRoute.transfers ?? 0}회 - {currentRoute.transferWalkSeconds > 0
+                                ? `약 ${Math.round(currentRoute.transferWalkSeconds / 60)}분`
+                                : '없음'}
+                            </strong>
+                          </div>
+
+                          <div>
+                            <span>
                               운임
                             </span>
 
                             <strong>
-                              {currentRoute.fare?.icFare !=
-                              null
+                              {currentRoute.fare?.icFare != null
                                 ? `¥${currentRoute.fare.icFare} · IC`
-                                : '계산 예정'}
+                                : currentRoute.fareStatus?.startsWith('cross-operator')
+                                  ? '통합 운임 미확인'
+                                  : '운임 정보 없음'}
                             </strong>
                           </div>
 
@@ -1048,13 +1070,10 @@ function App() {
                   key={index}
                   onClick={() => {
 
-                    setFrom(
-                      item.from.name
-                    )
-
-                    setTo(
-                      item.to.name
-                    )
+                    setFrom(item.from.name)
+                    setTo(item.to.name)
+                    setFromStationId(item.from.id)
+                    setToStationId(item.to.id)
 
                     setFromSelected(true)
                     setToSelected(true)

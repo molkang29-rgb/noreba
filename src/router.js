@@ -1,5 +1,7 @@
 import stations from './stations'
 import { calculateRoutes } from './routeEngine'
+import { sortRoutes } from './routeRanking.js'
+
 
 /*
  * 검색어 정리
@@ -164,7 +166,7 @@ export function findRoutes(
   startSeconds = null,
   targetDate = null,
   timeMode = 'departure',
-  viaNames = []
+  viaStationIds = []
 ) {
   const fromStation =
     findStation(from)
@@ -185,8 +187,8 @@ export function findRoutes(
    * 빈 값이나 찾지 못한 역은 제외한다.
    */
   const viaStations =
-    viaNames
-      .map((name) => findStation(name))
+    viaStationIds
+      .map((stationId) => findStation(stationId))
       .filter(Boolean)
 
   /*
@@ -211,81 +213,5 @@ export function findRoutes(
   )
 }
 
-/*
- * 경로 정렬
- */
-export function sortRoutes(
-  routes,
-  mode = 'fastest'
-) {
-  if (!Array.isArray(routes)) {
-    return []
-  }
-
-  const sorted = [
-    ...routes,
-  ]
-
-  /*
-   * 환승 적은 순
-   */
-  if (mode === 'fewest-transfers') {
-    return sorted.sort(
-      (a, b) =>
-        (a.transfers || 0) -
-          (b.transfers || 0) ||
-        (a.duration || 0) -
-          (b.duration || 0)
-    )
-  }
-
-  /*
-   * 가장 저렴한 순
-   *
-   * 현재 fare 구조:
-   *
-   * {
-   *   icFare: 272,
-   *   paperFare: 280
-   * }
-   */
-  if (mode === 'cheapest') {
-    return sorted.sort(
-      (a, b) => {
-        const fareA =
-          a.fare?.icFare == null
-            ? Infinity
-            : a.fare.icFare
-
-        const fareB =
-          b.fare?.icFare == null
-            ? Infinity
-            : b.fare.icFare
-
-        return (
-          fareA - fareB ||
-          (a.duration || 0) -
-            (b.duration || 0)
-        )
-      }
-    )
-  }
-
-  /*
-   * 기본: 빠른순
-   */
-  return sorted.sort(
-    (a, b) =>
-      (a.duration || 0) -
-        (b.duration || 0) ||
-      (a.transfers || 0) -
-        (b.transfers || 0)
-  )
-}
-
-export default {
-  searchStations,
-  findStation,
-  findRoutes,
-  sortRoutes,
-}
+/* 경로 정렬은 routeRanking.js에서 관리해 계산 엔진과 화면이 같은 규칙을 쓴다. */
+export { sortRoutes }
